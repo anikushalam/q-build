@@ -1,1 +1,0 @@
-import{j as o}from"./index-731451a5.js";import{s as a}from"./SearchHeader.module-b69c8942.js";const c=({onClose:s,customStyleBackdrop:r})=>o.jsx("div",{className:a.search_backdrop,style:{...r},onClick:s});export{c as S};

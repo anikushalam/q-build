@@ -1,1 +1,0 @@
-import{r as t,j as s}from"./index-731451a5.js";function i({children:r}){const n=t.useRef(null),e=c=>{};return t.useEffect(()=>(document.addEventListener("click",e,!0),()=>{document.removeEventListener("click",e,!0)}),[]),s.jsx("div",{ref:n,children:r})}export{i as C};

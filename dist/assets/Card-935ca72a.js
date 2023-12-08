@@ -1,1 +1,0 @@
-import{j as s}from"./index-731451a5.js";const a="_card_p134k_1",d={card:a};function n({img:r,name:c,customStyle:t}){return s.jsxs("div",{className:d.card,style:t,children:[s.jsx("img",{src:r,alt:""}),s.jsx("h6",{children:c})]})}export{n as C};

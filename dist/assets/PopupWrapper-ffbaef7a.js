@@ -1,1 +1,0 @@
-import{j as r}from"./index-731451a5.js";import{O as s}from"./Overlay-07ce6f88.js";import{S as a}from"./SearchModalWrapper-6e85c9f3.js";const x=({onClose:o,children:p})=>r.jsxs(r.Fragment,{children:[r.jsx(a,{onClose:o}),r.jsx(s,{children:p})]});export{x as P};

@@ -1,1 +1,0 @@
-import{j as s,ft as a}from"./index-731451a5.js";const l=({customStyleContainer:t,title:e,subtitle:r,costomTextTitleStyle:n,costomTextSubtitleStyle:o})=>s.jsxs("div",{className:a.empty_container,style:t,children:[e&&s.jsx("h6",{style:n,children:e}),r&&s.jsx("p",{style:o,children:r})]});export{l as E};

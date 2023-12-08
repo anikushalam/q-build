@@ -1,1 +1,0 @@
-import{n as e,j as r,L as i}from"./index-731451a5.js";const m=({carryParentState:s,activeTab:a,children:n})=>{const t=e();return r.jsx(i,{to:`/q/${t.username}/finance${a}`,state:{...s},children:n})};export{m as I};

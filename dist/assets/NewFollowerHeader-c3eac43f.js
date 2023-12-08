@@ -1,0 +1,1 @@
+import{u as l,j as r}from"./index-0ca76035.js";const s="_newFollowerheader_d3m77_1",n={newFollowerheader:s};function w({changeToNewFollowers:e,newFollowers:a}){const{t:o}=l();return r.jsx("div",{className:n.newFollowerheader,onClick:()=>e(!1),children:o("new_followerss")})}export{w as default};

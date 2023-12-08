@@ -1,0 +1,1 @@
+import{u as a,j as e}from"./index-0ca76035.js";import{D as i}from"./FinanceConfig-24ef7fd2.js";const m=({label:t,onAction:s,customStyle:n})=>{const{t:o}=a(),r=()=>{s()};return e.jsx("div",{className:i.btn_container,onClick:r,style:n,children:o(t)})};export{m as A};

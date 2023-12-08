@@ -1,0 +1,1 @@
+import{j as o}from"./index-0ca76035.js";const n="_comingSoon_1kbhq_1",i={comingSoon:n};function m(){return o.jsx("div",{className:i.comingSoon,children:o.jsx("img",{src:"/images/comingsoon.gif",alt:""})})}export{m as C};

@@ -1,1 +1,0 @@
-import{j as t}from"./index-731451a5.js";import{s as r}from"./Avatar.module-fb7ee634.js";const e=({dynamicImage:a,customStyle:s})=>t.jsx("img",{src:a,alt:"Avatar icon",style:{...s},className:r.avatar_image});export{e as A};
