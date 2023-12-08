@@ -1,0 +1,1 @@
+const a=e=>{const n=new Date,t=e==null?void 0:e.split("/"),s=new Date(`${t[2]}-${t[1]}-${t[0]}`);return!(n<=s)},o=e=>{const n=new Date,t=e==null?void 0:e.split("/"),s=new Date(`${t[2]}-${t[1]}-${t[0]}`);return n<=s?{status:!0,value:`${t[2]}-${t[1]}-${t[0]}`}:{status:!1,value:""}};export{o as v,a as w};

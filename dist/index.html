@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-5FQBL87");
+    </script>
+    <meta charset="UTF-8" />
+    <link
+      rel="shortcut icon"
+      href="/public/images/company_logo/qviple-logo.svg"
+      type="image/x-icon"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Mithikal Minds" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="application/javascript"
+      crossorigin="anonymous"
+      src="https://securegw-stage.paytm.in/merchantpgpui/checkoutjs/merchants/hVgvnF52198002796615.js"
+      id="Paytm"
+      onload="onScriptLoad();"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- // prod key -->
+    <!-- <script
+    type="application/javascript"
+    crossorigin="anonymous"
+    src="https://securegw.paytm.in/merchantpgpui/checkoutjs/merchants/JJNDYF85509628195868.js"
+    id="Paytm"
+    onload="onScriptLoad();"
+    crossorigin="anonymous"
+  ></script> -->
+
+    <title>Qviple</title>
+    <script type="module" crossorigin src="/assets/index-731451a5.js"></script>
+    <link rel="stylesheet" href="/assets/index-4d24e8f6.css">
+  </head>
+  <body>
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-5FQBL87"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <div id="backdrop"></div>
+    <div id="overlay"></div>
+    <div id="notify-alert"></div>
+    <div id="root"></div>
+    
+    <script>
+      function onScriptLoad(token, orderId, amount) {
+        // console.info("this i shtml");
+        var config = {
+          root: "",
+          flow: "WEBSTAGING",
+          //prod key
+          // flow: "DEFAULT",
+          // payMode: {
+          //   filter: {
+          //     exclude: ["NB", "CARD"],
+          //   },
+          // },
+          data: {
+            orderId: orderId /* update order id */,
+            token: token /* update token value */,
+            tokenType: "TXN_TOKEN",
+            amount: amount /* update amount */,
+          },
+          handler: {
+            notifyMerchant: function (eventName, data) {
+              console.info("notifyMerchant handler function called");
+              console.info("eventName => ", eventName);
+              console.info("data => ", data);
+            },
+          },
+        };
+        if (window.Paytm && window.Paytm.CheckoutJS) {
+          // console.info("this i inner");
+
+          // console.info("window.Paytm.CheckoutJS", window.Paytm.CheckoutJS);
+          // window.Paytm.CheckoutJS.onLoad(function excecuteAfterCompleteLoad() {
+          // initialze configuration using init method
+          // console.info("this i onload");
+
+          window.Paytm.CheckoutJS.init(config)
+            .then(function onSuccess() {
+              // console.info("this i config");
+
+              // after successfully updating configuration, invoke JS Checkout
+              window.Paytm.CheckoutJS.invoke();
+              // console.info("this i invoke");
+            })
+            .catch(function onError(error) {
+              console.info("error => ", error);
+            });
+          // });
+        }
+      }
+    </script>
+    <!-- <script src="https://checkout.razorpay.com/v1/checkout.js"></script> -->
+  </body>
+</html>

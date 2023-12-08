@@ -1,0 +1,1 @@
+import{j as o}from"./index-731451a5.js";import{s as i}from"./StringLength.module-75a6e080.js";const c=({valueLength:s,maxLength:r,customStyle:t})=>o.jsxs("section",{style:{...t},className:i.string_container,children:[(s==null?void 0:s.length)??0,"/",r]});export{c as S};

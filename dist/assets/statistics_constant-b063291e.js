@@ -1,0 +1,1 @@
+const a=[{key:"ALL_BATCH",name:"all_batches"},{key:"ACTIVE_BATCH",name:"active_batches"}],e=[{key:"ALL",name:"all_departments"},{key:"PARTICULAR",name:"particular_department"}],t=[{key:"ALL_BATCH",name:"all_batches"},{key:"PARTICULAR_BATCH",name:"particular_batch"}];export{a,t as b,e as d};

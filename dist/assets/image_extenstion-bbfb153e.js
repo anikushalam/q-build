@@ -1,0 +1,1 @@
+let p=[".jpg",".jpeg",".jpe",".pjpeg",".pjp",".apng",".jif",".jfif",".jfi",".png",".gif",".webp",".tiff",".tif",".psd",".heif",".heic",".svg",".svgz",".ai",".eps",".avif"];const t=e=>{let i=!1;for(let f of p)if(e!=null&&e.includes(f)){i=!0;break}return i};export{t as i};

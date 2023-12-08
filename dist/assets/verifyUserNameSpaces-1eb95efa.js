@@ -1,0 +1,1 @@
+const i=c=>!!(c.includes("!")||c.includes("@")||c.includes("#")||c.includes("$")||c.includes("%")||c.includes("^")||c.includes("&")||c.includes("*")||c.includes("(")||c.includes(")")||c.includes("+")||c.includes("~")||c.includes(".")||c.includes(",")||c.includes("/")||c.includes(";"));export{i as v};

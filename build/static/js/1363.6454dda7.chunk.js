@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkmithkal_qviple=self.webpackChunkmithkal_qviple||[]).push([[1363],{31818:function(t,e,i){i.r(e);var s=i(29439),n=(i(72791),i(45070)),a=i(33148),l=i(43504),r=i(39911),d=i(80184);e.default=function(t){var e=t.instituteId,i=(0,l.lr)(),u=(0,s.Z)(i,1)[0];return(0,d.jsx)("div",{className:a.Z.departmenthead,children:(0,d.jsx)("div",{className:a.Z.demaprtment_list,children:"export"===u.get("n")?(0,d.jsx)(r.Z,{instituteId:e}):(0,d.jsx)(n.Z,{instituteId:e})})})}}}]);
-//# sourceMappingURL=1363.6454dda7.chunk.js.map

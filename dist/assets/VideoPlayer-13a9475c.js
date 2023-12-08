@@ -1,0 +1,1 @@
+import{j as o}from"./index-731451a5.js";import{R as r}from"./index-55f989da.js";const s="_video_huikf_1",t={video:s};function n({video:e}){return o.jsx("div",{className:t.video,children:o.jsx(r,{controls:!0,url:e})})}export{n as V};
