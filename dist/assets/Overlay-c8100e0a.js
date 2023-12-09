@@ -1,1 +1,0 @@
-import{j as e,bz as a}from"./index-0ca76035.js";import{s}from"./Overlay.module-9133d1bb.js";const m=({children:r,customStyle:t})=>e.jsx(e.Fragment,{children:a.createPortal(e.jsx("div",{className:s.overlay_card,style:{...t},children:r}),document.getElementById("overlay"))});export{m as O};

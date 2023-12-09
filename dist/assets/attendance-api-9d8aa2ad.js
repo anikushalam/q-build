@@ -1,1 +1,0 @@
-import{lW as n,lX as c,lY as s,lZ as r}from"./index-0ca76035.js";const f=e=>{const{data:t,refetch:a}=n(e);return{allAttendance:t,allAttendanceRefetch:a}},u=()=>{const[e]=c();return[e]},A=()=>{const[e]=s();return[e]},l=e=>{const{data:t,refetch:a}=r(e);return{staffCalenderAttendance:t,staffCalenderAttendanceRefetch:a}};export{u as a,A as b,f as c,l as u};

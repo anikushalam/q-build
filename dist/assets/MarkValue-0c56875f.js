@@ -1,1 +1,0 @@
-import{j as t}from"./index-0ca76035.js";import{s as e}from"./StringLength.module-75a6e080.js";const m=({message:s,customStyle:r})=>t.jsx("section",{style:{...r},className:e.mark_container,children:s});export{m as M};

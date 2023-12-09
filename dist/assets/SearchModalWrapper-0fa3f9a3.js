@@ -1,1 +1,0 @@
-import{j as r,bz as t}from"./index-0ca76035.js";import{S as o}from"./SearchModalBackdrop-c4f123e6.js";const m=({onClose:a,customStyleBackdrop:e})=>r.jsx(r.Fragment,{children:t.createPortal(r.jsx(o,{onClose:a,customStyleBackdrop:e}),document.getElementById("backdrop"))});export{m as S};

@@ -1,1 +1,0 @@
-const t="_sidebarbottom_11ixk_1",i="_item2_11ixk_9",e="_itemfirst_11ixk_25",_="_itemlast_11ixk_29",s="_left_11ixk_33",l="_right_11ixk_51",o="_labelblue_11ixk_61",b={sidebarbottom:t,item2:i,itemfirst:e,itemlast:_,left:s,right:l,labelblue:o};export{b as s};

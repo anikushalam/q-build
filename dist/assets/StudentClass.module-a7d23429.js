@@ -1,1 +1,0 @@
-const t="_tabs_17y6w_1",e="_middleHeadContainer_17y6w_5",n="_departmenthead_17y6w_9",a="_studentEventTabs_17y6w_17",s="_studentEventTab_17y6w_17",d="_student_fees_data_17y6w_24",_={tabs:t,middleHeadContainer:e,departmenthead:n,studentEventTabs:a,studentEventTab:s,student_fees_data:d};export{_ as s};
