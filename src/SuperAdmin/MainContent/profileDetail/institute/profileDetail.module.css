@@ -1,9 +1,0 @@
-.mainbody {
-  display: flex;
-  padding: 3vh 1vw 0 1vw;
-  margin-top: 0.3vw;
-  background-color: #f5f5f5;
-  min-height: 100vh;
-  gap: 1.8vw;
-  justify-content: center;
-}

@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/5555.b5b942eb.chunk.css","mappings":"AAAA,0BAME,qBAAuB,CAHvB,MAAO,CAFP,uBAAgB,CAAhB,eAAgB,CAChB,KAAM,CAEN,WAAY,CACZ,WAEF","sources":["MembersTab/student/MembersTab.module.css"],"sourcesContent":[".navbar {\n  position: sticky;\n  top: 0;\n  left: 0;\n  width: 100vw;\n  z-index: 100;\n  background-color: white;\n}\n"],"names":[],"sourceRoot":""}
