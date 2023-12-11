@@ -1,0 +1,243 @@
+.markDetails {
+  background-color: white;
+  margin-top: 1vw;
+}
+
+.savebtn {
+  padding: 0.586vw 2.05vw;
+  background: #436dfa;
+  border-radius: 0.586vw;
+  cursor: pointer;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9vw;
+  line-height: 17px;
+  /* identical to box height */
+  display: grid;
+  place-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+.markDetailsHeader {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 1vw; */
+  padding: 1vw 1vw 0 1vw;
+}
+
+.markDetailsHeader2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1vw;
+  padding: 0 1vw 1vw 1vw;
+}
+.markDetailsHeader2 h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 19px;
+
+  color: #48494b;
+}
+
+.markDetailsHeader h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.1vw;
+  line-height: 19px;
+  margin-bottom: 0;
+  color: #48494b;
+}
+.span {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.span2 {
+  font-weight: 500;
+}
+
+/* -----Table------------- */
+.table {
+  min-height: 52vh;
+  /* overflow-y: scroll; */
+  position: relative;
+}
+
+table {
+  width: 100%;
+}
+thead {
+  position: sticky;
+  top: 0;
+}
+
+.th {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.95rem;
+  line-height: 17px;
+  /* identical to box height */
+  background: #1c023b;
+  color: white;
+  padding: 0.8vw;
+}
+
+.td {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.95rem;
+  line-height: 17px;
+  /* identical to box height */
+  padding: 1.3vw 1vw;
+  color: rgba(18, 18, 18, 0.9);
+  border-bottom: 0.2px solid rgb(202, 194, 194);
+}
+
+.th,
+.td {
+  text-align: left;
+}
+
+/* th:nth-of-type(1) {
+  width: 15%;
+  
+}
+td:nth-of-type(3) {
+  width: 15%;
+} */
+
+.student {
+  display: flex;
+  gap: 1vw;
+
+  align-items: center;
+}
+.student h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 17px;
+  /* identical to box height */
+  margin-bottom: 0 !important;
+
+  color: #121212;
+}
+.student img {
+  height: 2vw;
+  width: 2vw;
+  border-radius: 50%;
+}
+
+td input {
+  border: none;
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.tdinput {
+  /* width: 3.95vw; */
+  height: 3vw;
+  display: grid;
+  place-items: center;
+  /* padding: 1vw 1.25vw; */
+  border-radius: 0.5vw;
+  /* background: #d9d9d9; */
+}
+
+.tdinput input {
+  text-align: center;
+  height: 100% !important;
+  width: 3.95vw !important;
+  display: grid !important;
+  place-items: center !important;
+  border-radius: 0.5vw;
+  background: #d9d9d9;
+  font-size: 1rem;
+}
+.td > input {
+  box-shadow: none !important;
+  font-weight: 500;
+  color: #121212;
+  font-size: 0.95rem;
+  line-height: 17px;
+  border: none;
+
+  /* text-decoration: underline; */
+  /* background: #d9d9d9; */
+
+  /* background-color: transparent;
+  width: 3.5vw;
+  display: grid;
+  place-items: center;
+  padding: 1vw 1.25vw;
+  border-radius: 0.5vw; */
+}
+
+.thMargin {
+  text-align: center !important;
+}
+
+/* ------------------------------------------- */
+
+.rroll {
+  width: 10% !important;
+  text-align: left;
+  padding-left: 1vw !important;
+}
+
+.rrolld {
+  padding-left: 1.5vw !important;
+}
+/* .rrolld h6 {
+  margin-top: -3vw !important;
+} */
+
+.rroll h6 {
+  margin-top: -1vw;
+}
+
+.rname {
+}
+
+.rmark {
+  padding-left: 2rem;
+}
+
+.tbody > tr {
+  border-bottom: 0.5px solid rgba(18, 18, 18, 0.15) !important;
+}
+
+@media screen and (max-width: 1165px) {
+  .rroll {
+    width: 12% !important;
+  }
+
+  .rmark {
+    padding-left: 1.5rem;
+  }
+}
+
+/* .tdinput {
+  
+  background: #9a6d6d;
+  border-radius: 5px;
+  padding: 0.75vw;
+} */

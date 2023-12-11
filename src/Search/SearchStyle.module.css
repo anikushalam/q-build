@@ -1,0 +1,114 @@
+.search_hr {
+  border: 0.5px solid rgba(0, 0, 0, 0.15) !important;
+}
+
+.search_result_container {
+  margin: 0 28px 28px 28px;
+}
+
+.search_result_container_heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5vw;
+}
+
+.searchResult {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 18px;
+}
+
+.searchResultLeft {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+
+  flex: 1;
+}
+
+.searchResultLeft img {
+  width: 42px;
+  height: 42px;
+  margin-top: -0.3vw;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.searchResultLeft h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.9vw;
+  line-height: 17px;
+  color: #121212;
+}
+
+.searchResultLeft p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8vw;
+  line-height: 17px;
+  margin-top: -0.3vw;
+  margin-bottom: 0.3vw !important;
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.connectBtn {
+  padding: 0.3vw 0.1vw;
+  border: 0.805556px solid #1c023b;
+  border-radius: 3.22222px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.9vw;
+  line-height: 15px;
+  width: 75px;
+  display: grid;
+  place-items: center;
+  /* identical to box height, or 136% */
+
+  color: #1c023b;
+}
+
+.connectBtn:hover {
+  background: #1c023b;
+  border-radius: 3.22222px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.9vw;
+  line-height: 15px;
+  /* identical to box height, or 136% */
+
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1280px) {
+  .searchResultLeft p {
+    margin-top: -0.5vw;
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+  .searchResultLeft p {
+    margin-top: -0.8vw;
+    font-size: 1vw;
+  }
+  .searchResultLeft h6 {
+    font-size: 1.1vw;
+  }
+  .searchResultLeft img {
+    height: 3.2vw;
+    margin-top: -1.5vw;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .searchResultLeft p {
+    margin-top: -1vw;
+  }
+}

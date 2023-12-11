@@ -1,0 +1,33 @@
+.labelContainer {
+  margin: 1.5vw 3.028vw 0 3.028vw;
+}
+.label label {
+  min-width: 11.127vw;
+  height: 1.245vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.025vw;
+  line-height: 1.245vw;
+}
+
+.inputBox {
+  margin-top: 0.878vw;
+}
+.inputBox,
+.inputBox input {
+  width: 100%;
+  height: 3.441vw;
+  background-color: #ffffff;
+}
+
+.inputBox input {
+  padding-left: 1.098vw;
+  border: 0.037vw solid rgba(0, 0, 0, 0.12);
+  box-shadow: 0.073vw 0.146vw 2.343vw rgba(0, 0, 0, 0.05);
+  border-radius: 0.439vw;
+}
+
+.inputBox input:focus {
+  outline: none;
+}

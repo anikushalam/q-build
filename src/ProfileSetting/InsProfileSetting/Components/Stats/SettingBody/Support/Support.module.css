@@ -1,0 +1,82 @@
+.support {
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+  border-radius: 6px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 72vh;
+}
+
+.heading {
+  width: 100%;
+
+  padding: 1.5vw 5vw;
+}
+
+.divider {
+  width: 100%;
+  height: 0.1px;
+  background-color: rgb(214, 208, 208);
+}
+
+.content {
+  padding: 2.5vw 5vw 0.5vw 5vw;
+}
+
+.content h6,
+.query h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1vw;
+  /* identical to box height */
+
+  color: #121212;
+}
+
+.emojiContainer {
+  padding: 1.5vw 5vw;
+  display: flex;
+  gap: 2vw;
+}
+
+.emojiContainer img {
+  height: 3vw;
+}
+
+.query {
+  padding: 1.5vw 5vw;
+  width: 100%;
+}
+
+.postTextarea::placeholder {
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 17px !important;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.5) !important;
+}
+
+.postTextarea {
+  width: 100%;
+  padding: 1vw;
+  resize: none;
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  outline: none;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 0.9vw !important;
+  line-height: 19px !important;
+  color: rgba(18, 18, 18, 0.8) !important;
+}

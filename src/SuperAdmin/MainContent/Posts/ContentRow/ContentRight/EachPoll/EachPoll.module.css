@@ -1,0 +1,346 @@
+.eachpost {
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+  border-radius: 6px;
+  /* padding: 0.9vw; */
+  padding-top: 0;
+  margin-top: 1vw;
+
+  position: relative;
+}
+
+.public {
+  height: 1vw;
+}
+
+.eachposthead {
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+  padding-left: 0.9vw;
+  padding-right: 0.9vw;
+}
+
+.imgcontainer {
+  width: 2.8vw;
+  height: 2.8vw;
+  cursor: pointer;
+  border: 0.3px solid rgb(219, 211, 211);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.imgcontainer img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  /* margin-left: 0.3vw; */
+}
+
+.iimg {
+  /* width: 85% !important;
+      height: 85% !important; */
+  border-radius: 50% !important;
+}
+
+.eachpostUserName {
+  margin-top: 1vw;
+  cursor: pointer;
+}
+
+.eachpostUserName img {
+  margin-top: -1vw;
+  cursor: pointer;
+}
+
+.eachpostUserTime {
+  margin-top: -0.3vw;
+}
+
+.eachpostUserTime p {
+  color: rgba(18, 18, 18, 0.6);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.8vw;
+  line-height: 17px;
+}
+
+.eachpostUserName h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.82vw;
+  cursor: pointer;
+  color: #121212;
+}
+
+.bars {
+  padding-left: 0.9vw;
+  padding-right: 0.9vw;
+  margin-bottom: 2vw;
+}
+
+.postText {
+  word-wrap: break-word;
+  padding-left: 0.9vw;
+  padding-right: 0.9vw;
+  margin-bottom: 1vw;
+}
+.postText p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.9vw;
+  letter-spacing: -0.025em;
+  color: #292929;
+  margin-top: 1vw !important;
+}
+.textDes {
+  font-weight: 400 !important;
+}
+.hashtag {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0.9vw;
+  padding-right: 0.9vw;
+}
+.postImg {
+  position: relative;
+  width: 100%;
+  /* height: 18.8vw; */
+  height: auto;
+  background-color: #f5f5f5;
+}
+.index {
+  position: absolute;
+  top: 1vw;
+  right: 1vw;
+  color: white;
+}
+
+.postImg img {
+  width: 100% !important;
+  height: 100%;
+  /* object-fit: contain; */
+}
+
+.hr {
+  margin-top: -0.1rem;
+}
+
+.menu {
+  position: absolute;
+  top: 1vw;
+  height: 1.2vw;
+  right: 1vw;
+  cursor: pointer;
+}
+
+.videoContainer {
+  margin-top: 1vw;
+}
+.comment {
+  padding-left: 0.9vw;
+  padding-right: 0.9vw;
+  padding-top: 1vw;
+}
+
+.showMore {
+  margin-left: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.8vw;
+  line-height: 17px;
+  color: #0a66c2;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1400px) {
+  .postImg {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eachpostUserName img {
+    margin-top: -1.5vw;
+  }
+
+  .imgcontainer {
+    width: 3vw;
+    height: 3vw;
+  }
+
+  .eachpostUserName h6 {
+    margin-bottom: 5px !important;
+    font-size: 1.15vw;
+  }
+
+  .eachpostUserTime p {
+    font-size: 1vw;
+  }
+  .public {
+    height: 1.3vw;
+    margin-left: 0.5vw;
+  }
+
+  .postText p {
+    font-size: 1.2vw;
+  }
+
+  .menu {
+    height: 1.5vw;
+  }
+
+  .showMore {
+    font-size: 1.1vw;
+  }
+}
+
+.barContainer,
+.barContainer2 {
+  width: 100%;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+  height: 2.4vw;
+  margin-top: 0.5vw;
+  position: relative;
+  text-align: center;
+}
+
+.barContainer p,
+.barContainer2 p {
+  position: absolute;
+  left: 90%;
+  top: 30%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: right;
+
+  color: #121212;
+}
+
+.barContainer h6,
+.barContainer2 h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 17px;
+  /* identical to box height */
+  position: absolute;
+
+  color: #121212;
+
+  left: 3%;
+  top: 27%;
+  text-align: center;
+}
+.barContainer2 {
+  background: #f0f0f0;
+  margin-top: 2vw;
+}
+
+.barContainer2 p {
+  left: 65%;
+}
+
+.bar {
+  height: 100%;
+
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* -----------Reactions--------------------  */
+
+.reactions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0.9vw;
+  padding-right: 0.9vw;
+  margin-bottom: 1vw !important;
+}
+
+.reactionsleft {
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+}
+
+.viewComments {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.85vw;
+  line-height: 132.5%;
+  /* identical to box height, or 16px */
+  margin-top: 0.3vw;
+  cursor: pointer;
+  color: #1c023b;
+
+  background: rgba(75, 26, 133, 0.1);
+  border-radius: 4px;
+  padding: 0.4vw;
+}
+
+.reactionsright {
+  display: flex;
+  gap: 1.3vw;
+}
+
+.reactionsright img {
+  height: 1.3vw;
+  width: 1.3vw;
+  cursor: pointer;
+}
+
+.reactionsleft img {
+  height: 1.7vw;
+}
+
+@media only screen and (max-width: 1024px) {
+  .reactionsright img {
+    height: 1.5vw;
+    width: 1.5vw;
+  }
+}
+
+/* -------------comment--------- */
+.comment {
+  margin-top: 1vw;
+}
+
+.barContainer2 p {
+  left: 73%;
+}
+
+.repostCount {
+  display: flex;
+  gap: 0.5vw;
+  align-items: center;
+}
+
+.repostCount p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2vw !important;
+  line-height: 132%;
+  margin-bottom: 0 !important;
+  /* or 18px */
+
+  color: rgba(18, 18, 18, 0.9);
+}

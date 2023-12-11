@@ -1,0 +1,151 @@
+.sidebar {
+  height: 84vh;
+  position: sticky;
+  top: 12vh;
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+}
+
+.dots {
+  position: absolute;
+  height: 1.4vw !important;
+  right: 0;
+  top: 30%;
+  cursor: pointer;
+}
+
+.sidebarheader {
+  background: #1c023b;
+  border-radius: 6px;
+  color: white;
+  padding: 1vw;
+  display: flex;
+  gap: 1vw;
+  width: 100%;
+  cursor: pointer;
+}
+.sidebarheader img {
+  height: 2.8vw;
+  width: 2.8vw;
+  border-radius: 50%;
+}
+
+.item {
+  background-color: white;
+  padding: 1vw;
+  display: flex;
+  gap: 1vw;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+}
+
+.item img {
+  height: 2.8vw;
+  width: 2.8vw;
+  border-radius: 50%;
+}
+
+.text {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5vw;
+}
+
+.itemtext {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5vw;
+}
+.insName {
+  display: flex;
+  justify-content: space-between;
+  height: 1.04vw;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+}
+.insUserName {
+  height: 0.9vw;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+}
+.text h6 {
+  margin-top: -5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.9vw;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  color: #ffffff;
+}
+
+.itemtext h6 {
+  margin-top: -5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.9vw;
+  line-height: 20px;
+  color: #121212;
+}
+
+.text p {
+  margin-bottom: 0 !important;
+  margin-top: -5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75vw;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.itemtext p {
+  margin-bottom: 0 !important;
+  margin-top: -5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75vw;
+  line-height: 20px;
+  color: rgba(18, 18, 18, 0.6);
+}
+.items {
+  margin-top: 0.5vw;
+  border-radius: 6px;
+  flex: 1;
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  width: 0px !important;
+}
+
+.time {
+  position: absolute;
+  top: 1vw;
+  right: 1vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75vw;
+  line-height: 0.9vw;
+  /* identical to box height, or 128% */
+
+  text-align: right;
+
+  color: rgba(18, 18, 18, 0.6);
+}

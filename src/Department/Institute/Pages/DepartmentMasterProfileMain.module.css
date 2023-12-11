@@ -1,0 +1,61 @@
+.subHeadContainer p {
+  margin-bottom: 0;
+}
+.subHeadContainer {
+  width: 61.493vw;
+  height: 4.466vw;
+}
+.subHead {
+  margin: 2.343vw 7.028vw 0.878vw 7.028vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.subHeadLeft {
+  width: 10.835vw;
+  height: 1.245vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.025vw;
+  line-height: 1.245vw;
+  color: rgba(18, 18, 18, 0.5);
+  cursor: pointer;
+}
+.subHeadMiddle {
+  width: 3.734vw;
+  height: 1.245vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.025vw;
+  line-height: 1.245vw;
+  cursor: pointer;
+  color: rgba(18, 18, 18, 0.5);
+}
+.subHeadActive {
+  color: #121212;
+}
+.subHeadRight {
+  width: 6.223vw;
+  height: 1.245vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.025vw;
+  line-height: 1.245vw;
+  cursor: pointer;
+  color: #436dfa;
+}
+
+.borderBottom {
+  width: 61.493vw;
+  height: 0px;
+  border: 0.037vw solid rgba(0, 0, 0, 0.15);
+}
+
+.main {
+  width: 47.438vw;
+  min-height: 18.009vw;
+  margin: 2.489vw auto;
+}

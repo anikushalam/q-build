@@ -1,0 +1,32 @@
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5vw;
+  margin: 0 1.5vw;
+  cursor: pointer;
+}
+.listItemLeft {
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+}
+.listItemLeft p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #121212;
+  margin-bottom: 0 !important;
+}
+.listItemLeft img {
+  height: 2.5vw;
+  width: 2.5vw;
+  border-radius: 50%;
+}
+
+.listItemRight img {
+  height: 1.2vw;
+}

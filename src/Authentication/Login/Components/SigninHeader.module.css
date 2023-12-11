@@ -1,0 +1,25 @@
+.signinHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 3% 2% 3%;
+}
+.inner {
+  display: flex;
+  gap: 2vw;
+}
+.inner p {
+  color: aliceblue;
+  user-select: none;
+}
+.inner p:hover {
+  cursor: pointer;
+}
+
+.signinHeaderr {
+  padding: 2% 3% 2% 3%;
+}
+
+.signinHeaderr > .inner > p {
+  color: #420789;
+  margin-bottom: 0 !important;
+}

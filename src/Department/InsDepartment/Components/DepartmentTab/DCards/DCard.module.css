@@ -1,0 +1,138 @@
+a {
+  text-decoration: none;
+}
+.maincard {
+  position: relative;
+}
+.dcard {
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1vw;
+  height: auto;
+  width: 12.6vw;
+}
+
+.departmentPhoto {
+  height: 5vw;
+  width: 5vw;
+  border-radius: 50%;
+  border: 0.3px solid rgb(219, 211, 211);
+}
+.dcard h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 22px;
+  margin-top: 0.5vw;
+
+  text-align: center;
+
+  color: #121212;
+}
+.dcard h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  margin-top: 1vw;
+
+  text-align: center;
+
+  color: rgba(18, 18, 18, 0.6);
+}
+
+.dcard h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9vw;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  text-align: center;
+
+  color: rgba(18, 18, 18, 0.8);
+}
+@media only screen and (max-width: 1280px) {
+  .dcard {
+    height: auto;
+    width: 16.4vw;
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+  .dcard {
+    height: auto;
+    width: 17vw;
+  }
+}
+
+.oneDepartmentCard {
+  height: 1.757vw;
+  cursor: pointer;
+  position: absolute;
+  top: 0.6vw;
+  right: 0.6vw;
+}
+
+/* ------------OPtions---------------- */
+
+.profileToolTip {
+  position: absolute;
+  top: 2.5vw;
+  right: 0.48vw;
+  width: 50%;
+  height: auto;
+  z-index: 5;
+  background-color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.triangle {
+  position: absolute;
+  top: -10px;
+  right: 0%;
+  z-index: 0;
+  border-bottom: 15px solid #fff;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+}
+.triangleDisplay {
+  display: none;
+}
+
+.profilelist {
+  width: 100%;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.profilelist div {
+  list-style: none;
+  width: 100%;
+  padding: 2px;
+  padding-left: 20px;
+  cursor: pointer;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.profilelist div:hover {
+  background: rgba(75, 26, 133, 0.1);
+}

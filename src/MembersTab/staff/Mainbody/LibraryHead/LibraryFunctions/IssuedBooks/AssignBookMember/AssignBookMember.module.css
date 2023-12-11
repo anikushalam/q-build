@@ -1,0 +1,265 @@
+.issue_modal {
+  min-width: 30rem;
+  max-width: 35rem;
+  max-height: 35rem;
+  min-height: 15rem;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: "Inter";
+  font-style: normal;
+}
+
+.issueModalbody::-webkit-scrollbar-track {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+.issueModaltop {
+  padding: 0.75rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.15);
+}
+.issueModalbody {
+  height: 60vh;
+  overflow-y: scroll;
+}
+.issuedBookItem {
+  padding: 0.5rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  position: relative;
+  border-bottom: 0.05rem solid rgb(237, 232, 232);
+}
+
+.issuedBookItem:hover {
+  background-color: rgba(50, 71, 141, 0.15);
+}
+
+.imgcontainer {
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  /* border: 0.2px solid rgba(0, 0, 0, 0.15); */
+}
+
+.imgcontainer > img {
+  height: 95%;
+  width: 95%;
+  border-radius: 50%;
+}
+
+.issuedBookItemMidright > h6,
+.issuedBookItemBottomLeft > h6,
+.textt > h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.85rem;
+  line-height: 17px;
+  /* identical to box height */
+  margin-bottom: 0.3rem;
+  color: #121212;
+}
+
+.issuedBookItemMidright > p,
+.textt > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.85rem;
+  line-height: 17px;
+  /* identical to box height */
+  margin-bottom: 0 !important;
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.issueModaltopback {
+  height: 1.2rem;
+  cursor: pointer;
+}
+.issueModaltopsearch {
+  cursor: pointer;
+  height: 1.3rem;
+}
+
+.dash {
+  height: 2px;
+  width: 100%;
+  background-color: rgba(234, 234, 234, 1);
+}
+
+.selectedText {
+  position: absolute;
+  right: 1rem;
+  bottom: 0.2rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 17px;
+  text-align: right;
+  color: #121212;
+}
+.itembookcontainer {
+  padding: 0.75rem;
+}
+.itembookk {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 0.7rem;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.itembookcursor {
+  cursor: pointer;
+}
+
+.itembookk > img {
+  height: 3rem;
+}
+
+.issueBookk > h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 19px;
+  color: #121212;
+}
+
+.issueBookk {
+  padding: 1rem;
+}
+
+.bookmargin {
+  margin-bottom: 1.5rem;
+}
+
+.bluetick {
+  right: -0.5rem;
+  top: -0.5rem;
+  height: 1.3rem !important;
+  position: absolute !important;
+}
+
+.issuedDate {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.issuedDate > span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 19px;
+  text-align: right;
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.issuebtn {
+  background-color: #002bbe;
+  padding: 0.5rem;
+  width: 100%;
+  border-radius: 0.3rem;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+/* -------------Search------------------- */
+.searchContainerr {
+  display: flex;
+  gap: 2%;
+  width: 100%;
+  display: flex;
+  gap: 2%;
+}
+
+.searchContainer {
+  width: 95%;
+  height: 2.782vw;
+  background-color: #ffffff;
+  border: 0.029vw solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0.073vw 0.146vw 2.343vw rgba(0, 0, 0, 0.04);
+  border-radius: 0.439vw;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  /* margin: -1.025vw 7.028vw 3.148vw 7.028vw; */
+}
+.searchContainer input,
+.searchContainer input:focus {
+  outline: none;
+  width: 100%;
+  height: 2.5vw;
+  border: none;
+  margin-left: 0.073vw;
+  padding-left: 3.075vw;
+  margin-bottom: 0;
+  border-radius: 0.439vw;
+}
+
+.searchContainer > img {
+  position: absolute;
+  margin-left: 0.878vw;
+}
+.closeIconContainer {
+  flex: 1;
+  display: grid;
+  place-items: center;
+}
+
+.closeIcon {
+  height: 1.4rem;
+  cursor: pointer;
+}
+
+.author {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 18px;
+  margin-bottom: 0.2rem !important;
+  text-align: left;
+
+  color: #121212;
+}
+
+.authorLabel {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.85rem;
+  line-height: 18px;
+  text-align: center;
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.issuebtn {
+  outline: none;
+  border: none;
+}

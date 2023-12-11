@@ -1,0 +1,72 @@
+.examForm {
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+  border-radius: 6px;
+  /* height: 59vh; */
+  width: 100%;
+}
+.formhead {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw 0.6vw 0.6vw 0.6vw;
+  border-bottom: 0.5px solid #c4c4c4;
+  align-items: center;
+  margin-bottom: 1vw;
+}
+
+.formhead h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9vw;
+  line-height: 19px;
+  margin-top: 0.2vw;
+  margin-bottom: 0 !important;
+  color: #121212;
+}
+
+.formcontent {
+  background-color: white;
+
+  padding: 0.5vw;
+  /* overflow-y: scroll; */
+}
+.reasoncontainer {
+  margin-top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.reason {
+  background: #436dfa;
+  border-radius: 8px;
+  padding: 0.5vw 1.5vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 16px;
+  text-align: center;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.savedateBtn {
+  background: #436dfa;
+  border-radius: 6px;
+  padding: 0.5vw 1vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.85vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}

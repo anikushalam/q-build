@@ -1,0 +1,70 @@
+.reactions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0.9vw;
+  padding-right: 0.9vw;
+  margin-bottom: 1vw !important;
+}
+
+.reactionsleft {
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+}
+
+.viewComments {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.85vw;
+  line-height: 132.5%;
+  /* identical to box height, or 16px */
+  margin-top: 0.3vw;
+  cursor: pointer;
+  color: #1c023b;
+
+  background: rgba(75, 26, 133, 0.1);
+  border-radius: 4px;
+  padding: 0.4vw;
+}
+
+.reactionsright {
+  display: flex;
+  gap: 1.3vw;
+}
+
+.reactionsright img {
+  height: 1.2vw;
+  width: 1.3vw;
+  cursor: pointer;
+}
+
+.reactionsleft img {
+  height: 1.7vw;
+}
+
+.repostCount {
+  display: flex;
+  gap: 0.5vw;
+  align-items: center;
+}
+
+.repostCount p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2vw !important;
+  line-height: 132%;
+  margin-bottom: 0 !important;
+  /* or 18px */
+
+  color: rgba(18, 18, 18, 0.9);
+}
+
+@media only screen and (max-width: 1024px) {
+  .reactionsright img {
+    height: 1.5vw;
+    width: 1.5vw;
+  }
+}

@@ -1,0 +1,75 @@
+.student_table {
+  width: 100%;
+  background: #ffffff;
+}
+.student_table_header {
+  display: flex;
+  align-items: center;
+  height: 45px;
+}
+.student_table_header_label {
+  width: 15%;
+  font-weight: 500;
+  font-size: 1.025vw;
+  line-height: 1.245vw;
+  color: #121212;
+  margin-bottom: 0;
+  padding: 0.5rem;
+}
+.student_table_content_card {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.8vw 0;
+}
+.student_table_content_card:hover {
+  background-color: rgba(75, 26, 133, 0.1);
+}
+.student_table_profile {
+  width: 15%;
+  flex: 3;
+  display: flex;
+  align-items: center;
+}
+.student_table_profile > img {
+  width: 3.367vw;
+  height: 3.367vw;
+  border-radius: 50%;
+  margin-right: 1.025vw;
+}
+.student_table_header_name {
+  font-weight: 500;
+  font-size: 1.025vw;
+  line-height: 1.245vw;
+  color: #121212;
+  margin-bottom: 0.2rem;
+}
+.student_table_header_label_text {
+  font-weight: 400;
+  font-size: 0.878vw;
+  line-height: 1.098vw;
+  color: rgba(0, 0, 0, 0.6);
+}
+.student_table_contact {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.student_table_contact > img {
+  width: 1.318vw;
+  height: 1.318vw;
+}
+.student_table_contact_email {
+  font-weight: 400;
+  font-size: 0.878vw;
+  line-height: 1.098vw;
+  color: rgba(0, 0, 0, 0.9);
+}
+.student_table_contact_number {
+  font-weight: 500;
+  font-size: 0.952vw;
+  line-height: 1.171vw;
+  letter-spacing: -0.01em;
+  color: rgba(0, 0, 0, 0.9);
+  margin-bottom: 0;
+}

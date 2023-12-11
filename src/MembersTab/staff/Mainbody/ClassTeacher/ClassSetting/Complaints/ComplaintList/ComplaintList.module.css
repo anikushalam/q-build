@@ -1,0 +1,57 @@
+.complaintList {
+  width: 100%;
+  /* background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 6px;
+
+  height: 60vh;
+  overflow-y: scroll; */
+}
+
+.complaintList::-webkit-scrollbar {
+  width: 4px !important;
+}
+
+.listHead {
+  width: 100%;
+  border-radius: 6px;
+  background-color: white;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  margin-top: 0.5vw;
+}
+.tabs {
+  width: 100%;
+  background-color: white;
+}
+
+.tabss {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.tabb {
+  width: 49%;
+  background: rgba(75, 26, 133, 0.1);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 6px;
+  padding: 0.5vw 1.2vw;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 19px;
+
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.tabActive {
+  background: #1c023b !important;
+  color: #ffffff !important;
+}

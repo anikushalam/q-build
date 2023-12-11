@@ -1,0 +1,625 @@
+.hostel_container {
+  width: 100%;
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+  border-radius: 6px;
+  padding-bottom: 2vw;
+  min-height: 75vh;
+  padding: 1rem;
+}
+.moderator_container_title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.with_search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.with_search > h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(18, 18, 18, 0.9);
+  margin-bottom: 0;
+}
+
+.search_container {
+  margin: 0;
+  display: flex;
+}
+
+.search_container_input {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search_container_input > input,
+.search_container_input > input:focus {
+  min-width: 400px;
+  height: 40px;
+  background: #ffffff;
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  border: 0.029vw solid rgba(0, 0, 0, 0.15);
+  padding-left: 3.075vw;
+  outline: transparent;
+  margin: 0;
+}
+
+.searchIcon {
+  position: absolute;
+  margin-left: 1.3vw;
+  width: 1.5vw;
+  top: 28%;
+}
+
+.search_container_filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.add_new_category {
+  font-family: var(--font-family);
+  font-style: var(--font-style-normal);
+  margin: 0;
+  font-weight: var(--font-weight-400);
+  font-size: var(--font-size-14);
+  line-height: var(--line-height-17);
+  color: #436dfa;
+  display: grid;
+  place-items: end;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+
+.rules_card {
+  width: 100%;
+  min-height: 5rem;
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 12px;
+  padding: 1rem;
+  margin-top: 0.8rem;
+  font-family: "Inter";
+  font-style: normal;
+}
+.rules_card_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rules_card_title > h6 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #121212;
+}
+.rules_card > p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(18, 18, 18, 0.8);
+  width: 95%;
+}
+.download_attachment {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #001a72;
+}
+
+.menu_icon {
+  width: 1.5rem;
+  cursor: pointer;
+}
+.unit_room_container {
+  padding: 1rem;
+}
+.unit_room_card_container {
+  width: 100%;
+  min-height: 66px;
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 12px;
+  font-family: "Inter";
+  font-style: normal;
+  padding: 0.7rem 1rem;
+  margin-bottom: 0.6rem;
+  cursor: pointer;
+}
+.unit_room_card_lines {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.unit_room_card_lines > h6 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #121212;
+  margin-bottom: 0.3rem;
+}
+.unit_room_card_lines > p {
+  margin-bottom: 0 !important;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.unit_room_container_box {
+  width: 100%;
+  display: flex;
+  gap: 1%;
+  margin-top: -1.3rem;
+  position: relative;
+  min-height: 24vw;
+}
+.unit_room_container_box_inner {
+  width: 100%;
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  padding-bottom: 2vw;
+  padding: 1rem;
+}
+
+.hostelite_container {
+  width: 100%;
+  min-height: 66px;
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 12px;
+  font-family: "Inter";
+  font-style: normal;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 0.8rem;
+}
+.hostelite_container > img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+.hostelite_container_inner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hostelite_container_inner_text > h6 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #121212;
+  margin-bottom: 0.2rem;
+}
+
+.hostelite_container_inner_text > p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(18, 18, 18, 0.5);
+  margin-bottom: 0.2rem !important;
+}
+
+.announcement_card {
+  width: 100%;
+  min-height: 66px;
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 12px;
+  font-family: "Inter";
+  font-style: normal;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.8rem;
+  cursor: pointer;
+}
+
+.announcement_card:hover {
+  background-color: rgba(75, 26, 133, 0.1);
+}
+
+.announcement_card > h6 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #121212;
+  margin-bottom: 0.2rem;
+}
+
+.announcement_card > p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(18, 18, 18, 0.5);
+  margin-bottom: 0.2rem !important;
+}
+
+.upload_excel_file {
+  width: 28px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.student_renewal_card {
+  width: 100%;
+  min-height: 100px;
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 12px;
+  padding: 1rem;
+  font-family: "Inter";
+  font-style: normal;
+  margin-bottom: 0.6rem;
+}
+.student_renewal_card > h6 {
+  margin-bottom: 0.4rem;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: rgba(18, 18, 18, 0.9);
+}
+.student_renewal_date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.student_renewal_date > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #121212;
+  margin-bottom: 0.4rem !important;
+}
+
+.student_renewal_card > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #121212;
+}
+
+.student_renewal_btn_group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2%;
+}
+.student_renewal_cancel_btn,
+.student_renewal_cancel_btn:focus {
+  width: 49%;
+  height: 34px;
+  background: #dd2e44;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  color: #ffffff;
+  border: none;
+  outline: transparent;
+}
+.student_renewal_confirm_btn,
+.student_renewal_confirm_btn:focus {
+  width: 49%;
+  height: 34px;
+  background: #001a72;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  color: #ffffff;
+  border: none;
+  outline: transparent;
+}
+.take_admission {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #008000;
+}
+
+.vehical_card_container {
+  width: 100%;
+  min-height: 100px;
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  font-family: "Inter";
+  font-style: normal;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  padding: 0.8rem;
+  cursor: pointer;
+  gap: 1rem;
+}
+.vehical_card_text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.vehical_card_text > h6 {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #121212;
+  margin-bottom: 0.3rem;
+}
+.vehical_card_text > p {
+  margin-bottom: 0.3rem !important;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  color: rgba(18, 18, 18, 0.6);
+}
+.vehicle_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2%;
+  margin-top: 0.6rem;
+}
+.transpotation_container {
+  width: 100%;
+  border-top: 0.5px solid #cacaca;
+  border-radius: 6px;
+}
+.transpotation_head {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.8rem 0.5rem;
+  font-family: "Inter";
+  font-style: normal;
+  width: 100%;
+}
+.transpotation_head > h6 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #121212;
+  margin-bottom: 0.2rem;
+}
+
+.transpotation_card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.8rem 0.5rem;
+  font-family: "Inter";
+  font-style: normal;
+  width: 100%;
+  cursor: pointer;
+}
+.transpotation_card_detail {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.9rem;
+}
+.transpotation_card_detail_text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.transpotation_card_detail > img {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+}
+.transpotation_card_detail_text > h6,
+.joining_date {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.9);
+  margin-bottom: 0.2rem;
+}
+
+.transpotation_card_detail_text > p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 0.2rem !important;
+}
+
+.transpotation_card_detail_other {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.transpotation_card_detail_other_inner {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.transpotation_card_detail_other_inner > p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, 0.9);
+  margin-bottom: 0.2rem !important;
+}
+
+.add_plus_icon {
+  cursor: pointer;
+}
+
+/* // for batch style  */
+
+.hostel_batch_container {
+  width: 100%;
+  min-height: 66px;
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 12px;
+  font-family: "Inter";
+  font-style: normal;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding: 0.8rem;
+  position: relative;
+}
+.hostel_batch_container_hover:hover {
+  background-color: buttonface;
+}
+.hostel_batch_container_text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hostel_batch_container_text > h6 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(18, 18, 18, 0.8);
+  margin-bottom: 0.2rem;
+}
+.hostel_batch_container_text > p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(18, 18, 18, 0.6);
+  margin-bottom: 0.2rem !important;
+}
+.hostel_batch_image {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+.hostel_batch_menu {
+  width: 1.5rem;
+  cursor: pointer;
+  position: absolute;
+  right: 3%;
+}
+.add_container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.mentor_status_card_paragraph {
+  margin-bottom: 0.5 !important;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.mentor_attendance_container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.mentor_attendance_btn {
+  width: 100%;
+  min-height: 18px;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px #002bbe;
+  cursor: pointer;
+}
+.mentor_attendance_btn:hover,
+.mentor_attendance_btn_active {
+  background-color: buttonface;
+  box-shadow: 0px 2px 2px 0px #002bbe;
+}
+.mentor_attendance_btn > h6 {
+  color: rgba(18, 18, 18, 0.9);
+  font-family: Inter;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+}
+.mentor_attendance_btn > img {
+  rotate: 90deg;
+}
+
+.selectBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1c023b;
+  border-radius: 0.3rem;
+  padding: 0.7rem 1.5rem;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.7rem;
+  line-height: 15px;
+  color: #ffffff;
+}
+.passenger_fees_button {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+.linked_institute_btn,
+.linked_institute_btn:focus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 47;
+  padding: 0.5rem 1.5rem;
+  background: #001a72;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  color: #ffffff;
+  border: none;
+  outline: transparent;
+}

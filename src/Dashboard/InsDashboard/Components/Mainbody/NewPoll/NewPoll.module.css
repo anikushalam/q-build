@@ -1,0 +1,265 @@
+.postTitle {
+  margin-top: 2vw;
+}
+.postTitle input {
+  border: none;
+  outline: none;
+  border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
+  padding-bottom: 1vw;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 800 !important;
+  font-size: 1vw !important;
+  line-height: 19px !important;
+  color: rgba(18, 18, 18, 0.8);
+  width: 100%;
+}
+.postTitle input::placeholder {
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 1vw !important;
+  line-height: 19px !important;
+
+  color: rgba(18, 18, 18, 0.8) !important;
+}
+
+.QAns {
+  margin-top: 1vw;
+}
+.QAns h6,
+.length p {
+  margin-top: 0.5vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 17px;
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.postDesc {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+.pollTextarea::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 17px;
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.pollTextarea {
+  width: 100%;
+  padding: 1vw;
+  resize: none;
+  outline: none;
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 1vw !important;
+  line-height: 19px !important;
+  color: #121212;
+}
+
+.validBorder {
+  border: 0.8px solid red !important;
+}
+
+.validcolor {
+  color: red !important;
+}
+
+.pollInput {
+  width: 100%;
+  padding: 0.5vw;
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  outline: none;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 1vw !important;
+  line-height: 19px !important;
+  color: #121212;
+}
+
+.pollInput::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw !important;
+  line-height: 17px;
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.pollTextarea::-webkit-scrollbar {
+  width: 0;
+}
+
+.duration {
+  width: 100%;
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  padding: 0.7vw;
+  outline: none;
+  cursor: pointer;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 17px;
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.length {
+  display: flex;
+  justify-content: flex-end;
+}
+.length p {
+  margin-bottom: 0 !important;
+}
+
+.addOption {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 17px;
+  margin-bottom: 1vw;
+  color: #436dfa;
+  cursor: pointer;
+  margin-top: 0.5vw;
+}
+
+.btn {
+  margin-top: 5vw;
+  background: #f1f1f1;
+  border-radius: 6px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  margin-bottom: 2vw;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.btn > div {
+  margin-top: 6px;
+}
+
+.upload {
+  display: none;
+}
+
+.Container {
+  margin-top: 2vw;
+  width: 100%;
+}
+
+.selectedImg {
+  width: 100% !important;
+  height: 30vh !important;
+}
+
+.btn:hover {
+  background: #1c023b;
+}
+.addfiles {
+  cursor: pointer;
+}
+.btn:hover p {
+  color: white;
+}
+
+.btn p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2vw;
+  line-height: 24px;
+  margin-bottom: 7px;
+  margin-top: 7px;
+  color: rgba(18, 18, 18, 0.6);
+}
+
+.tille {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1vw;
+  line-height: 19px;
+  color: #000000;
+}
+
+.description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.9vw;
+  line-height: 23px;
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.afterbtn {
+  margin-top: 1vw;
+}
+
+.hashtag {
+  display: flex;
+  flex-wrap: wrap;
+}
+.border2 {
+  height: 1.8px;
+  width: 1.4vw;
+  background-color: #f48603;
+}
+.border3 {
+  height: 1.8px;
+
+  width: 1.4vw;
+  background-color: #14ab50;
+}
+
+@media only screen and (max-width: 1024px) {
+  .postTitle input {
+    font-size: 1.1vw !important;
+  }
+
+  .btn p {
+    font-size: 1.6vw;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .mainbody {
+    padding: 3vh 0 0 0;
+  }
+  .postTitle input {
+    font-size: 1.2vw !important;
+  }
+}
+
+.optionDiv {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1vw;
+}
+
+.optionDiv > p {
+  color: #436dfa;
+  cursor: pointer;
+}

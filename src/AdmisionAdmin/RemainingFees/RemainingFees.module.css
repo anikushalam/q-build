@@ -1,0 +1,107 @@
+.remainingFees {
+  background: #ffffff;
+  width: 835px;
+  border-radius: 6px;
+}
+
+.remainingFeesTop {
+  padding: 1.977vw 6.955vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid #cacaca;
+}
+
+.remainingFeesTop h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.171vw;
+  line-height: 19px;
+  text-align: right;
+  margin-bottom: 0 !important;
+  color: rgba(18, 18, 18, 0.9);
+}
+
+.remainingFeesTop img {
+  height: 1.025vw;
+  cursor: pointer;
+}
+
+.remainingFeesMid {
+  padding: 1vw 6.955vw;
+}
+.searchContainer {
+  width: 100%;
+  height: 2.782vw;
+  background-color: #ffffff;
+  border: 0.029vw solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0.073vw 0.146vw 2.343vw rgba(0, 0, 0, 0.04);
+  border-radius: 0.439vw;
+  display: flex;
+  align-items: center;
+}
+.searchContainer input,
+.searchContainer input:focus {
+  outline: none;
+  width: 100%;
+  height: 2.5vw;
+  border: none;
+  margin-left: 0.073vw;
+  padding-left: 3.075vw;
+}
+
+.searchContainer > img {
+  position: absolute;
+  margin-left: 0.878vw;
+}
+.itemsContainer {
+  min-height: 64vh;
+}
+
+.subItem {
+  display: flex;
+  gap: 1.5vw;
+  align-items: center;
+}
+
+.item {
+  padding: 0.8vw 2vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.3px solid rgb(222, 214, 214);
+  cursor: pointer;
+  padding: 1vw 6.955vw;
+  border-bottom: 0.5px solid #eaeaea;
+}
+.item:hover {
+  background: rgba(75, 26, 133, 0.1);
+}
+.item img {
+  height: 2.5vw;
+  width: 2.5vw;
+  border-radius: 50%;
+}
+
+.text p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 17px;
+  text-align: left;
+  margin-bottom: 0;
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.text h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 17px;
+  margin-bottom: 0.3vw;
+  color: #121212;
+  text-align: left;
+}

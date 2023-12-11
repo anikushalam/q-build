@@ -1,0 +1,73 @@
+.sidebarBottom {
+  border-top-left-radius: 1.125rem;
+  border-top-right-radius: 1.125rem;
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+}
+
+.sidebarBottomTop {
+  padding: 1rem;
+  border-bottom: 0.4px solid rgba(0, 0, 0, 0.15);
+}
+
+.sidebarBottomTop > .sidebarBottomtoph {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  margin-bottom: 0.2rem;
+  color: #121212;
+}
+
+.sidebarBottomTop > .sidebarBottomtopp {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 18px;
+  /* identical to box height, or 138% */
+  margin-bottom: 0;
+  color: rgba(18, 18, 18, 0.9);
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0.85rem 1rem;
+  border-bottom: 0.4px solid rgba(0, 0, 0, 0.15);
+}
+
+.itemText .itemTexth {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 16px;
+  margin-bottom: 0.2rem;
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.itemText .itemTextp {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.6rem;
+  line-height: 12px;
+  /* identical to box height */
+  margin-bottom: 0;
+  color: rgba(18, 18, 18, 0.6);
+}
+
+.item .itemTextcount {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 16px;
+  text-align: right;
+
+  color: rgba(18, 18, 18, 0.8);
+}

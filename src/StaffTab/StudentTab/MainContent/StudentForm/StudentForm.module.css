@@ -1,0 +1,103 @@
+.formPreview {
+  margin-top: 20px;
+  background-color: rgba(28, 2, 59, 1);
+  padding: 12px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.formPreview > p {
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 0.4px;
+}
+
+.formPreview > span {
+  z-index: 9999;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.joiningProcess {
+  margin-top: 20px;
+  border: 0.7px solid lightgray;
+  padding: 25px;
+  border-radius: 5px;
+  font-family: "Inter";
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  background: #fff;
+}
+
+.joiningToggle {
+  display: flex;
+  /* justify-content: space-between; */
+  padding: 20px;
+  cursor: pointer;
+  font-size: 0.8em;
+}
+
+.updateBtn {
+  background-color: rgba(28, 2, 59, 1);
+  padding: 0.8em 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 10px;
+  outline: none !important;
+  border: none !important;
+  width: 90%;
+}
+.updateBtn:focus {
+  outline: none !important;
+  border: none !important;
+}
+
+.formBtn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.formDisplay {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-family: "Inter";
+}
+
+.formDisplay > h5 {
+  color: #000000;
+}
+
+.formDisplay > a {
+  text-decoration: none;
+}
+
+.formArea {
+  font-family: "Inter";
+  margin-top: 20px;
+  border: 0.7px solid lightgray;
+  padding: 20px;
+  border-radius: 5px;
+  padding: 30px 40px;
+  font-weight: 600;
+  font-size: 0.9em;
+  background-color: #fff;
+}
+
+.formImage {
+  display: flex;
+  justify-content: center;
+}
+
+.formEdit {
+  margin-top: auto;
+  margin-left: -38px;
+}
+
+.joiningToggle > div:first-child {
+  width: 55%;
+}

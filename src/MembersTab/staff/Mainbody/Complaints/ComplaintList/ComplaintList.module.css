@@ -1,0 +1,159 @@
+.complaintList {
+  width: 100%;
+  /* background: #ffffff; */
+  /* border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02); */
+  border-radius: 6px;
+
+  height: 100%;
+}
+
+.listcontainer {
+  max-height: 65vh;
+  overflow-y: scroll;
+}
+
+.listcontainer::-webkit-scrollbar {
+  width: 4px !important;
+}
+
+.listcontainer::-webkit-scrollbar-track {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.complaintList .heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #121212;
+}
+
+.complaintList::-webkit-scrollbar {
+  width: 0;
+}
+
+.listHead {
+  width: 100%;
+  border-radius: 6px;
+}
+.tabs {
+  width: 100%;
+  background-color: white;
+}
+
+.item {
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 12px;
+  padding: 1vw;
+  display: flex;
+  gap: 1vw;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  margin-bottom: 0.5vw;
+}
+
+.text {
+  flex: 1;
+}
+.to {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  color: #121212;
+}
+
+.datetime {
+  width: 100%;
+  margin-top: 0.5vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.datetime p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.85vw;
+  line-height: 15px;
+  /* identical to box height */
+
+  text-align: right;
+
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.solved {
+  color: #20b038 !important;
+}
+
+.unsolved {
+  color: #ee3833 !important;
+}
+
+.dots {
+  position: absolute;
+  top: 1vw;
+  right: 1vw;
+  cursor: pointer;
+}
+
+.button {
+  background: #1c023b;
+  display: grid;
+  place-items: center;
+  padding: 0.8vw;
+  border-radius: 8px;
+  margin-top: 1vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.1vw;
+  line-height: 19px;
+  text-align: center;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.menu {
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  width: 70%;
+  position: absolute;
+  top: 2.5vw;
+  right: 0;
+  padding: 0.3vw 0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.menuItem {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 17px;
+  /* identical to box height */
+  padding: 0.8vw;
+  color: #121212;
+  cursor: pointer;
+}
+
+.menuItem:hover {
+  background: rgba(0, 26, 114, 0.15);
+}

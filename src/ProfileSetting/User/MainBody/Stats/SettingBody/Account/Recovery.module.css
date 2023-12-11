@@ -1,0 +1,113 @@
+.recovery {
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+  border-radius: 6px;
+  padding: 2vw 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* height: 72vh; */
+}
+.recoveryInner {
+  width: 100%;
+}
+.recovery input {
+  width: 100%;
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 3px;
+  padding: 0.5vw;
+}
+
+.recovery h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.9vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.recovery input::placeholder {
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 17px !important;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.5) !important;
+}
+
+.recovery input {
+  border: none;
+  outline: none;
+}
+
+.btn {
+  background: rgba(75, 26, 133, 0.1);
+  border-radius: 6px;
+  width: 100%;
+  padding: 0.5vw;
+  display: grid;
+  place-items: center;
+  margin-top: 1vw;
+  border: none;
+}
+
+.dltbtn {
+  margin-top: 5vw;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.9vw;
+  line-height: 17px;
+  cursor: pointer;
+  /* identical to box height */
+
+  color: #e02121;
+}
+
+.accntTop {
+  padding-top: 1vw;
+  margin-bottom: 1vw;
+}
+
+.control {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5vw;
+  align-items: center;
+}
+
+.control h6 {
+  margin-bottom: 0 !important;
+}
+
+.control > .age {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1vw !important;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  color: rgba(18, 18, 18, 0.6);
+}
+
+.errorspan {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 17px;
+  word-spacing: 2px;
+  color: red;
+}

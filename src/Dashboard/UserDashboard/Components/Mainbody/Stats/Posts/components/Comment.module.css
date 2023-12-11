@@ -1,0 +1,33 @@
+.comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1vw;
+}
+
+.commentleft p,
+.commentright p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.8vw;
+
+  letter-spacing: -0.025em;
+
+  color: #436dfa;
+}
+
+.commentleft:hover {
+  cursor: pointer;
+}
+
+.commentright:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  .commentleft p,
+  .commentright p {
+    font-size: 1.1vw;
+  }
+}

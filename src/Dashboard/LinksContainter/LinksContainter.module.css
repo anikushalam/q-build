@@ -1,0 +1,48 @@
+.qvipleLinkscontainer {
+  margin-top: 1rem;
+  position: sticky;
+  top: 70vh;
+
+  display: flex;
+  justify-content: center;
+}
+
+.qvipleLinks {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.qvipleLinks > .linkitem,
+.qvipleLinkabout > .linkitem {
+  margin: 0.4rem 0.4rem;
+  color: rgba(0, 0, 0, 0.6);
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.2;
+  /* or 200% */
+
+  text-align: center;
+
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.qvipleLinkabout {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.qviple_logo {
+  display: flex;
+}
+
+.qviple_logo > img {
+  margin-left: 3px;
+  margin-right: 3px;
+}

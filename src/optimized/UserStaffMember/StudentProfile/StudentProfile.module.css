@@ -1,0 +1,125 @@
+.sp_main {
+  margin-top: 1rem;
+  background-color: white;
+  width: 100%;
+  border: 0.5px solid #cacaca;
+  border-radius: var(--radius-6);
+}
+.sp_main_head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1;
+  height: 40px;
+  padding-inline: 1rem;
+}
+.sp_main_head > h6 {
+  color: var(--t-color);
+  cursor: pointer;
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-500);
+  line-height: var(--line-height-17);
+}
+
+.sp_main_head_span {
+  color: var(--t-color-2);
+  font-size: 12px;
+}
+.sp_main_head_span_requested {
+  color: var(--t-color-3);
+  font-size: 12px;
+}
+.sp_main_other {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.5rem;
+}
+.spmo_allow > h6 {
+  color: rgb(0, 0, 255);
+  cursor: pointer;
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-500);
+  line-height: var(--line-height-17);
+}
+.sph_main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.sph_main_info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.sph_main_info > img {
+  border-radius: 12px;
+  height: 100px;
+  width: 100px;
+}
+.sph_main_info_inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.6rem;
+}
+.sph_main_info_inner > h6 {
+  color: var(--t-color);
+  cursor: pointer;
+  font-size: var(--font-16);
+  font-weight: var(--font-5);
+  line-height: var(--line-17);
+}
+.sph_main_info_inner > p {
+  color: var(--t-head-color);
+  cursor: pointer;
+  font-size: var(--font-14);
+  font-weight: var(--font-4);
+  line-height: var(--line17);
+}
+.sp_fw {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+.sp_fhw {
+  padding: 24px 18px 11px 18px;
+}
+.sp_fhw > h5 {
+  font-weight: var(--font-6);
+  line-height: var(--line17);
+  font-size: 15px;
+  color: rgba(18, 18, 18, 0.9);
+  margin-bottom: 16px;
+}
+.sp_fw > div {
+  flex: 1 1 50%;
+}
+.sph_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.link_hold_container {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+.link_hold_container > img {
+  width: 24px;
+  height: 16px;
+}
+.link_hold_container > h6 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #436dfa;
+  margin: 0;
+}

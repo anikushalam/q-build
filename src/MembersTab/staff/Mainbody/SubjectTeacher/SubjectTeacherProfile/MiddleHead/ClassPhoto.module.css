@@ -1,0 +1,19 @@
+.photoMain {
+  position: relative;
+  height: 5.5vw;
+  width: 5.5vw;
+  border-radius: 50%;
+}
+.photoMain img {
+  border-radius: 50%;
+}
+.photoLabel {
+  position: absolute;
+  right: 1px;
+  bottom: 0px;
+}
+.photoLabel img {
+  height: 1.5vw !important;
+  width: 1.5vw !important;
+  cursor: pointer;
+}

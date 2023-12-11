@@ -1,0 +1,260 @@
+.reportDetails {
+  background-color: white;
+  max-height: 70vh;
+  border: 0.3px solid #d1cece;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  background-color: #1c023b;
+  padding: 1vw;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  position: relative;
+}
+.closeIcon {
+  position: absolute;
+  top: 1vw;
+  right: 1vw;
+  display: none;
+}
+
+.header:hover .closeIcon {
+  display: block;
+  cursor: pointer;
+}
+.progressbar {
+  height: 4.5vw;
+  width: 4.5vw;
+  border-radius: 50%;
+  background-color: antiquewhite;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+}
+.name p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.7vw;
+  line-height: 23px;
+  /* identical to box height, or 194% */
+  margin-bottom: -0.4vw !important;
+  color: rgba(255, 255, 255, 0.5);
+}
+.name h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8vw;
+  line-height: 23px;
+  /* identical to box height, or 166% */
+  margin-bottom: 0;
+  color: #ffffff;
+}
+
+.roll h6 {
+  margin-bottom: 0 !important;
+}
+
+/* -----Table------------- */
+
+.table {
+  width: 100%;
+  margin-top: 1vw;
+}
+
+.th {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.9vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.9);
+}
+
+.td {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.9);
+}
+
+.th,
+.td {
+  width: 20%;
+  padding: 0.5vw;
+  border: 0.2px solid rgba(0, 0, 0, 0.2);
+
+  text-align: center;
+}
+
+td input {
+  text-align: center;
+}
+
+.total {
+  font-weight: 700;
+}
+
+.attbehave {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5vw;
+  margin-top: 1.5vw;
+  background: rgba(132, 154, 227, 0.15);
+  border: 0.2px solid rgba(0, 0, 0, 0.15);
+}
+
+.attendence {
+  display: flex;
+  gap: 5vw;
+  list-style-type: disc !important;
+}
+
+.attendence p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.stars {
+  display: flex;
+  gap: 1vw;
+}
+.stars img {
+  height: 1.3vw;
+}
+
+.attendence span {
+  font-weight: 600;
+}
+
+.attendence h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4vw;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+  margin-left: 2.5vw;
+  color: #121212;
+}
+
+.improve {
+  display: flex;
+  gap: 1vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 15px;
+  /* identical to box height, or 107% */
+  margin-bottom: 1vw;
+  color: #121212;
+}
+
+.improvelack {
+  padding-top: 1.5vw;
+  border-bottom: 0.2px solid rgba(0, 0, 0, 0.15);
+  padding-left: 1vw;
+}
+
+.improve span {
+  font-weight: 600;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
+  align-items: center;
+  height: 20%;
+}
+
+.download {
+  background: rgba(75, 26, 133, 0.1);
+  border: 1px solid #1c023b;
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 6px;
+  padding: 0.6vw 2vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 19px;
+  cursor: pointer;
+  color: #1c023b;
+}
+
+.send {
+  padding: 0.6vw 2vw;
+  background: #1c023b;
+  border-radius: 6px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 19px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.progressFont strong {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.1vw;
+  line-height: 23px;
+  /* identical to box height, or 129% */
+  margin-top: 0.3vw;
+  text-align: center;
+
+  color: #000000;
+}
+.grade {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.7vw;
+  line-height: 23px;
+  /* identical to box height, or 129% */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.td {
+  border-right: 0.2px solid rgba(0, 0, 0, 0.2) !important;
+}
+
+.tr > td:first-child {
+  border-left: 0.2px solid rgba(0, 0, 0, 0.2) !important;
+}
+
+table {
+  border-bottom: 0.2px solid rgba(0, 0, 0, 0.2) !important;
+}
+
+.trBottom {
+  border-top: 0.2px solid rgba(0, 0, 0, 0.2) !important;
+}

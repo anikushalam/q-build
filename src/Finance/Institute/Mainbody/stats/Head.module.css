@@ -1,0 +1,36 @@
+.main {
+  width: 61.493vw;
+  height: 6vw;
+  background-color: #ffffff;
+  border-top-left-radius: 0.366vw;
+  border-top-right-radius: 0.366vw;
+  display: flex;
+  position: relative;
+}
+
+.main img {
+  border-top-left-radius: 0.5vw;
+  border-bottom-left-radius: 0.5vw;
+}
+
+.textcontainer {
+  flex: 1;
+  padding: 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.textcontainer h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.318vw;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #121212;
+}

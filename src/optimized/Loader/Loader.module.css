@@ -1,0 +1,97 @@
+.qviple_loader_backdrop {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  z-index: 1200;
+}
+.qviple_loader_container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.15);
+  z-index: 1200;
+}
+
+.qviple_loader_rotation {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 19px;
+  height: 19px;
+  border-radius: 100%;
+  box-shadow: 19px 19px #0b1f59, -19px 19px #dfdfdf, -19px -19px #0b1f59,
+    19px -19px #dfdfdf;
+  -o-box-shadow: 19px 19px #0b1f59, -19px 19px #dfdfdf, -19px -19px #0b1f59,
+    19px -19px #dfdfdf;
+  -ms-box-shadow: 19px 19px #0b1f59, -19px 19px #dfdfdf, -19px -19px #0b1f59,
+    19px -19px #dfdfdf;
+  -webkit-box-shadow: 19px 19px #0b1f59, -19px 19px #dfdfdf, -19px -19px #0b1f59,
+    19px -19px #dfdfdf;
+  -moz-box-shadow: 19px 19px #0b1f59, -19px 19px #dfdfdf, -19px -19px #0b1f59,
+    19px -19px #dfdfdf;
+  animation: qviple_loader_rotation_animation ease infinite 3.4s;
+  -o-animation: qviple_loader_rotation_animation ease infinite 3.4s;
+  -ms-animation: qviple_loader_rotation_animation ease infinite 3.4s;
+  -webkit-animation: qviple_loader_rotation_animation ease infinite 3.4s;
+  -moz-animation: qviple_loader_rotation_animation ease infinite 3.4s;
+}
+
+@keyframes qviple_loader_rotation_animation {
+  0%,
+  100% {
+    box-shadow: 19px 19px #17c4bb, -19px 19px #dfdfdf, -19px -19px #17c4bb,
+      19px -19px #dfdfdf;
+  }
+  25% {
+    box-shadow: -19px 19px #dfdfdf, -19px -19px #0b1f59, 19px -19px #dfdfdf,
+      19px 19px #0b1f59;
+  }
+  50% {
+    box-shadow: -19px -19px #17c4bb, 19px -19px #dfdfdf, 19px 19px #17c4bb,
+      -19px 19px #dfdfdf;
+  }
+  75% {
+    box-shadow: 19px -19px #dfdfdf, 19px 19px #4f4d49, -19px 19px #dfdfdf,
+      -19px -19px #4f4d49;
+  }
+}
+.q_loading {
+  min-height: 20vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.q_loading > img {
+  height: 3rem;
+  width: 3rem;
+}
+.circle_loading {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #a3a3a3;
+  border-top: 2px solid white;
+  border-radius: 50%;
+  transition-property: transform;
+  animation: rotate_animation 1.2s linear infinite;
+}
+@keyframes rotate_animation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

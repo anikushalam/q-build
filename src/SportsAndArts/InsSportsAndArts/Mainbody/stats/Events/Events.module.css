@@ -1,0 +1,156 @@
+.events {
+  min-height: 35vh;
+}
+.cardContainer {
+  padding: 1vw 4vw;
+  cursor: pointer;
+}
+
+.cardContainer:hover {
+  background: rgba(75, 26, 133, 0.1) !important;
+}
+
+.card {
+  display: flex;
+  gap: 1vw;
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 0.3vw;
+  padding: 0.5vw;
+  margin-bottom: 0.5vw;
+}
+.card img {
+  height: 4vw;
+  width: 4vw;
+  border-radius: 0.3vw;
+}
+
+.card p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9vw;
+  line-height: 17px;
+  /* identical to box height */
+  text-align: left;
+
+  margin-bottom: 0.35vw;
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.span1 {
+  font-weight: 600 !important;
+  font-size: 0.9vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  color: rgba(18, 18, 18, 0.9) !important;
+}
+
+.span2 {
+  font-weight: 500 !important;
+  font-size: 0.9vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  color: rgba(18, 18, 18, 0.8) !important;
+}
+.eventstop {
+  display: flex;
+  background-color: #ffffff;
+  border-bottom: 0.5px solid rgb(223, 219, 219);
+}
+
+.eventTab {
+  width: 50%;
+
+  padding: 0.75rem;
+  display: grid;
+  place-items: center;
+}
+
+.etab {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 17px;
+  /* identical to box height */
+  cursor: pointer;
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.etabactive {
+  color: rgba(18, 18, 18, 0.8) !important;
+}
+
+.eventstopTab {
+  width: 50%;
+  cursor: pointer;
+  padding: 1vw;
+  display: grid;
+  place-items: center;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.eventBlue {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #436dfa;
+}
+
+.activeTab {
+  color: #121212 !important;
+  border-bottom: 2px solid #121212;
+}
+
+.eventsbody {
+  width: 100%;
+  background-color: #fff;
+}
+
+.ongoingEvents {
+  padding: 1vw 6vw;
+}
+
+.loader {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.loader > img {
+  height: 55px;
+  width: 55px;
+}
+.noData {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  border-radius: 6px;
+  background-color: white;
+}
+.noData img {
+  height: 30vw;
+  width: 30vw;
+}

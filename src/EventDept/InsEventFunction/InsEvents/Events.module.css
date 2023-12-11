@@ -1,0 +1,348 @@
+.events {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.eventsleft {
+  width: 49%;
+}
+
+.searchContainerr {
+  display: flex;
+  gap: 2%;
+}
+.noevent {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.searchContainer {
+  width: 100%;
+  height: 2.782vw;
+  background-color: #ffffff;
+  border: 0.029vw solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0.073vw 0.146vw 2.343vw rgba(0, 0, 0, 0.04);
+  border-radius: 0.439vw;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  /* margin: -1.025vw 7.028vw 3.148vw 7.028vw; */
+}
+.searchContainer input,
+.searchContainer input:focus {
+  outline: none;
+  width: 100%;
+  height: 2.5vw;
+  border: none;
+  margin-left: 0.073vw;
+  padding-left: 3.075vw;
+  margin-bottom: 0;
+  border-radius: 0.439vw;
+}
+
+.searchContainer > img {
+  position: absolute;
+  margin-left: 0.878vw;
+  height: 1.2rem;
+}
+
+.eventsContainer {
+  /* border: 0.5px solid #cacaca; */
+  border-radius: 0.2rem;
+  padding: 0.3rem;
+  margin-top: 0.5rem;
+  background: #ffffff;
+  height: 68vh;
+  overflow-y: scroll;
+}
+
+/* ---------------------------------------- */
+.eventItem {
+  background: #ffffff;
+  border: 0.5px solid rgba(18, 18, 18, 0.12);
+  box-shadow: 2px 4px 32px rgba(0, 0, 0, 0.04);
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1%;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  height: 7rem;
+  position: relative;
+}
+.eventItemActive {
+  background-color: rgba(50, 71, 141, 0.15) !important;
+}
+.eventItem > .eventItemimg {
+  width: 25%;
+  height: 100%;
+  border-bottom-left-radius: 0.75rem;
+  border-top-left-radius: 0.75rem;
+}
+.eventItemDetails {
+  padding: 0.5rem;
+  flex: 1;
+}
+.eventItemDetails > h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.87rem;
+  line-height: 20px;
+  margin-bottom: 0.25rem;
+
+  color: #121212;
+}
+
+.guest,
+.dept {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 18px;
+  margin-bottom: 0.2rem !important;
+
+  color: #121212;
+}
+
+.date {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.7rem;
+  line-height: 18px;
+  margin-bottom: 0 !important;
+
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.eventsContainer::-webkit-scrollbar {
+  width: 0.5rem !important;
+}
+
+/* Track */
+.eventsContainer::-webkit-scrollbar-track {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.eventsContainer::-webkit-scrollbar-thumb {
+  background: rgb(183, 181, 181) !important;
+  /* border-radius: 10px; */
+}
+
+.dots {
+  height: 1.3rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.eventRightimg {
+  width: 100%;
+  height: 17.5rem;
+  border-radius: 0.4rem;
+}
+
+.eventsrightimgConrainer {
+  position: relative;
+
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.eventsright {
+  width: 49%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.eventCount {
+  position: absolute;
+  /* top: 20rem; */
+  bottom: 2rem;
+  left: 1.5rem;
+  z-index: 12;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(
+    132.84deg,
+    rgba(255, 255, 255, 0.1785) 22.01%,
+    rgba(255, 255, 255, 0.0525) 71.41%
+  );
+  backdrop-filter: blur(5px);
+  padding: 0.4rem 0.75rem;
+
+  border-radius: 12px;
+}
+
+.eventCount > h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 24px;
+  margin-bottom: 0 !important   ;
+  color: #ffffff;
+}
+
+.eventCount > h6 > span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.85rem;
+  line-height: 15px;
+  /* identical to box height */
+  margin-bottom: 0 !important   ;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.addEventDiv {
+  background: #001a72;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 0.65rem;
+  padding: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  cursor: pointer;
+}
+
+.addEventDiv > h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 17px;
+  margin-bottom: 0 !important;
+
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.loader {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  min-height: 50vh;
+}
+
+.loader > img {
+  height: 4rem;
+}
+
+.noData > img {
+  width: 100%;
+}
+.noData {
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
+
+/* @media only screen and (max-width: 1450px) {
+  .eventCount {
+    position: absolute;
+    top: 18rem;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .eventCount {
+    position: absolute;
+    top: 16rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .eventCount {
+    position: absolute;
+    top: 14rem;
+  }
+} */
+
+.eventDetailsCard {
+  background: rgba(0, 26, 114, 0.15);
+  border-radius: 12px;
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.depts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+}
+
+.label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.85rem;
+  line-height: 22px;
+  margin-bottom: 0.2rem !important;
+
+  color: #001a72;
+}
+.val,
+.label > span {
+  color: rgba(0, 26, 114, 0.7) !important;
+}
+
+.labelouter {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.85rem;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+  margin-bottom: 0.2rem !important;
+  color: #121212;
+}
+
+.labelouterspan {
+  color: rgba(18, 18, 18, 0.8) !important;
+}
+
+.eventDetailsdiv {
+  width: 100%;
+}
+
+.backCircle {
+  background: rgba(0, 0, 0, 0.4);
+  border: 0.3px solid rgba(255, 255, 255, 0.25);
+  position: absolute;
+  border-radius: 50%;
+  top: 2rem;
+  left: 1.5rem;
+  z-index: 12;
+  display: grid;
+  place-items: center;
+  height: 1.75rem;
+  width: 1.75rem;
+  cursor: pointer;
+}
+
+.backCircleimg {
+  height: 1rem;
+}
+
+.editCircle {
+  position: absolute;
+  border-radius: 50%;
+  top: 2rem;
+  right: 1.5rem;
+  z-index: 12;
+  height: 1.75rem;
+  cursor: pointer;
+}

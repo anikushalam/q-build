@@ -1,0 +1,28 @@
+.tabs {
+  border-top: 0.3px solid rgb(238, 233, 233);
+}
+
+.middleHeadContainer {
+  margin-top: 0.75rem;
+}
+
+.departmenthead {
+  margin-top: 1vw;
+}
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5vw;
+}
+.studentEventTabs > a {
+  width: 33%;
+}
+
+.studentEventTab > div {
+  width: 100%;
+}
+.student_fees_data {
+  width: 100%;
+  background-color: #fff;
+  padding: 1rem 0;
+}

@@ -1,0 +1,100 @@
+.complaintDetails {
+  width: 100%;
+  border-radius: 6px !important;
+  background-color: #fff;
+}
+.detailsheader {
+  background-color: #1c023b;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.item {
+  width: 100%;
+  padding: 1vw 1.5vw;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.15);
+
+  gap: 1vw;
+}
+
+.list::-webkit-scrollbar {
+  width: 0;
+}
+
+.datetime {
+  display: flex;
+  gap: 0.5vw;
+}
+
+.item h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.1vw;
+  line-height: 19px;
+  text-transform: capitalize;
+  margin-bottom: 0.3vw;
+  color: white;
+}
+
+.item p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.95vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.detailsbody {
+  padding: 1vw;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  height: 45vh;
+  overflow-y: scroll;
+}
+
+.footer {
+  display: flex;
+  align-items: flex-start;
+  padding: 1vw;
+}
+
+.detailsbody::-webkit-scrollbar {
+  width: 0;
+}
+
+.detailsbody p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 20px;
+  /* or 143% */
+
+  text-transform: capitalize;
+
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.solvedbtn {
+  width: fit-content;
+  padding: 0.8vw;
+  background: #1c023b;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9vw;
+  line-height: 14px;
+  /* identical to box height, or 88% */
+
+  color: #ffffff;
+}

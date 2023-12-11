@@ -1,0 +1,435 @@
+.vacancyDetails {
+  width: 100%;
+}
+
+.peventlefttop {
+  padding: 0.75rem;
+  border-bottom: 0.5px solid #c4c4c4;
+  background-color: #1c023b;
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+}
+
+.peventlefttop,
+.peventlefttop > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin-bottom: 0;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+.peventlefttopflexleft {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.peventlefttopflexleft > img {
+  cursor: pointer;
+  height: 1rem;
+}
+
+.peventlefttopflexleft {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.vacancyDetailsmid {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.vacancyDetailsmidLeft {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex: 1;
+}
+
+.insCareerCardsubject {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.85rem;
+  line-height: 16px;
+  margin-bottom: 0.15rem !important;
+
+  color: #121212;
+}
+
+.insCareerCarddept {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.85rem;
+  line-height: 18px;
+  margin-bottom: 0.15rem !important;
+
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.insCareerCarddesig {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 18px;
+  margin-bottom: 0.15rem !important;
+
+  color: rgba(18, 18, 18, 0.6);
+}
+.vacancyDetailsmidLeft > img {
+  height: 4.75rem;
+}
+.vacancyDetailsmidLeftRight {
+}
+.vacancyDetailsmiddesc {
+  width: 40%;
+}
+
+.vacancyDetailsmidright {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.vacancyDetailsmidright > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.7rem;
+  margin-bottom: 0 !important;
+  line-height: 17px;
+  cursor: pointer;
+
+  color: #436dfa;
+}
+
+.vacancyDetailsmidright > img {
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+.searchContainer {
+  width: 100%;
+  height: 2.782vw;
+  background-color: #ffffff;
+  border: 0.029vw solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0.073vw 0.146vw 2.343vw rgba(0, 0, 0, 0.04);
+  border-radius: 0.439vw;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  /* margin: -1.025vw 7.028vw 3.148vw 7.028vw; */
+}
+.searchContainer input,
+.searchContainer input:focus {
+  outline: none;
+  width: 100%;
+  height: 2.5vw;
+  border: none;
+  margin-left: 0.073vw;
+  padding-left: 3.075vw;
+  margin-bottom: 0;
+}
+
+.searchContainer > img {
+  position: absolute;
+  margin-left: 0.878vw;
+  height: 1.2rem;
+}
+
+.header {
+  margin-top: 1vw;
+  padding: 0.75rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border: 0.037vw solid rgba(18, 18, 18, 0.15);
+  border-top-left-radius: 0.439vw;
+  border-top-right-radius: 0.439vw;
+}
+.header p {
+  margin-bottom: 0px !important;
+}
+
+.joinigDate,
+.name,
+.contact,
+.index {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 1.245vw;
+  color: #121212;
+
+  margin-bottom: 0px !important;
+}
+
+.oneRowDateText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 1.245vw;
+  letter-spacing: -0.01em;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.oneRowDate {
+  width: 14%;
+}
+
+/* .contact {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.025vw;
+  line-height: 1.245vw;
+  color: #121212;
+} */
+/* .index {
+  font-family: "Inter";
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.025vw;
+  line-height: 1.245vw;
+  color: #121212;
+} */
+.container {
+  margin-bottom: 1vw;
+  background: #ffffff;
+  border: 0.037vw solid #cacaca;
+  border-bottom-left-radius: 0.439vw;
+  border-bottom-right-radius: 0.439vw;
+}
+.container p {
+  margin-bottom: 0;
+}
+.oneRow {
+  display: flex;
+  align-items: flex-start;
+
+  padding: 0.75rem;
+  width: 100%;
+}
+.oneRow:hover {
+  background-color: rgba(75, 26, 133, 0.1);
+}
+.oneRowIndex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding-left: 1.318vw;
+}
+.oneRowIndexValue {
+  height: 1.245vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.025vw;
+  line-height: 1.245vw;
+  color: #000000;
+}
+
+.oneRowwIndex {
+  padding-left: 2.5vw !important;
+  width: 15%;
+}
+.oneRowwIndex > img {
+  height: 1.5rem;
+  cursor: pointer;
+}
+.oneRowName {
+  display: flex;
+  align-items: flex-start;
+  width: 35%;
+
+  flex: 1;
+}
+/* .name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 1.245vw;
+  color: #121212;
+  margin-bottom: 0 !important;
+} */
+.oneRowNameImage img {
+  border-radius: 50%;
+  margin-right: 1.025vw;
+  height: 2.8rem;
+}
+
+.oneRowNameText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.95rem;
+  line-height: 19px;
+  margin-bottom: 0.2rem !important;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.oneRowNamePlaceholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.098vw;
+  margin-bottom: 0.2rem !important;
+  color: rgba(0, 0, 0, 0.6);
+}
+.schedule {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 17px;
+  margin-bottom: 0.4rem !important;
+  margin-top: 0.4rem !important;
+  color: #436dfa;
+  cursor: pointer;
+}
+
+.interview {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 17px;
+  margin-bottom: 0.4rem !important;
+  margin-top: 0.4rem !important;
+  color: #008000;
+}
+
+.oneRowContact {
+  width: 30%;
+}
+.oneRowContactEmailIcon {
+  display: flex;
+  align-items: center;
+}
+.oneRowContactEmailIcon:nth-child(1) {
+  margin-bottom: 0.512vw;
+}
+.oneRowContactEmailIcon > img {
+  width: 1.318vw;
+  height: 1.318vw;
+  margin-right: 1.135vw;
+}
+
+.oneRowContactEmail {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 1.098vw;
+  color: rgba(0, 0, 0, 0.9);
+  margin-bottom: 0 !important;
+}
+
+.oneRowContactNumber {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 1.171vw;
+  letter-spacing: -0.01em;
+  color: rgba(0, 0, 0, 0.9);
+  margin-bottom: 0 !important;
+}
+
+.oneRowBottomBorder {
+  width: 61.493vw;
+  height: 0px;
+  border: 0.037vw solid rgba(18, 18, 18, 0.15);
+}
+
+.date {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 16px;
+  /* identical to box height */
+  margin-bottom: 0.2rem !important;
+  letter-spacing: -0.01em;
+
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.date > span > a {
+  color: #436dfa !important;
+}
+
+.confirmMark {
+  width: 300px;
+  background: #fafafa;
+  box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+.confirmMark > h5 {
+  text-align: center;
+}
+.marktabs {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.condirmtab {
+  background-color: #7ede7e;
+  color: #121212;
+  padding: 0.25rem 0.75rem;
+  display: grid;
+  border-radius: 0.3rem;
+  place-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 24px;
+  cursor: pointer;
+  color: #121212;
+}
+
+.canceltab {
+  background-color: transparent;
+  color: #e67676;
+  border: 0.1rem solid #e67676;
+  border-radius: 0.3rem;
+  padding: 0.25rem 0.75rem;
+  display: grid;
+  place-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 24px;
+  cursor: pointer;
+}
+.instructuionspan {
+  text-decoration: underline;
+  color: #436dfa;
+  cursor: pointer;
+}

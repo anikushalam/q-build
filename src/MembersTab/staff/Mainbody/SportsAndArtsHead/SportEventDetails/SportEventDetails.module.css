@@ -1,0 +1,412 @@
+/* ---------------Event Card---------------------- */
+
+.card {
+  padding: 0.5vw 1vw;
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-top-left-radius: 0.3vw;
+  border-top-right-radius: 0.3vw;
+  /* padding: 0.5vw; */
+}
+
+.card .texttt {
+  margin-top: 0.5vw;
+}
+.card img {
+  height: 5vw;
+  width: 5vw;
+  border-radius: 0.3vw;
+}
+
+.card p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9vw;
+  line-height: 17px;
+
+  text-align: left;
+
+  margin-bottom: 0.35vw;
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.span1 {
+  font-weight: 600 !important;
+  font-size: 0.9vw;
+  line-height: 17px;
+
+  text-transform: capitalize;
+
+  color: rgba(18, 18, 18, 0.9) !important;
+}
+
+.span2 {
+  font-weight: 500 !important;
+  font-size: 0.9vw;
+  line-height: 17px;
+
+  text-transform: capitalize;
+
+  color: rgba(18, 18, 18, 0.8) !important;
+}
+
+.detailsBottom {
+}
+
+.detailsBottomHeading {
+  padding: 1vw 1.5vw;
+  display: flex;
+  justify-content: space-between;
+}
+.detailsBottomHeading p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.023vw;
+  line-height: 17px;
+  /* identical to box height */
+  cursor: pointer;
+  text-transform: capitalize;
+
+  color: rgba(18, 18, 18, 0.9);
+}
+.createp {
+  color: #436dfa !important;
+  font-size: 1vw;
+  cursor: pointer;
+}
+
+.detailsBottom {
+  width: 100%;
+  background-color: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  min-height: 61vh;
+}
+
+.detailsBottom2 {
+  width: 100%;
+  background-color: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  min-height: 61vh;
+  padding: 1vw;
+}
+.matches {
+  padding: 1vw 1.5vw;
+}
+
+.matcheCard {
+  display: flex;
+  justify-content: space-between;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 0.5vw;
+  padding: 0.75vw;
+  margin-bottom: 1vw;
+}
+
+.matcheRow p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.95vw;
+  line-height: 17px;
+  /* identical to box height */
+  margin-bottom: 0.3vw !important;
+  text-transform: capitalize;
+
+  color: #121212;
+}
+
+.spanLight {
+  color: rgba(18, 18, 18, 0.8) !important;
+}
+
+.matcheRow span {
+  font-weight: 500;
+}
+
+.matchDate {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.95vw;
+  line-height: 17px;
+  /* identical to box height */
+  margin-bottom: 0;
+  text-transform: capitalize;
+
+  color: rgba(18, 18, 18, 0.5) !important;
+}
+
+.winners {
+  padding: 1vw 0;
+}
+
+.winnerRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.position {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  width: 49%;
+}
+
+.position img {
+  height: 1.7vw;
+}
+
+.position p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.85vw;
+  line-height: 15px;
+  /* identical to box height */
+  margin-bottom: 0 !important;
+  color: rgba(18, 18, 18, 0.8);
+  text-align: right;
+  width: 20%;
+}
+
+.selectPlayer,
+.selectPlayer2 {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  cursor: pointer;
+  width: 50%;
+}
+.selectPlayer img,
+.selectPlayer2 img {
+  height: 2.5vw;
+}
+.selectPlayer h6,
+.selectPlayer2 h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.95vw;
+  line-height: 17px;
+
+  margin-bottom: 0.3vw !important;
+  color: #121212;
+}
+.selectPlayer p,
+.selectPlayer2 p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.85vw;
+  line-height: 15px;
+  /* identical to box height */
+  margin-bottom: 0 !important;
+
+  color: rgba(18, 18, 18, 0.6);
+}
+
+.options {
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  width: 50%;
+}
+
+/* --------------------------------- */
+
+.itemm {
+  padding: 1vw;
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+  cursor: pointer;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.12);
+}
+
+.itemmborder {
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  border-radius: 0.3vw;
+}
+
+.half {
+  width: 50%;
+}
+
+.playerImg {
+  height: 2.8vw;
+  width: 2.8vw;
+  border-radius: 50%;
+}
+
+.itemtext {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0vw;
+}
+
+.playerh {
+  margin-top: -5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1vw;
+  line-height: 20px;
+  color: #121212;
+  margin-bottom: 0.3vw;
+}
+
+.insUserName {
+  margin-bottom: 0 !important;
+  margin-top: -5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9vw;
+  line-height: 20px;
+  color: rgba(18, 18, 18, 0.6);
+}
+
+.itemmContainer {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.12);
+}
+
+.saveContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 0 1vw;
+}
+
+.matcheRowFlex {
+  display: flex !important;
+  gap: 0.5vw;
+  align-items: center;
+}
+
+.loadingOverLay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.05);
+  display: grid;
+  place-items: center;
+}
+
+.loadingOverLay img {
+  height: 5vw;
+}
+.winner2 {
+}
+.winnerRow2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5vw;
+}
+.selectPlayer2,
+.itemmborder,
+.positionborder {
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 0.5vw;
+  padding: 0.5vw;
+}
+
+.selectPlayer2,
+.positionborder {
+  margin-top: 0 !important;
+  width: 49% !important;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.95vw;
+  line-height: 17px;
+  margin-bottom: 0.3vw !important;
+  color: #121212;
+  cursor: pointer;
+}
+
+.positionborder h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.95vw;
+  line-height: 17px;
+  margin-bottom: 0.3vw !important;
+}
+
+.winnerRow2Input {
+  width: 49%;
+  padding: 1vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.95vw;
+  line-height: 17px;
+  margin-bottom: 0.3vw !important;
+  color: #121212;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgb(0 0 0 / 2%), 1px 2px 32px rgb(0 0 0 / 2%);
+  border-radius: 0.5vw;
+}
+
+.inputfull {
+  width: 100% !important;
+  margin-top: 1vw;
+}
+
+.winnerRow2Input::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.95vw;
+  line-height: 17px;
+  margin-bottom: 0.3vw !important;
+  color: #121212;
+}
+
+.matcheRowflex {
+  display: flex !important;
+  gap: 0.5vw;
+  align-items: center !important;
+}
+
+.loader {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.loader > img {
+  height: 55px;
+  width: 55px;
+}
+.noData {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  border-radius: 6px;
+  background-color: white;
+}
+.noData img {
+  height: 30vw;
+  width: 30vw;
+}

@@ -1,0 +1,113 @@
+.container {
+  width: 82.577vw;
+  margin: auto;
+  margin-top: 1.171vw;
+  background-color: #f5f5f5;
+  min-height: 81vh;
+  /* border: 0.5px solid #cacaca;
+  border-radius: 6px; */
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 100;
+  background-color: white;
+}
+.bgContainer {
+  background-color: #f5f5f5;
+}
+.header {
+  display: flex;
+  height: 9.663vw;
+  background-color: #ffffff;
+  border: 0.037vw solid #cacaca;
+  border-radius: 0.439vw;
+  align-items: center;
+}
+
+.headerImage {
+  width: 13.763vw;
+  margin-left: -0.073vw;
+  height: 132px;
+  border-top-left-radius: 0.439vw;
+  border-bottom-left-radius: 0.439vw;
+}
+.headerNameAbout p {
+  margin: 0;
+}
+.headerNameAbout {
+  margin-left: 1.757vw;
+  margin-top: 0.586vw !important;
+}
+
+.headerUserName {
+  width: 14.495vw;
+  height: 1.611vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.318vw;
+  line-height: 1.611vw;
+  text-align: left;
+  color: #121212;
+}
+
+.headerName {
+  width: 28.77vw;
+  height: 1.464vw;
+  margin-top: 0.586vw !important;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.025vw;
+  line-height: 1.464vw;
+  text-align: left;
+  color: #121212;
+}
+.headerAbout {
+  width: 54.466vw;
+  height: 2.782vw;
+  margin-top: 0.586vw !important;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.025vw;
+  line-height: 1.391vw;
+  letter-spacing: 0.01em;
+  color: rgba(18, 18, 18, 0.6);
+}
+
+.subMain {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 3.075vw;
+  gap: 3.075vw;
+}
+.subMain > p {
+  margin: 0;
+}
+.subMainFoll {
+  width: 7.98vw;
+  height: 1.391vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.171vw;
+  line-height: 1.391vw;
+  letter-spacing: 0.01em;
+  color: rgba(18, 18, 18, 0.6);
+  cursor: pointer;
+}
+
+.subMainFollActive {
+  color: #121212;
+}
+.subMainBorder {
+  width: 82.577vw;
+  height: 0px;
+  margin-top: 0.512vw;
+  border: 0.037vw solid rgba(0, 0, 0, 0.15);
+}

@@ -1,0 +1,75 @@
+.tab {
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 8px 64px rgba(0, 0, 0, 0.01);
+  border-radius: 10px;
+  width: 20vw;
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1vw;
+  padding-bottom: 0.5vw;
+  cursor: pointer;
+}
+
+/* .tabDark {
+  background: #420789;
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 8px 64px rgba(0, 0, 0, 0.01);
+  border-radius: 10px;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1vw;
+  padding-bottom: 0.5vw;
+  cursor: pointer;
+} */
+
+.tab h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.65vw;
+  line-height: 1.2vw;
+  /* identical to box height */
+
+  color: #420789;
+}
+
+.tab img {
+  height: 2vw;
+}
+
+/* .tabDark h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2vw;
+  line-height: 1.2vw;
+
+
+  color: #fff;
+} */
+
+.tab p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.1vw;
+  line-height: 19px;
+
+  color: #420789;
+}
+
+/* .tabDark p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.1vw;
+  line-height: 19px;
+
+  color: #fff;
+} */

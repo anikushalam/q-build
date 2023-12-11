@@ -1,0 +1,53 @@
+.instruction {
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+  border-radius: 6px;
+  margin-top: 1vw;
+  padding: 1vw 0.3vw 0vw 0.3vw;
+  height: 20vw;
+  overflow-y: scroll;
+}
+
+.instruction::-webkit-scrollbar {
+  width: 0px;
+}
+
+.instruction::-webkit-scrollbar-thumb {
+  background: #212222;
+}
+
+.instruction::-webkit-scrollbar-thumb:hover {
+  display: none;
+}
+
+.header h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 0.9vw;
+  line-height: 22px;
+  /* identical to box height, or 138% */
+
+  text-align: center;
+
+  color: rgba(18, 18, 18, 0.8);
+}
+.list {
+  display: flex;
+  justify-content: center;
+}
+
+.list p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8vw;
+  line-height: 22px;
+  /* or 157% */
+
+  color: rgba(18, 18, 18, 0.8);
+}
+
+li::marker {
+  font-size: 0.9vw;
+}

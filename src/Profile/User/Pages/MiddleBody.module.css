@@ -1,0 +1,6 @@
+.middleBodyGap {
+  display: flex;
+  gap: 1.757vw;
+  margin-top: 1vw;
+  position: relative;
+}

@@ -1,0 +1,38 @@
+.css-k008qs {
+  justify-content: space-between;
+  background-color: white;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+}
+
+.css-5wl5ud {
+  width: 50%;
+  border: none;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  background-color: white;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+button:focus:not(:focus-visible) {
+  outline: 0;
+  border-bottom: 2px solid #121212;
+}
+
+.css-1xhq01z {
+  justify-content: space-between;
+  background-color: white;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.15) !important;
+  border-radius: 6px;
+}
+
+.css-c2k196 {
+  width: 50%;
+}
+.css-c2k196[aria-selected="true"],
+.css-c2k196[data-selected] {
+  outline: 0;
+  border-bottom: 2px solid #121212 !important;
+  color: #121212 !important;
+}

@@ -1,0 +1,73 @@
+.bars {
+  padding-left: 0.9vw;
+  padding-right: 0.9vw;
+  /* margin-bottom: 1vw; */
+}
+.postText {
+  word-wrap: break-word;
+  padding-left: 0.9vw;
+  padding-right: 0.9vw;
+  /* margin-bottom: 1vw; */
+}
+.text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #121212;
+}
+
+.barContainer {
+  width: 100%;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+  height: 2.4vw;
+  margin-top: 0.5vw;
+  position: relative;
+  text-align: center;
+}
+
+.barContainer p {
+  position: absolute;
+  left: 90%;
+  top: 30%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 17px;
+  text-align: right;
+  color: #121212;
+}
+
+.barContainer h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 17px;
+  position: absolute;
+  color: #121212;
+  left: 3%;
+  top: 27%;
+  text-align: center;
+}
+
+.bar {
+  height: 100%;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.pollQuestion {
+  padding-left: 0.9vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  margin-bottom: 4px;
+  /* margin-top: 12px; */
+}

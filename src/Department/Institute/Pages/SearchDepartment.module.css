@@ -1,0 +1,26 @@
+.searchContainer {
+  width: 47.438vw;
+  height: 2.782vw;
+  background-color: #ffffff;
+  border: 0.029vw solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0.073vw 0.146vw 2.343vw rgba(0, 0, 0, 0.04);
+  border-radius: 0.439vw;
+  display: flex;
+  align-items: center;
+  /* margin: -1.025vw 7.028vw 3.148vw 7.028vw; */
+  margin: -1.025vw 7.028vw -0.8519999999999999vw 7.028vw;
+}
+.searchContainer input,
+.searchContainer input:focus {
+  outline: none;
+  width: 47.1vw;
+  height: 2.5vw;
+  border: none;
+  margin-left: 0.073vw;
+  padding-left: 3.075vw;
+}
+
+.searchContainer > img {
+  position: absolute;
+  margin-left: 0.878vw;
+}

@@ -1,0 +1,60 @@
+.newComplain {
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.header {
+  background: #ffffff;
+  padding: 1vw;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.calender {
+  background: #ffffff;
+  padding: 1vw;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.btncontainer {
+  display: grid;
+  place-items: center;
+}
+
+.reasonbtn {
+  background: #1c023b;
+  border-radius: 8.21751px;
+  padding: 0.6vw;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 16px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  cursor: pointer;
+}
+
+.disabled {
+  background: #ffffff !important;
+  border-radius: 8.21751px;
+  padding: 0.5vw;
+  border: 1px solid #436dfa !important;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 16px;
+  text-align: center;
+
+  color: #436dfa !important;
+  cursor: default;
+}

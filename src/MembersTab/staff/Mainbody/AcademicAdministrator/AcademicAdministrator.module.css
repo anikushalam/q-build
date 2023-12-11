@@ -1,0 +1,84 @@
+.admin_acadmic_text {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  align-items: center;
+}
+.admin_acadmic_text > h6 {
+  font-family: var(--font-family);
+  font-style: var(--font-style-normal);
+  margin: 0;
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-16);
+  line-height: var(--line-height-17);
+  color: #121212;
+}
+.admin_academic_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+}
+.admin_academic_btn {
+  width: 100%;
+  height: 48px;
+  background: #001a72;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  outline: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+  border: none;
+}
+
+.subject_academic_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.subject_academic_title > h6 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(18, 18, 18, 0.9);
+  margin-bottom: 0;
+}
+.subject_academic_title > img {
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+}
+.days_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-block: 1rem;
+}
+.days_container_child {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(18, 18, 18, 0.8);
+  margin-bottom: 0;
+  padding: 0.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.days_container_child_active,
+.days_container_child:hover {
+  background-color: #e9ecf7;
+}

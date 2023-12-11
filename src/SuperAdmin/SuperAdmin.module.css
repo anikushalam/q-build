@@ -1,0 +1,10 @@
+.SuperAdmin {
+  display: flex;
+}
+
+.sidebar {
+  width: 18vw;
+}
+.content {
+  width: 82vw;
+}

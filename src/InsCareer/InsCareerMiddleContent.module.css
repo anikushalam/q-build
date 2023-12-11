@@ -1,0 +1,141 @@
+.MiddleContent {
+  width: 100%;
+  display: flex;
+  gap: 1%;
+  margin-top: -1.3rem;
+  position: relative;
+  min-height: 54vh;
+}
+
+/* .MiddleContent::-webkit-scrollbar {
+    width: 5px !important;
+  } */
+
+.MiddleContentLeft {
+  width: 100%;
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  padding-bottom: 2vw;
+}
+
+.MiddleContentLeft2 {
+  width: 70%;
+  overflow-y: scroll;
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+  border-radius: 6px;
+  padding-bottom: 2vw;
+}
+
+.tabs {
+  /* border-top: 0.3px solid rgb(238, 233, 233);
+    border-bottom: 0.3px solid rgb(238, 233, 233);
+    margin-bottom: 1vw; */
+}
+
+.itemIconContainer {
+  display: flex;
+  gap: 8%;
+  padding: 1rem 1.5rem;
+  flex-wrap: wrap;
+}
+
+.itemIcon {
+  width: 46%;
+  cursor: pointer;
+}
+
+.MiddleContentLeftop {
+  padding: 0.5rem 1.5rem;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.MiddleContentLeftop p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 17px;
+  /* identical to box height */
+  margin-bottom: 0 !important;
+  color: #436dfa;
+  cursor: pointer;
+}
+/* ----------------InsCareerCard----------------------- */
+.insCareerCardInner {
+  position: relative;
+}
+.insCareerCard {
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0.75rem;
+  padding: 0.5rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.insCareerCard > img {
+  height: 4.75rem;
+}
+
+.insCareerCardsubject {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.85rem;
+  line-height: 16px;
+  margin-bottom: 0.15rem !important;
+
+  color: #121212;
+}
+
+.insCareerCarddept {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.85rem;
+  line-height: 18px;
+  margin-bottom: 0.15rem !important;
+
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.insCareerCarddesig {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 18px;
+  margin-bottom: 0.15rem !important;
+
+  color: rgba(18, 18, 18, 0.6);
+}
+
+.insCareerCardtext {
+  flex: 1;
+}
+
+/* ----------------InsCareerCard----------------------- */
+
+.dots {
+  height: 1.3rem !important;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.menudots {
+  height: 1.3rem !important;
+  position: absolute;
+  cursor: pointer;
+  right: 0.5rem;
+  top: 0.75rem;
+  z-index: 20;
+}

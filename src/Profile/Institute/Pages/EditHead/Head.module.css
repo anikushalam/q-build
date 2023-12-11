@@ -1,0 +1,40 @@
+.main {
+  width: 61.493vw;
+  height: 20vw;
+  background-color: #d9d9d9;
+  border-top-left-radius: 0.366vw;
+  border-top-right-radius: 0.366vw;
+  display: flex;
+  position: relative;
+}
+.imageJustify {
+  position: relative;
+  z-index: 1;
+  height: 20vw;
+}
+.justifyWhite {
+  height: 20vw;
+}
+
+.imageJustify1 {
+  width: 41.507vw;
+  height: 20vw;
+  position: absolute;
+  left: 0;
+}
+
+.imageJustify2 {
+  position: absolute;
+  width: 33.382vw;
+  height: 20vw;
+  right: 0;
+}
+.imgedit {
+  position: relative;
+  width: 2.343vw;
+  height: 2.343vw;
+  margin-left: 57.833vw;
+  margin-top: -6.442vw;
+  z-index: 10;
+  cursor: pointer;
+}

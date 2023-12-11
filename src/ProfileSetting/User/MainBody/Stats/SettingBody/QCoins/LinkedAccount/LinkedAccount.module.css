@@ -1,0 +1,27 @@
+.linkedAccount {
+  background: #ffffff;
+  width: 100%;
+
+  padding: 2vw 5vw;
+  display: grid;
+  place-items: center;
+  height: 60vh;
+}
+
+.linkBtn {
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  background: #1c023b;
+  border-radius: 6px;
+  padding: 0.5vw;
+  width: 100%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 19px;
+
+  color: #ffffff;
+}

@@ -1,0 +1,119 @@
+.grquery_container {
+  width: 100%;
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+  border-radius: 6px;
+  padding-bottom: 2vw;
+  min-height: 75vh;
+  padding: 1rem;
+}
+.with_search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.with_search > h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(18, 18, 18, 0.9);
+  margin-bottom: 0;
+}
+.query_card {
+  width: 100%;
+  min-height: 66px;
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 12px;
+  font-family: "Inter";
+  font-style: normal;
+  padding: 1rem;
+  margin-top: 0.7rem;
+}
+
+.query_card_head {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  gap: 1.5rem;
+}
+.query_card_text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.query_card_head > img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+.query_card_text > h6 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #121212;
+  margin-bottom: 0.2rem;
+}
+
+.query_card_content {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: rgba(18, 18, 18, 0.8);
+  margin-top: 1rem;
+  white-space: break-spaces;
+}
+
+.button_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2%;
+}
+.reject_btn,
+.reject_btn:focus {
+  width: 49%;
+  height: 34px;
+  background: #dd2e44;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  color: #ffffff;
+  border: none;
+  outline: transparent;
+}
+.approve_btn,
+.approve_btn:focus {
+  width: 49%;
+  height: 34px;
+  background: #001a72;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  color: #ffffff;
+  border: none;
+  outline: transparent;
+}
+.query_date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.query_date > p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(18, 18, 18, 0.5);
+  margin-bottom: 0 !important;
+}

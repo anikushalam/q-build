@@ -1,0 +1,52 @@
+.listItem {
+  display: flex;
+  justify-content: flex-start;
+  gap: 3rem;
+  padding: 0.5vw;
+  margin: 0 1.5vw;
+  cursor: pointer;
+  align-items: center;
+}
+.listItemLeft {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.listItemLeft p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 17px;
+  color: #121212;
+  margin-bottom: 0 !important;
+}
+.listItemLeft img {
+  height: 2.5vw;
+  width: 2.5vw;
+  border-radius: 50%;
+}
+
+.listItemRight img {
+  height: 1.2vw;
+}
+.subject_atendance {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+.subject_atendance > h5 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #121212;
+  margin: 0;
+}
+.subject_atendance > h6 {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  color: rgba(18, 18, 18, 0.5);
+  margin-bottom: 0.2rem !important;
+}

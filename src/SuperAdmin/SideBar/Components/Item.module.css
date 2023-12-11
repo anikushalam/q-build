@@ -1,0 +1,36 @@
+.item {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 1vw;
+  margin-top: 1vw;
+  width: 100%;
+  padding: 0.3vw 0 0.5vw 0;
+}
+
+.item img {
+  height: 1.7vw;
+  margin-top: -0.5vw;
+}
+
+.item h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2vw;
+  line-height: 19px;
+
+  color: #121212;
+}
+
+.item:hover {
+  background-color: #f5f0f6;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 920px) {
+  .item img {
+    height: 2.7vw;
+    margin-top: -0.5vw;
+  }
+}

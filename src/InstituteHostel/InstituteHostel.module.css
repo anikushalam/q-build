@@ -1,0 +1,288 @@
+.navbarr {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 100;
+  background-color: white !important;
+}
+
+.mainbody {
+  display: flex;
+  padding: 3vh 9.5vw 1vw 9vw;
+  background-color: #f5f5f5;
+  min-height: 80vh;
+  padding-bottom: 2vh;
+  gap: 1vw;
+  justify-content: center;
+}
+
+.sidebar {
+  width: 26%;
+}
+
+.rightbody {
+  width: 100%;
+}
+.admission_tab_tabs {
+  display: flex;
+  flex-direction: row;
+}
+
+.rightbody {
+  width: 61.493vw;
+  min-height: 15.943vw;
+  background-color: #ffffff;
+  border: 0.037vw solid #cacaca;
+  border-radius: 0.439vw;
+}
+
+.item {
+  width: 100%;
+  display: flex;
+  gap: 4vw;
+  align-items: center;
+  cursor: pointer;
+  justify-content: flex-start;
+  margin-top: 3vw;
+  padding-left: 2.5vw;
+}
+
+.itemIcon > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 17px;
+  margin-bottom: 0 !important;
+  color: #121212;
+}
+.itemIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 11vw;
+  height: 11vw;
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 12px;
+  gap: 2vw;
+}
+
+.itemIcon > img {
+  height: 3.5vw;
+  width: 3.5vw;
+}
+.itemIcon:hover {
+  background: rgba(75, 26, 133, 0.1);
+}
+
+/* for fund related css  */
+.funds2 {
+  margin-top: 1vw;
+}
+.fundscontent {
+  display: flex;
+  flex-direction: column;
+  padding: 1vw 4vw;
+  margin-top: 0.8vw;
+}
+.sidebarbottomitem {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  margin-bottom: 1vw;
+}
+.sidebarbottomitem p {
+  margin-bottom: 0.3vw !important;
+}
+.sidebarbottomitem img {
+  height: 46px;
+  width: 46px;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
+.namee {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: var(--font-size-18);
+  line-height: 17px;
+  color: #121212;
+}
+
+.desig {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--font-size-14);
+  line-height: 17px;
+  color: #121212;
+}
+
+.balanceItem {
+  margin-top: 0.3cw;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5vw 0;
+}
+.balanceItem p {
+  margin-bottom: 0 !important;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font-size-14);
+  line-height: 17px;
+  color: #000000;
+}
+
+.fundbtn {
+  margin-top: 2vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font-size-14);
+  line-height: 17px;
+  cursor: pointer;
+  padding: 0.5vw;
+  display: grid;
+  place-items: center;
+  background: rgba(0, 26, 114, 0.15);
+  border: 1px solid #001a72;
+  border-radius: 6px;
+  color: #001a72;
+  border-radius: 0.586vw;
+}
+.institute_hostel_container {
+  padding: 1rem;
+}
+.institute_hostel_container_border {
+  width: 100%;
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+  border-radius: 6px;
+  padding-bottom: 2vw;
+  min-height: 75vh;
+  padding: 1rem;
+}
+.institute_hostel_title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #121212;
+}
+
+.hostel_warden_card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  min-height: 66px;
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 12px;
+  font-family: "Inter";
+  font-style: normal;
+  gap: 1.5rem;
+  padding: 0 1rem;
+  margin-top: 0.7rem;
+}
+
+.hostel_warden_card > img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+.warden_card_text > h6 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #121212;
+  margin-bottom: 0.2rem;
+}
+.warden_card_text > p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(18, 18, 18, 0.5);
+  margin-bottom: 0.2rem !important;
+}
+
+.with_search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.with_search > h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(18, 18, 18, 0.9);
+  margin-bottom: 0;
+}
+
+.search_container {
+  margin: 0;
+  display: flex;
+}
+
+.search_container_input {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search_container_input > input,
+.search_container_input > input:focus {
+  min-width: 400px;
+  height: 40px;
+  background: #ffffff;
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  border: 0.029vw solid rgba(0, 0, 0, 0.15);
+  padding-left: 3.075vw;
+  outline: transparent;
+}
+
+.searchIcon {
+  position: absolute;
+  margin-left: 1.3vw;
+  width: 1.5vw;
+  top: 28%;
+}
+.student_cerfificate_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.student_issued_btn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font-size-14);
+  line-height: 17px;
+  cursor: pointer;
+  padding: 0.5vw;
+  padding-inline: 2rem;
+  display: grid;
+  place-items: center;
+  background: rgba(0, 26, 114, 0.15);
+  border: 1px solid #001a72;
+  border-radius: 6px;
+  color: #001a72;
+  border-radius: 0.586vw;
+}

@@ -1,0 +1,133 @@
+.viewReport {
+  background-color: white;
+}
+
+.header {
+  background-color: white;
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+  border-radius: 6px;
+}
+
+.headertop {
+  padding: 0.5vw 1vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.15);
+}
+
+.headertop h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.1vw;
+  line-height: 29px;
+  /* identical to box height */
+  margin-bottom: 0 !important;
+  color: #121212;
+}
+
+.headertop p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9vw;
+  line-height: 15px;
+  /* identical to box height */
+  margin-bottom: 0 !important;
+  cursor: pointer;
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.headerbottom {
+  display: flex;
+}
+.border {
+  height: 100%;
+  background-color: black;
+  width: 1px;
+}
+
+.headerbottomleft {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1vw;
+  border-right: 0.5px solid rgba(0, 0, 0, 0.15);
+}
+.headerbottomleft img {
+  height: 5vw;
+  width: 5vw;
+  border-radius: 50%;
+
+  margin-bottom: 1vw;
+}
+.headerbottomleft h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.95vw;
+  line-height: 19px;
+
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.headerbottomleft p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.85vw;
+  line-height: 15px;
+  /* identical to box height, or 107% */
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.headerbottomright {
+  width: 70%;
+  padding: 1vw;
+}
+.headerbottomright p {
+  margin-bottom: 0 !important;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8vw;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.5);
+}
+.headerbottomright h6 {
+  margin-bottom: 0 !important;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.rightItem {
+  margin-top: 0.3vw;
+  justify-content: space-between;
+  display: flex;
+  gap: 1vw;
+}
+.itemdiv {
+  width: 40%;
+  border-bottom: 0.6px solid rgba(0, 0, 0, 0.15);
+  padding: 0.3vw;
+}
+.itemfirst {
+  display: flex;
+  gap: 0.3vw;
+  align-items: center;
+  cursor: pointer;
+}

@@ -1,0 +1,47 @@
+.eachItem {
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+  width: 100%;
+  padding: 1vw;
+  border-bottom: 0.3px solid rgb(237, 225, 225);
+}
+
+.eachItem .eachItemleft {
+  width: 88%;
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+}
+.eachItem .text {
+  width: 10%;
+}
+.eachItemleft img {
+  height: 2.7vw;
+  width: 2.7vw;
+  border-radius: 50%;
+}
+.eachItemleft p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.95vw;
+  line-height: 18px;
+  margin-top: -0.5vw;
+  /* text-transform: lowercase; */
+  margin-bottom: 0.3vw !important;
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.eachItem .text p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8vw;
+  line-height: 15px;
+  /* identical to box height */
+
+  text-transform: lowercase;
+
+  color: rgba(18, 18, 18, 0.5);
+}

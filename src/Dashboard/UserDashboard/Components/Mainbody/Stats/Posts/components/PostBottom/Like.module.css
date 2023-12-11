@@ -1,0 +1,28 @@
+.likke {
+  display: flex;
+  gap: 0.5vw;
+  align-items: center;
+}
+
+.likeImage {
+  cursor: pointer;
+  height: 1.5vw !important;
+}
+.bookmarkImage {
+  height: 1.15vw !important;
+}
+/* .likecount {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.878vw;
+  line-height: 132%;
+  color: rgba(18, 18, 18, 0.7);
+  margin-bottom: 0 !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .likecount {
+    font-size: 0.878vw;
+  }
+} */

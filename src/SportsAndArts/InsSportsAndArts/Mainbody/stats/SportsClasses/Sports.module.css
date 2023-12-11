@@ -1,0 +1,68 @@
+.clases {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1vw;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.025vw;
+  line-height: 1.245vw;
+  cursor: pointer;
+  color: #436dfa;
+  border-bottom: 0.1px solid rgba(0, 0, 0, 0.15);
+}
+.sports {
+  width: 100%;
+  min-height: 28vh;
+}
+
+.item {
+  padding: 1vw 4vw;
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+  border-bottom: 0.1px solid rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.item:hover {
+  background: rgba(75, 26, 133, 0.1);
+}
+
+.item p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9vw;
+  line-height: 17px;
+  /* identical to box height */
+  margin-bottom: 0;
+  color: #121212;
+}
+
+.loader {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.loader > img {
+  height: 55px;
+  width: 55px;
+}
+.noData {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  border-radius: 6px;
+  background-color: white;
+}
+.noData img {
+  height: 30vw;
+  width: 30vw;
+}
+
+.stafImg {
+  height: 2vw;
+  border-radius: 50%;
+}

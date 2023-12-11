@@ -1,0 +1,63 @@
+.main {
+  width: 61.493vw;
+  height: 18.521vw;
+  background-color: #d9d9d9;
+  border-top-left-radius: 0.366vw;
+  border-top-right-radius: 0.366vw;
+  display: flex;
+  position: relative;
+}
+.imageJustify {
+  position: relative;
+  z-index: 1;
+  height: 18.521vw;
+}
+
+.justifyWhite {
+  height: 18.521vw;
+}
+
+.imageJustify1 {
+  /* width: 41.507vw; */
+  height: 18.521vw;
+  position: absolute;
+  left: 0;
+}
+
+.nameAndAbout {
+  width: 29.283vw;
+  margin-top: -15vw;
+  padding-left: 2.782vw;
+  position: relative;
+}
+.name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.635vw;
+  line-height: 2.977vw;
+  min-height: 2vw;
+  color: #ffffff;
+}
+
+.about {
+  width: 23.572vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.025vw;
+  line-height: 1.391vw;
+  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 0.7);
+  /* height: 15vw; */
+
+  overflow: hidden;
+  text-overflow: ellipsis !important;
+}
+
+.imageJustify2 {
+  position: absolute;
+  width: 33.382vw;
+  height: 18.521vw;
+  right: 0;
+}

@@ -1,0 +1,259 @@
+.searchModal {
+  width: 30vw;
+  padding: 1rem 0.5rem 1rem 0.5rem;
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+  box-shadow: -2px 0px 12px rgba(0, 0, 0, 0.15),
+    2px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.searchheader {
+  display: flex;
+  gap: 0.5vw;
+  border-bottom: 0.1px solid rgb(210, 205, 205);
+  padding-bottom: 1vw;
+}
+
+.leftImg {
+  width: 2.2vw;
+  cursor: pointer;
+}
+.searchIcon {
+  width: 1.5vw;
+}
+
+.searchbar {
+  position: relative;
+  flex: 1;
+}
+
+.searchbar > input {
+  height: 3vw;
+  background: rgba(28, 2, 59, 0.07);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.04);
+  border: none;
+  border-radius: 6px;
+  /* width: 18vw; */
+  padding-left: 45px;
+  position: relative;
+  outline: none;
+}
+
+.searchbar > input::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #888888;
+}
+.searchbar > img {
+  position: absolute;
+  left: 3%;
+
+  bottom: 27%;
+}
+.searchbar > img:hover {
+  cursor: pointer;
+}
+
+.titles,
+.searchItem {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titles {
+  /* margin-top: 1vw; */
+  padding: 1vw;
+}
+.titles p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  cursor: pointer;
+  /* identical to box height */
+
+  color: #888888;
+}
+
+.searchItem {
+  padding: 0.5vw 1vw;
+  cursor: pointer;
+}
+
+.searchItemLeft {
+  display: flex;
+  gap: 0.3vw;
+  align-items: center;
+}
+
+.searchItemLeft p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.searchItemLeft img {
+  height: 1.8vw;
+  margin-top: -1vw;
+}
+
+.recentIcon {
+  height: 1.3vw;
+  margin-top: -1vw;
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 5vh;
+  padding: 0.5vw 1vw;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+}
+.tabItem {
+  background: #1c023b;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5vw 1vw 0 1vw;
+  width: 25%;
+  color: white;
+}
+
+.footer p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1vw;
+  line-height: 19px;
+
+  color: #000000;
+}
+
+.tabItem p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.9vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.searchResult {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5vw 1vw;
+  cursor: pointer;
+}
+
+.searchResultLeft {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+.searchResultLeft img {
+  height: 2.5vw;
+  margin-top: -1vw;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.searchResultLeft h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.9vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-transform: lowercase;
+
+  color: #121212;
+}
+
+.searchResultLeft p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8vw;
+  line-height: 17px;
+  /* identical to box height */
+  margin-top: -0.3vw;
+  text-transform: capitalize;
+
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.connectBtn {
+  padding: 0.3vw 1vw;
+  border: 0.805556px solid #1c023b;
+  border-radius: 3.22222px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.9vw;
+  line-height: 15px;
+  /* identical to box height, or 136% */
+
+  color: #1c023b;
+}
+
+.connectBtn:hover {
+  background: #1c023b;
+  border-radius: 3.22222px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.9vw;
+  line-height: 15px;
+  /* identical to box height, or 136% */
+
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1280px) {
+  .searchResultLeft p {
+    margin-top: -0.5vw;
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+  .searchResultLeft p {
+    margin-top: -0.8vw;
+    font-size: 1vw;
+  }
+  .searchResultLeft h6 {
+    font-size: 1.1vw;
+  }
+  .searchResultLeft img {
+    height: 3.2vw;
+    margin-top: -1.5vw;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .searchResultLeft p {
+    margin-top: -1vw;
+  }
+}

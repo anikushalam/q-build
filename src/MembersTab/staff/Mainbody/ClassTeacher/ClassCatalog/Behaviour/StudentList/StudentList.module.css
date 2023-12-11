@@ -1,0 +1,37 @@
+.studentList {
+  min-height: 25vh;
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+  border-radius: 6px;
+  display: flex;
+  gap: 0.5vw;
+  flex-wrap: wrap;
+  padding: 2vw 1.5vw;
+  /* overflow-y: scroll; */
+}
+
+.box {
+  width: 3vw;
+  height: 3vw;
+  background-color: #e9ecf7;
+  border-radius: 5px;
+  display: grid;
+  color: #121212;
+  place-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 19px;
+  text-align: justify;
+  cursor: pointer;
+}
+
+.green {
+  background-color: #20b038;
+}
+
+.purple {
+  background-color: #1c023b;
+  color: white;
+}

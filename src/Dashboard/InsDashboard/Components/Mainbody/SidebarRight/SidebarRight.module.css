@@ -1,0 +1,59 @@
+.SidebarRight {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 1.287vw;
+}
+
+.department,
+.staff,
+.students,
+.elearning,
+.admission,
+.finance,
+.library,
+.sports {
+  /* width: 47%; */
+  cursor: pointer;
+
+  width: 29.5%;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.qviple_about {
+  margin-top: 27px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.qviple_about > p {
+  font-family: var(--font-family);
+  font-style: var(--font-style-normal);
+  margin: 0;
+  font-weight: var(--font-weight-400);
+  font-size: var(--font-size-12);
+  letter-spacing: 0.7px;
+  line-height: 20px;
+  text-align: center;
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.qviple_about > p > span:first-child {
+  margin-right: 20px;
+}
+
+.qviple_logo {
+  display: flex;
+}
+
+.qviple_logo > img {
+  margin-left: 3px;
+  margin-right: 3px;
+}

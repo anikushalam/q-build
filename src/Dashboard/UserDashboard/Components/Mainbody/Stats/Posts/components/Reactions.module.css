@@ -1,0 +1,66 @@
+.viewComments {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.85vw;
+  line-height: 132.5%;
+  margin-top: 0.3vw;
+  cursor: pointer;
+  color: #1c023b;
+  background: rgba(75, 26, 133, 0.1);
+  border-radius: 4px;
+  padding: 0.4vw;
+}
+
+/* //for bottom icon and sylye */
+.questionBottom {
+  display: flex;
+  flex-direction: column;
+  padding: 1vw;
+}
+.questionBottomBorder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.4px solid rgba(0, 0, 0, 0.12);
+}
+.questionBottomBorder > p {
+  margin-bottom: 0.6vw !important;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.878vw;
+  line-height: 1.025vw;
+  color: rgba(18, 18, 18, 0.5);
+}
+.pollVote {
+  font-weight: 500 !important;
+  font-size: 0.9vw !important;
+  color: rgba(18, 18, 18, 0.8) !important;
+}
+.questionBottomIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0.963vw;
+  justify-content: space-between;
+}
+
+.questionBottomIconOne > p {
+  margin-bottom: 0 !important;
+}
+
+.questionBottomIconOne {
+  display: flex;
+  align-items: center;
+  gap: 0.5vw;
+  cursor: pointer;
+}
+
+.questionBottomIconOne > img {
+  height: 1.3vw;
+}
+.answerIcon {
+  cursor: pointer;
+}

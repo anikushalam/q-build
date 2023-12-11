@@ -1,0 +1,149 @@
+.select select {
+  height: 30px;
+  width: 105px;
+  font-size: 1vw;
+  border: none;
+  padding: 3px;
+  font-size: 12px;
+  border-radius: 6px;
+}
+
+.select select:focus {
+  border: 1px solid rgb(245, 238, 238);
+  outline: 1px solid rgb(245, 238, 238);
+}
+.select {
+  position: relative;
+}
+
+.arrow {
+  background-color: white;
+  width: 30%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.arrowIcon {
+  position: absolute;
+  right: 13%;
+  top: 32%;
+  height: 0.4vw;
+}
+
+.select:hover {
+  cursor: pointer;
+}
+
+/* ----------------selector-------------------------- */
+
+.selector {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+  padding: 0px 45px;
+  margin-top: 1vw;
+}
+
+.selector p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+
+  color: #121212;
+}
+
+.selectIcon {
+  position: absolute;
+  top: 8px;
+  right: 22px;
+  height: 17px;
+  display: none;
+}
+
+.list {
+  width: 100%;
+
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  position: absolute;
+  top: 45px;
+  z-index: 10;
+  padding: 0;
+}
+.divider {
+  width: 100%;
+  color: black;
+  height: 1px;
+}
+
+.options {
+  width: 100%;
+  cursor: pointer;
+  list-style: none;
+  box-sizing: border-box;
+  padding: 0.7rem;
+}
+
+.options p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8vw;
+  line-height: 15px;
+
+  color: #121212;
+}
+
+/* .options:nth-of-type(1) {
+  padding-top: 1rem;
+} */
+.options:hover {
+  background: rgba(0, 26, 114, 0.15);
+}
+
+.listDisplay {
+  display: none;
+}
+
+.triangle {
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  z-index: 20;
+  border-bottom: 10px solid white;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+}
+.triangleDisplay {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .selector p {
+    font-size: 1.4vw;
+
+    color: #121212;
+  }
+  .arrowIcon {
+    position: absolute;
+    right: 18%;
+    top: 35%;
+    height: 0.5vw;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .selector p {
+    font-size: 1.4vw;
+  }
+  .arrowIcon {
+    position: absolute;
+    right: 18%;
+    top: 35%;
+    height: 0.5vw;
+  }
+}

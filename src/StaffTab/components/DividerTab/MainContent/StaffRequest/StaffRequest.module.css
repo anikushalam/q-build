@@ -1,0 +1,90 @@
+.requestParent {
+  border: 0.5px solid #cacaca;
+  border-radius: 5px;
+  margin-top: 1.5vw;
+  background: #ffffff;
+  min-height: 59.1vh;
+}
+
+.StaffRequestContainer {
+  margin: 0;
+  width: 840px;
+  margin-bottom: 1vw;
+}
+
+.requestParentTop {
+  padding: 1vw;
+}
+.requestAction {
+  background-color: rgba(67, 109, 250, 1);
+  color: #ffffff;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 1vw;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.requestStudent {
+  display: flex;
+  align-items: center;
+  padding: 0.75vw 1vw;
+  justify-content: space-between;
+  border-bottom: 0.037vw solid rgba(18, 18, 18, 0.15);
+  cursor: pointer;
+}
+.requestStudent:hover {
+  background-color: rgba(75, 26, 133, 0.1);
+}
+.requestStudentActive {
+  background: rgba(75, 26, 133, 0.1);
+}
+
+.requestStudentChild {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+.requestStudentChild > img {
+  width: 2.5vw;
+  height: 2.5vw;
+  border-radius: 50%;
+}
+
+.applyDate {
+  min-width: 55px;
+  height: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: lowercase;
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.applyNameDate {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.applyNameDate p {
+  margin-bottom: 0;
+}
+.applyName {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 17px;
+  margin-bottom: 0.25vw !important;
+  color: rgba(18, 18, 18, 0.8);
+}
+.borderBottom {
+  width: 40.41vw;
+  margin-top: 5px;
+  height: 0px;
+  border: 0.037vw solid rgba(18, 18, 18, 0.15);
+}

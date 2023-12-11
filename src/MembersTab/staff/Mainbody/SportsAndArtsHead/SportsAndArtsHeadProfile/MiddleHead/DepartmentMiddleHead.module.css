@@ -1,0 +1,261 @@
+.main {
+  width: 100%;
+  height: 10vw;
+  background-color: #fff;
+  border-top-left-radius: 0.366vw;
+  border-top-right-radius: 0.366vw;
+  display: flex;
+  position: relative;
+}
+
+.main {
+  width: 100%;
+  height: 10vw;
+  background-color: #fff;
+  border-top-left-radius: 0.366vw;
+  border-top-right-radius: 0.366vw;
+  display: flex;
+  position: relative;
+}
+
+.coverImg {
+  height: 100%;
+  margin-left: -0.48vw;
+  border-radius: 0.75vw;
+  width: 30%;
+}
+
+.coverImgg {
+  height: 100%;
+  border-radius: 0.5vw;
+  width: 30%;
+}
+
+.deptPhoto {
+  position: absolute;
+  top: 20%;
+  left: 26%;
+}
+
+.textContainer {
+  margin-left: 7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0.5vw 0 0.5vw 0;
+}
+
+.textTop h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.318vw;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: left;
+
+  color: #121212;
+}
+
+.textTop p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.021vw;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  text-align: left;
+
+  color: #121212;
+}
+
+.textBottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 2vw;
+}
+
+.textBottomitem h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.464vw;
+  line-height: 27px;
+
+  text-align: center;
+  color: #121212;
+}
+
+.textBottomitem p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.952vw;
+  line-height: 16px;
+
+  text-align: center;
+  color: #121212;
+}
+
+/* .imageJustify {
+  position: relative;
+  z-index: 1;
+  height: 20vw;
+}
+
+.justifyWhite {
+  height: 20vw;
+}
+
+.imageJustify1 {
+  width: 41.507vw;
+  height: 20vw;
+  position: absolute;
+  left: 0;
+}
+
+.nameAndAbout {
+  width: 35.283vw;
+  margin-top: -19.5vw;
+  padding-left: 2.782vw;
+  height: 17.8vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nameAndAboutTop {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 2.05vw;
+}
+.nameAndAboutText {
+  margin-left: 1.955vw;
+}
+.nameAndAboutText p {
+  margin-top: 1.5vw;
+}
+
+.nameAndAboutText p:last-child {
+  margin-top: 1vw;
+}
+.nameAndAbout img {
+
+  border-radius: 50%;
+  position: unset;
+}
+.name {
+  width: 21.376vw;
+
+  min-height: 1.515vw;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.977vw;
+  color: #ffffff;
+  margin-bottom: 3vw;
+}
+.name > span {
+  font-size: 2.635vw;
+}
+.name {
+  font-size: 1.098vw;
+}
+.about {
+  width: 23.572vw;
+  margin-top: -5vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.025vw;
+  line-height: 1.391vw;
+  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 0.7);
+  height: 15vw;
+
+  overflow: hidden;
+  text-overflow: ellipsis !important;
+}
+
+.imageJustify2 {
+  position: absolute;
+  width: 33.382vw;
+  height: 20vw;
+}
+
+.bottomDivRight {
+
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.bottomOneItem > p {
+  margin: 0;
+}
+.bottomOneItem {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bottomOneItemMargin {
+  margin-left: 1vw;
+}
+
+.bottomOneItem2 {
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+}
+
+.bottomOneItem2 img {
+  height: 3vw;
+  border-radius: 50%;
+}
+
+.bottomCounth6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 17px;
+  margin-bottom: 0.3vw;
+  color: #ffffff;
+}
+
+.bottomCount {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.611vw;
+  line-height: 1.977vw;
+  color: #ffffff;
+  margin-bottom: 0 !important;
+}
+.bottomText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.952vw;
+  line-height: 1.171vw;
+  color: #ffffff;
+  margin-bottom: 0 !important;
+}
+
+.bottomHeadTitle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.8vw;
+}
+
+.bottomHeadTitle > img {
+  height: 3.075vw;
+  width: 3.075vw;
+} */

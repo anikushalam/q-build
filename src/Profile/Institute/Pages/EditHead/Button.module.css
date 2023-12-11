@@ -1,0 +1,27 @@
+.container {
+  width: 90%;
+  height: 3.441vw;
+  background-color: rgba(75, 26, 133, 0.1);
+  border-radius: 0.439vw;
+  margin: 1.5vw 3.028vw 0 3.028vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.container:hover,
+.container:focus {
+  background-color: #1c023b;
+  color: #ffffff;
+}
+.container div {
+  /* width: 10.981vw; */
+  height: 1.391vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.171vw;
+  line-height: 1.391vw;
+}

@@ -1,0 +1,19 @@
+.CircularProgressbar .CircularProgressbar-path {
+  stroke: #ff7d05;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.5s ease 0s;
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+  fill: #000;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.1vw;
+  line-height: 23px;
+  /* identical to box height, or 129% */
+
+  text-align: center;
+
+  color: #000000;
+}

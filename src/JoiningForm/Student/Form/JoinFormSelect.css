@@ -1,0 +1,35 @@
+.form_select_container {
+  display: inline-block;
+  min-width: 250px;
+  text-align: center;
+  position: relative;
+}
+
+.form_selected_text {
+  background-color: #a6bebe;
+  padding: 6px 20px;
+  border-bottom: 1px solid #42163b;
+}
+.form_select_container > ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.form_select_options {
+  position: absolute;
+  width: 100%;
+}
+
+.form_select_options > li {
+  list-style-type: none;
+  padding: 6px 20px;
+  background: #51a30f;
+  border-bottom: 1px solid #323636;
+  cursor: pointer;
+}
+
+.form_select_options > li:hover {
+  background-color: #2e4141;
+  color: #ffffff;
+}

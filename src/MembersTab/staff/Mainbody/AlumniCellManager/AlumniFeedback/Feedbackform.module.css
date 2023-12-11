@@ -1,0 +1,251 @@
+.prominentform {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.addbooktop {
+  padding: 0.75rem 1.5rem;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addbooktop > img {
+  height: 1rem;
+  cursor: pointer;
+}
+
+.addbooktop > h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 19px;
+  text-align: center;
+  margin-bottom: 0 !important;
+  color: #121212;
+}
+
+.addbookform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+}
+
+.profilephotocontainer {
+  position: relative;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.userLogo {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+}
+
+.userLogo2 {
+  height: 6rem;
+}
+
+.cloose {
+  height: 1rem;
+  position: absolute;
+  top: -0.55rem;
+  right: -1rem;
+  cursor: pointer;
+}
+
+.cloos2 {
+  position: absolute;
+  height: 2rem;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.labelspan {
+  color: #ed4a4a;
+}
+
+.upload {
+  display: none;
+}
+
+.peventinputContainer {
+  margin-bottom: 0.75rem;
+  width: 100%;
+}
+
+.item .select {
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.6rem;
+  cursor: pointer;
+}
+
+.select p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 17px;
+  /* identical to box height */
+  margin-top: 10px;
+
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.selectclass {
+  height: 1.2vw;
+}
+
+.peventlefttopflex {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.peventlefttopflexleft {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+
+.selectBtn {
+  padding: 0.3vw 1vw;
+  background-color: #436dfa;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9vw;
+  line-height: 19px;
+  margin-top: 0.2vw;
+  margin-bottom: 0 !important;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.createEvent {
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 0.23rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.peventlefttop {
+  padding: 0.75rem;
+  border-bottom: 0.5px solid #c4c4c4;
+}
+
+.peventlefttop,
+.peventlefttop > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin-bottom: 0;
+  line-height: 19px;
+
+  color: #121212;
+}
+
+.peventlefttopflexleft {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.peventlefttopflexleft > img {
+  cursor: pointer;
+}
+
+.peventlefttopflex {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.peventlefttopflexleft {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+
+.selectBtn {
+  padding: 0.3vw 1vw;
+  background-color: #436dfa;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9vw;
+  line-height: 19px;
+  margin-top: 0.2vw;
+  margin-bottom: 0 !important;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.selectDeptt {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 17px;
+  margin-bottom: 0.3rem;
+  color: rgba(18, 18, 18, 0.8);
+}
+
+/* --------------Button--------------------  */
+.button_main {
+  width: 100%;
+  min-height: 3vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5vw;
+  background: #1c023b;
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.06);
+  border-radius: 6px;
+  margin: 0;
+  outline: none;
+  border: none;
+}
+.button_main:focus {
+  outline: none;
+}
+.button_main > span {
+  font-family: var(--font-family);
+  font-style: var(--font-style-normal);
+  color: #ffffff;
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-16);
+}
+
+.addbtn {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.addbtn > img {
+  height: 1.3rem;
+  cursor: pointer;
+}

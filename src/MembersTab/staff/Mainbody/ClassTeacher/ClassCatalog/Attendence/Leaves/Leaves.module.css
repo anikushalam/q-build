@@ -1,0 +1,124 @@
+.leaves {
+  width: 35vw;
+
+  margin-top: 1vw;
+}
+
+.leavesHead {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #121212;
+}
+
+.leaveCardContainer {
+  height: 55vh;
+  overflow-y: scroll;
+}
+
+.leaveCardContainer::-webkit-scrollbar {
+  width: 4px !important;
+}
+
+.leaveCardContainer::-webkit-scrollbar-track {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.leaveCard {
+  width: 100%;
+  padding: 1vw;
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 6px;
+  margin-bottom: 0.5vw;
+}
+
+.leaveCardTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leaveCardTopLeft {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+.leaveCardTopLeft img {
+  height: 3vw;
+  width: 3vw;
+  border-radius: 5px;
+}
+
+.leaveCardTopRight {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+.leaveCardTopLeftRight h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.leaveCardTopLeftRight p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9vw;
+  line-height: 15px;
+  /* identical to box height */
+  margin-bottom: 0 !important;
+  color: #000000;
+}
+
+.rightbtnleft {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9vw;
+  line-height: 15px;
+  /* identical to box height, or 107% */
+  cursor: pointer;
+
+  color: #1c023b;
+}
+
+.rightbtnright {
+  background: #1c023b;
+  border-radius: 0.3vw;
+  padding: 0.4vw 0.8vw;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9vw;
+  line-height: 15px;
+  /* identical to box height, or 109% */
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.leaveCardbottom {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.85vw;
+  line-height: 15px;
+  margin-top: 1vw;
+  color: rgba(18, 18, 18, 0.6);
+}

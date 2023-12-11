@@ -1,0 +1,19 @@
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000000s ease-in-out 0s !important;
+  outline: none !important;
+}
+
+input:focus {
+  outline: 0 !important;
+}
+
+textarea:focus {
+  outline: none !important;
+}
+
+select:focus {
+  outline: none !important;
+}

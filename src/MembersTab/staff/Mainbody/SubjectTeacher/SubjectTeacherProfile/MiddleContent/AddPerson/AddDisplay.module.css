@@ -1,0 +1,126 @@
+.addDisplay {
+  width: 600px;
+  padding: 2rem;
+  background: #fafafa;
+  border-radius: 12px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #121212;
+}
+.title img {
+  cursor: pointer;
+}
+
+.content {
+  padding-top: 50px;
+}
+
+.item label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 17px;
+
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.item input {
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px;
+}
+
+.item input::placeholder {
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 17px !important;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.5) !important;
+}
+
+.item1 {
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.item1 .select {
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  width: 100%;
+  display: flex;
+  position: relative !important;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9px 1vw;
+  cursor: pointer;
+}
+
+.select p {
+  margin-bottom: 0;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 17px !important;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.5) !important;
+}
+
+.btn {
+  width: 100%;
+  padding: 5px;
+  display: grid;
+  place-items: center;
+  background: rgba(75, 26, 133, 0.1);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 6px;
+  margin-top: 5rem;
+}
+
+.menu {
+  border: 0.5px solid #e1dede;
+  border-radius: 6px;
+}
+
+.menuItem {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 19px;
+  background: #fff;
+  color: #121212;
+  padding: 1vw 2vw;
+}
+
+.menuItem:hover {
+  background: #d3d0d0;
+}

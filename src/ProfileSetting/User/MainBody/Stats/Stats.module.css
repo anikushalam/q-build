@@ -1,0 +1,9 @@
+.stats {
+  display: flex;
+  flex-direction: column;
+}
+
+.body {
+  flex: 1;
+  margin-top: 1vw;
+}

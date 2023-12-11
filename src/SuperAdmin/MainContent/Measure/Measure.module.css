@@ -1,0 +1,11 @@
+.measure {
+  margin-top: 0.3vw;
+  background: #f5f5f5;
+  padding: 1vw 2vw;
+  position: sticky;
+  top: 10vh;
+}
+
+.firstRow {
+  width: 100%;
+}

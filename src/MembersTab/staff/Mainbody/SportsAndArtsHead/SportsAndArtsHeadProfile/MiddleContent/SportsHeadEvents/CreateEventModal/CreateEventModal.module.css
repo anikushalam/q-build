@@ -1,0 +1,238 @@
+.createEventModal {
+  max-width: 85vw;
+  min-width: 40vw;
+}
+
+.createEventModalTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw 2vw;
+}
+
+.createEventModalBody {
+  padding: 1vw 2vw;
+  max-height: 80vh;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.createEventModalBody::-webkit-scrollbar {
+  width: 4px !important;
+}
+
+.createEventModalBody::-webkit-scrollbar-track {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.item {
+  margin-bottom: 1vw;
+}
+.item label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 17px;
+
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.item input {
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.item input::placeholder {
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 17px !important;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.5) !important;
+}
+
+.input {
+  margin-top: 0.5vw;
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  padding: 0.8vw;
+  cursor: pointer;
+  margin-bottom: 2vw;
+  position: relative;
+}
+.input h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 17px;
+  /* identical to box height */
+  margin-bottom: 0 !important;
+  color: #121212;
+}
+
+.options {
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  width: 100%;
+}
+
+.option {
+  width: 100%;
+  padding: 0.5vw;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #121212;
+}
+
+.option:hover {
+  background: rgba(0, 26, 114, 0.15);
+}
+.postTextarea {
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+  padding: 0.75vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 0.5vw;
+}
+
+.postTextarea::placeholder {
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 17px !important;
+  /* identical to box height */
+  margin-bottom: 0;
+  color: rgba(18, 18, 18, 0.5) !important;
+  padding: 0.5vw !important;
+}
+
+.down {
+  position: absolute;
+  top: 1.3vw;
+  right: 1vw;
+}
+
+.up {
+  position: absolute;
+  top: 1vw;
+  right: 1vw;
+  height: 1.35vw;
+}
+
+.photoflex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addPhoto {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.blue {
+  color: #002bbe !important;
+  cursor: pointer;
+  margin-bottom: 0 !important;
+}
+
+.qImage {
+  margin-top: 1vw;
+}
+
+.upload {
+  display: none;
+}
+
+.createEventModalTop img {
+  cursor: pointer;
+}
+
+.addedImg {
+  background: #f3f0f0;
+  border: 0.5px solid rgba(0, 0, 0, 0.15);
+  padding: 0.5vw;
+  border-radius: 0.2vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 17px;
+  /* identical to box height */
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.formError {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 17px;
+  word-spacing: 2px;
+  color: red;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 2vw;
+}
+
+.btn {
+  width: 100%;
+  background: #1c023b;
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 6px;
+  padding: 0.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+  cursor: pointer;
+  border-width: 0;
+  margin-top: 1vw;
+}
+
+.btn p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 19px;
+
+  color: #fff;
+  margin: 0 !important;
+}

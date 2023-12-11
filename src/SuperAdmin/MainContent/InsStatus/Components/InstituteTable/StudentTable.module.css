@@ -1,0 +1,35 @@
+.avatar {
+  display: inline-flex;
+}
+
+.avatar > span {
+  margin: 5px 5px;
+  display: contents;
+}
+
+.avatar > img {
+  margin-right: 10px;
+}
+
+.staffText {
+  font-weight: 600;
+  font-family: "Inter";
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.viewBtn {
+  color: #ffffff;
+  letter-spacing: 0.4px;
+  background-color: #1c023b;
+  padding: 7px 15px;
+  margin-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.avatar img {
+  width: 2.5vw;
+  height: 2.5vw;
+  border-radius: 50%;
+}

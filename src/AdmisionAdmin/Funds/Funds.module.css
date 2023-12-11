@@ -1,0 +1,77 @@
+.funds2 {
+  margin-top: 1vw;
+}
+.fundscontent {
+  display: flex;
+  flex-direction: column;
+  padding: 1vw 4vw;
+  margin-top: 0.8vw;
+}
+.sidebarbottomitem {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  margin-bottom: 1vw;
+}
+.sidebarbottomitem p {
+  margin-bottom: 0.3vw !important;
+}
+.sidebarbottomitem img {
+  height: 46px;
+  width: 46px;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
+.namee {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: var(--font-size-18);
+  line-height: 17px;
+  color: #121212;
+}
+
+.desig {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--font-size-14);
+  line-height: 17px;
+  color: #121212;
+}
+
+.balanceItem {
+  margin-top: 0.3cw;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5vw 0;
+}
+.balanceItem p {
+  margin-bottom: 0 !important;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font-size-14);
+  line-height: 17px;
+  color: #000000;
+}
+
+.fundbtn {
+  margin-top: 2vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font-size-14);
+  line-height: 17px;
+  text-align: center;
+  color: #1c023b;
+  background: rgba(75, 26, 133, 0.1);
+  border: 1px solid #1c023b;
+  border-radius: 0.586vw;
+  text-align: center;
+  cursor: pointer;
+  padding: 0.5vw;
+  display: grid;
+  place-items: center;
+}

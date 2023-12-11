@@ -1,0 +1,239 @@
+.bank_detail_card {
+  min-height: 20px;
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 0.5rem 1rem;
+}
+.bank_detail_card:hover {
+  background-color: rgba(75, 26, 133, 0.1);
+}
+.bank_detail_card_heading {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+.bank_detail_card > img,
+.bank_detail_card_heading > img {
+  width: 42px;
+  height: 42px;
+}
+.bank_detail_card_inner > h6,
+.bank_detail_card_heading > h6 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #121212;
+  margin-bottom: 0.2rem;
+}
+.bank_detail_applicable > h6 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+  color: #121212;
+  margin-bottom: 0.2rem;
+}
+.bank_detail_card_inner > p,
+.bank_detail_card_heading > p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(18, 18, 18, 0.5);
+}
+.bank_detail_card_upi {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.bank_detail_card_qr > h6 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #121212;
+}
+.bank_detail_card_qr > p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(18, 18, 18, 0.8);
+}
+.bank_detail_card_upi > img {
+  width: 115px;
+  height: 115px;
+}
+.bank_detail_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1%;
+}
+.save_button,
+.save_button:focus {
+  width: 100%;
+  height: 48px;
+  background: #002bbe;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+  font-weight: var(--font-5);
+  font-size: var(--font-16);
+  line-height: 24px;
+  color: #ffffff;
+  outline: none;
+  margin-top: 1.5rem;
+}
+.applicable_btn_container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3rem;
+}
+.applicable_btn {
+  width: 50%;
+  height: 47px;
+  background: rgba(0, 26, 114, 0.15);
+  border: 1px solid #001a72;
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #001a72;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  outline: transparent;
+  padding-inline: 1.5rem;
+  cursor: pointer;
+}
+.applicable_btn > img {
+  width: auto;
+  height: 1rem;
+}
+.applicable_text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #121212;
+  margin-bottom: 0.2rem;
+}
+.applicable_text_error {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--color-input-error);
+}
+.applicable_container {
+  min-width: 30rem;
+  max-width: 35rem;
+  min-height: 10rem;
+  max-height: 35rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  margin-bottom: 1rem;
+}
+.bank_fund_container {
+  min-height: fit-content;
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 12px;
+  padding: 1.1rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.2rem;
+}
+.bank_fund {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.bank_fund > h6 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(18, 18, 18, 0.7);
+}
+.bank_fund > h5 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #121212;
+}
+
+.bank_details {
+  height: fit-content;
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 12px;
+  padding: 1.1rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.2rem;
+}
+.bank_details > h6 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #121212;
+}
+.bank_upi {
+  height: fit-content;
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  padding: 1.1rem;
+}
+.bank_qr_code {
+  height: 149px;
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+.bank_qr_code_text {
+  margin-top: -4rem;
+}
+.bank_qr_code_text > h6 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #121212;
+}
+.bank_qr_code_text > p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(18, 18, 18, 0.8);
+  margin-bottom: 0;
+}
+.bank_qr_code > img {
+  width: 115px;
+  height: 115px;
+}

@@ -1,0 +1,85 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 100;
+  background-color: white;
+}
+
+.goback_container {
+  width: 1128px;
+  margin: auto;
+  margin-top: 19px;
+  background-color: var(--tab-active-bg-color);
+  border-radius: 6px 6px 0px 0px;
+  text-decoration: none;
+}
+
+.goback_container_text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  padding: 16px 23px;
+  color: var(--tab-active-color);
+}
+.goback_container_text_go {
+  margin: 0;
+
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-18);
+  line-height: 22px;
+}
+.student_from_container {
+  width: 1128px;
+  margin: auto;
+  margin-top: 19px;
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+  border-radius: 6px;
+}
+.student_from_fill {
+  font-family: var(--font-family);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-15);
+  line-height: var(--line-height-17);
+  color: var(--color-grey-input-text-9);
+  padding: 18px 0 0 24px;
+}
+.institute_setting_tab {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 2rem;
+  padding: 1rem;
+}
+.institute_admission {
+  cursor: pointer;
+  width: 11rem;
+  height: 11rem;
+  position: relative;
+}
+
+.institute_admission:hover {
+  background-color: rgba(75, 26, 133, 0.1);
+}
+.institute_admission_preview {
+  color: #001a72;
+  font-family: Inter;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+  border-radius: 4px;
+  border: 0.5px solid #001a72;
+  padding: 0.5rem;
+  width: fit-content;
+  position: absolute;
+  top: 3%;
+  right: 3%;
+}

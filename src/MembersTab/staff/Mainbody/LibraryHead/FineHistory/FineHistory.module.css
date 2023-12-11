@@ -1,0 +1,113 @@
+.addbookcontainer {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 1);
+  min-height: 75vh;
+}
+.addbooktop {
+  padding: 0.75rem 1.5rem;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addbooktop > img {
+  height: 1rem;
+  cursor: pointer;
+}
+
+.addbooktop > h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 19px;
+  text-align: center;
+  margin-bottom: 0 !important;
+  color: #121212;
+}
+
+/* --------------Member Item------------------- */
+
+.memberItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: fit-content;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.15);
+  width: 100%;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+.issuedBookItemMidleft {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.memberItem:hover {
+  background: rgba(50, 71, 141, 0.15);
+}
+
+.imgcontainer {
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  /* border: 0.2px solid rgba(0, 0, 0, 0.15); */
+}
+
+.imgcontainer > img {
+  height: 95%;
+  width: 95%;
+  border-radius: 50%;
+}
+
+.issuedBookItemMidright > h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.95rem;
+  line-height: 17px;
+  /* identical to box height */
+  margin-bottom: 0.3rem;
+  color: #121212;
+}
+
+.issuedBookItemMidright > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.85rem;
+  line-height: 17px;
+  /* identical to box height */
+  margin-bottom: 0 !important;
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.textalign > p,
+.textalign > h6 {
+  text-align: right !important;
+}
+
+.loader {
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
+
+.loader > img {
+  height: 4rem;
+}
+
+.noData > img {
+  width: 100%;
+}
+.noData {
+  display: grid;
+  place-items: center;
+  width: 100%;
+}

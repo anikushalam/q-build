@@ -1,0 +1,17 @@
+.departmenthead {
+  margin-top: 1vw;
+  position: sticky;
+  top: 20vh;
+  /* overflow-y: scroll; */
+  /* height: 100vh; */
+}
+
+.departmenthead::-webkit-scrollbar {
+  height: 0;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5vw;
+}

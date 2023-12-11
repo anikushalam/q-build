@@ -1,0 +1,166 @@
+.subjectTeacher {
+  position: sticky;
+  /* top: 18vh !important; */
+  /* overflow-y: scroll;
+  height: 100vh; */
+  margin-top: 1vw;
+}
+
+.subjectTeacher::-webkit-scrollbar {
+  height: 0;
+}
+
+.examListItems {
+  width: 55%;
+
+  height: 72vh;
+  overflow-y: scroll;
+}
+.dot {
+  position: absolute;
+  left: 3.1vw;
+  top: 1.1vw;
+  background-color: #1c023b;
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+}
+
+.dotred {
+  position: absolute;
+  left: 3.1vw;
+  top: 1.1vw;
+  background-color: red;
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+}
+
+.sidebarheader {
+  background: white;
+  color: #1c023b;
+  padding: 1vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1vw;
+  width: 100%;
+  cursor: pointer;
+  position: relative;
+  margin-top: 0.5vw;
+  border: 0.4px solid rgba(75, 26, 133, 0.1);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 12px;
+}
+.sidebarheader img {
+  height: 2.7vw;
+  width: 2.7vw;
+  border-radius: 50%;
+}
+
+.text {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5vw;
+}
+
+.text h6,
+.date h6 {
+  margin-top: -5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.9vw;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  margin-bottom: 0 !important;
+
+  color: #1c023b;
+}
+
+.text p,
+.date p {
+  margin-bottom: 0 !important;
+  margin-top: -5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75vw;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.6);
+}
+
+.date p {
+  margin-top: 0.2vw;
+}
+.date h6,
+.date p {
+  text-align: right;
+}
+.exam_tab_space {
+  margin-top: 1vw;
+}
+.all_exam_main_container {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.exam_container {
+  width: 48%;
+}
+
+.exam_heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #121212;
+  margin-bottom: 1vw;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5vw;
+  margin-top: 0.75vw;
+}
+
+.backcontainer {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0.5rem;
+  margin-top: 0.75vw;
+  border-radius: 0.5vw;
+}
+
+.backk {
+  display: flex;
+  gap: 0.75vw;
+  align-items: center;
+  cursor: pointer;
+}
+
+.backcontainer img {
+  height: 1rem;
+}
+
+.backcontainer p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 17px;
+  /* identical to box height */
+  margin-bottom: 0 !important;
+  text-align: right;
+
+  color: #121212;
+}

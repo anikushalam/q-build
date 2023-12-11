@@ -1,0 +1,142 @@
+.hashtag {
+  width: 100%;
+  max-height: 10rem;
+  font-family: "Inter";
+  font-style: normal;
+  margin: 1rem 0 2rem 0;
+}
+.hashtag_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.hashtag_follow {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #001a72;
+}
+.hashtag_for_you {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #001a72;
+}
+.hashtag_main {
+  position: relative;
+  cursor: pointer;
+}
+.hashtag_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: 0;
+  gap: 1rem;
+  position: relative;
+}
+
+.hashtag_container::-webkit-scrollbar {
+  display: none;
+}
+.hashtag_container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hashtag_card {
+  width: 80px;
+  height: 100px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.hashtag_card > img {
+  width: 80px;
+  height: 80px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+}
+
+.hashtag_card > h6 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #121212;
+  margin: 0.4rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel_container,
+.carousel_container_prev {
+  height: 100px;
+  width: 2.7rem;
+  background: rgba(18, 18, 18, 0.3);
+  position: absolute;
+  top: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.carousel_container {
+  right: 0;
+}
+.carousel_container_prev {
+  left: 0;
+  transform: rotate(180deg);
+}
+
+.hashtag_main:hover .carousel_container,
+.hashtag_main:hover .carousel_container_prev {
+  display: flex;
+  z-index: 1;
+}
+
+.add_hashtag {
+  background-color: rebeccapurple;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 12rem;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  padding: 0.5rem;
+  font-family: "Inter";
+  font-style: normal;
+}
+.add_hashtag_poll {
+  background-color: rebeccapurple;
+  position: absolute;
+  top: 26%;
+  width: 100%;
+  height: 12rem;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  padding: 0.5rem;
+  font-family: "Inter";
+  font-style: normal;
+}
+.add_hashtag_card {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  align-items: center;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.add_hashtag_card > img {
+  width: 40px;
+  height: 40px;
+}
+.add_hashtag_card > h6 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #121212;
+}

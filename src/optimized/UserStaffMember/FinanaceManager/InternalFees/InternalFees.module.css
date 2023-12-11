@@ -1,0 +1,46 @@
+.exam_card_container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  min-height: fit-content;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  color: #1c023b;
+  gap: 1vw;
+  cursor: pointer;
+  padding: 0.3rem 1rem;
+  margin-top: 0.7rem;
+}
+/* .exam_card_container:hover,
+  .exam_active_card {
+    background-color: rgba(75, 26, 133, 0.1);
+  } */
+
+.exam_inner_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.exam_inner_text > h6 {
+  font-weight: 600;
+  font-size: 0.9vw;
+  line-height: 20px;
+  color: #1c023b;
+}
+
+.exam_inner_text > p {
+  font-weight: 400;
+  font-size: 0.75vw;
+  line-height: 20px;
+  color: rgba(18, 18, 18, 0.6);
+}
+
+.fees_image {
+  height: 2.7vw;
+  width: 2.7vw;
+}

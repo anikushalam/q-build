@@ -1,0 +1,54 @@
+.button_main {
+  width: 100%;
+  padding: 0.5rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5vw;
+  background: #1c023b;
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.06);
+  border-radius: 6px;
+  margin: 0;
+  outline: none;
+  border: none;
+}
+.button_main:focus {
+  outline: none;
+}
+.button_main > span {
+  font-family: var(--font-family);
+  font-style: var(--font-style-normal);
+  color: #ffffff;
+  font-weight: var(--font-weight-500);
+  font-size: 0.9rem;
+}
+
+/* ----------Disabled------------------------ */
+
+.button_disabled {
+  width: 100%;
+  min-height: 2.4rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5vw;
+  background: rgb(228, 224, 224);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.06);
+  border-radius: 6px;
+  margin: 0;
+  outline: none;
+  border: none;
+  cursor: not-allowed !important;
+}
+.button_disabled:focus {
+  outline: none;
+}
+.button_disabled > span {
+  font-family: var(--font-family);
+  font-style: var(--font-style-normal);
+  color: #000;
+  font-weight: var(--font-weight-500);
+  font-size: 0.95rem;
+}

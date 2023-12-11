@@ -1,0 +1,39 @@
+.modal_menu_card {
+  padding: 2rem 1rem;
+  min-width: 200px;
+  min-height: 40px;
+  display: grid;
+  place-items: center;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.modal_menu_card > h6 {
+  font-weight: var(--font-6);
+  font-size: var(--font-16);
+  line-height: var(--line-17);
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  margin: 0;
+  padding-block: 1rem;
+  width: 100%;
+  border-radius: 0;
+  background-color: inherit;
+  text-align: center;
+  opacity: 0.9;
+  transition-property: background-color, border-radius, opacity;
+}
+.modal_menu_card > h6:hover {
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-delay: 150ms;
+  transition-duration: 300ms;
+  background-color: #d7d7d7;
+  border-radius: 5px;
+  opacity: 1;
+}
+.modal_menu_card > h5 {
+  font-weight: var(--font-6);
+  font-size: var(--font-18);
+  line-height: var(--line-17);
+  color: var(--t-color);
+  margin-bottom: 0.5rem;
+}

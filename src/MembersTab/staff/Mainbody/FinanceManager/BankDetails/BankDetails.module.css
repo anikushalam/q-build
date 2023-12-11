@@ -1,0 +1,281 @@
+.bank {
+  width: 100%;
+  margin-top: 1rem;
+}
+.bank_header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+.bank_header_left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.5rem;
+}
+.back_icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.bank_header_title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(18, 18, 18, 0.9);
+  margin: 0;
+}
+.add_bank_title > h6 {
+  font-family: var(--font-family);
+  font-style: var(--font-style-normal);
+  margin: 0;
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-16);
+  line-height: var(--line-height-17);
+  color: #121212;
+}
+.add_bank_title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.add_bank_title > img {
+  cursor: pointer;
+}
+.save_button,
+.save_button:focus {
+  width: 100%;
+  height: 48px;
+  background: #002bbe;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  outline: none;
+  margin-top: 1.5rem;
+}
+
+.bank_details {
+  width: 100%;
+  height: 149px;
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 12px;
+  padding: 1.1rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.2rem;
+}
+.bank_details_heading {
+  width: 100%;
+  height: fit-content;
+}
+.bank_details > h6,
+.bank_details_heading > h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #121212;
+}
+.bank_upi {
+  width: 100%;
+  height: 50px;
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  padding: 1.1rem;
+}
+.bank_details_heading1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bank_qr_code {
+  width: 100%;
+  height: 149px;
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+.bank_qr_code_text {
+  margin-top: -4rem;
+}
+.bank_qr_code_text > h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #121212;
+}
+.bank_qr_code_text > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(18, 18, 18, 0.8);
+  margin-bottom: 0;
+}
+
+.bank_qr_code > img,
+.bank_details_heading1 > img {
+  width: 115px;
+  height: 115px;
+}
+.bank_list {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1rem;
+}
+.bank_card {
+  width: 100%;
+  min-height: 20px;
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 6px;
+  font-family: "Inter";
+  font-style: normal;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+.bank_card:hover {
+  background-color: rgba(75, 26, 133, 0.1);
+}
+.bank_card_heading {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+.bank_card > img,
+.bank_card_heading > img {
+  width: 42px;
+  height: 42px;
+}
+.bank_card_text > h6,
+.bank_card_heading > img {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #121212;
+  margin-bottom: 0.2rem;
+}
+.bank_card_text > p,
+.bank_card_heading > img {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(18, 18, 18, 0.5);
+  margin-bottom: 0.2rem !important;
+}
+
+.applicable_btn {
+  width: 50%;
+  height: 47px;
+  background: rgba(0, 26, 114, 0.15);
+  border: 1px solid #001a72;
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 6px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #001a72;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  outline: transparent;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.applicable_container {
+  padding: 1rem;
+  min-width: 30rem;
+  max-width: 35rem;
+  min-height: 10rem;
+  max-height: 35rem;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  font-family: "Inter";
+  font-style: normal;
+}
+.applicable_text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #121212;
+  margin-bottom: 0.2rem;
+}
+.bank_fund {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.bank_fund > h6 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(18, 18, 18, 0.7);
+  margin: 0;
+}
+.bank_fund > h5 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #121212;
+  margin: 0;
+}
+.bank_fund_container {
+  width: 100%;
+  min-height: fit-content;
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 12px;
+  padding: 1.1rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.2rem;
+}

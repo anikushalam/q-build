@@ -1,0 +1,16 @@
+.election_container {
+  background: #f5f5f5;
+  margin-top: 1.6vw;
+  min-height: 63vh;
+  margin-bottom: 4vh;
+}
+
+.election_each_slider_parent {
+  display: flex;
+  /* align-items: center; */
+  gap: 1rem;
+}
+
+.election_each_slider_parent > span {
+  width: 18%;
+}

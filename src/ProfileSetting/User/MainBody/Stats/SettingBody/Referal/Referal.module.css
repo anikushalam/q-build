@@ -1,0 +1,159 @@
+.cardContainer {
+  width: 100%;
+  margin-bottom: 0.5vw;
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 12px;
+  padding: 0.7vw;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardLeft {
+  display: flex;
+  gap: 1vw;
+  align-items: flex-start;
+}
+
+.cardRight {
+  display: flex;
+  gap: 1vw;
+  align-items: flex-end;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8vw;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.lLeft img {
+  height: 2.5vw;
+}
+
+.lRight h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 19px;
+  text-transform: capitalize;
+  margin-bottom: 0.1vw !important;
+  color: #121212;
+}
+
+.lRight h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9vw;
+  line-height: 17px;
+  /* identical to box height, or 121% */
+
+  color: #121212;
+}
+
+.lRight span {
+  font-weight: 600;
+}
+
+.lRight p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8vw;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  text-transform: capitalize;
+  margin-bottom: 0 !important;
+
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.cardBtn {
+  background: #1c023b;
+  border-radius: 6px;
+  padding: 0.25vw;
+  margin-top: 1vw;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+.referal {
+  display: flex;
+  flex-direction: column;
+
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+  border-radius: 6px;
+
+  height: 72vh;
+}
+
+.top {
+  padding: 2vw 6vw;
+  border-bottom: 0.3px solid rgb(223, 215, 215);
+}
+
+.topItem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topItem h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  color: #121212;
+}
+
+.mid {
+  padding: 2vw 6vw;
+}
+
+.bottom {
+  margin-top: 3vw;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.earneddBtn {
+  width: 50%;
+  background: #436dfa;
+  border-radius: 8px;
+  padding: 0.5vw;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 19px;
+
+  color: #ffffff;
+}

@@ -1,0 +1,55 @@
+.applicationStatus {
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1vw;
+  min-height: 76vh;
+}
+
+.item {
+  padding: 1vw 2vw;
+  background-color: rgb(249, 246, 246);
+  margin-bottom: 0.5vw;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.item p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  color: #000000;
+}
+
+.timeDate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timeDate p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.status_institute_name {
+  font-family: var(--font-family);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-600);
+  font-size: var(--font-size-16);
+  color: #121212;
+}

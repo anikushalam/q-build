@@ -1,0 +1,396 @@
+.container {
+  height: 550px;
+  width: 600px;
+  background: #fafafa;
+  border-radius: 12px;
+  padding: 1.5rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* --------------------------------- */
+
+.modalContainerr {
+  width: 80%;
+  min-height: 550px;
+  background-color: #fff;
+  border-radius: 0.1rem;
+  box-shadow: 0 0.5rem 4rem 0.5rem rgba(0, 0, 0, 0.08);
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* -------------------------------------- */
+
+.loginLogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.loginLogo img {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.footer p {
+  font-family: "Poppins";
+  color: rgba(0, 0, 0, 0.8);
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 600;
+}
+.signupbtn {
+  color: #2c5dcd;
+  font-weight: 800;
+}
+.signupbtn:hover {
+  cursor: pointer;
+}
+
+form {
+  width: 100%;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.forggotPassForm {
+  height: 400px;
+
+  justify-content: center;
+}
+.forgotPass {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.forgotPass p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #436dfa !important;
+}
+.forgotPass p:hover {
+  cursor: pointer;
+}
+
+.form h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 23px;
+
+  color: rgba(18, 18, 18, 0.9);
+}
+.forggotPassForm h3 {
+  margin-bottom: 3rem;
+}
+.form p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 19px;
+
+  color: rgba(18, 18, 18, 0.8);
+}
+.inputlabelcontainer {
+  width: 100%;
+}
+.userNamecontainer {
+  width: 100%;
+  height: 45px;
+  position: relative;
+  margin-top: 15px;
+  background: #ffffff;
+  border-radius: 6px;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+}
+.otpcontainer {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.userNamecontainer img:hover {
+  cursor: pointer;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn p {
+  margin-bottom: 0 !important;
+}
+
+.username {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+.eye {
+  position: absolute;
+  top: 30%;
+  right: 3%;
+}
+.eyeOpen {
+  position: absolute;
+  top: 30%;
+  right: 3%;
+  opacity: rgba(255, 255, 255, 0.3);
+  height: 17px;
+}
+.userNamecontainer > input {
+  top: 0;
+  left: 0;
+  right: 0;
+  border: none;
+  outline: none !important;
+  width: 75%;
+  border-radius: 6px;
+  height: 95%;
+
+  margin-left: 10%;
+}
+
+input {
+  font-size: 1rem;
+}
+
+input::placeholder {
+  font: 1rem;
+}
+
+.btn {
+  width: 100%;
+  /* height: 4.5vh; */
+  background: #1c023b;
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.06);
+  border-radius: 6px;
+  display: grid;
+  place-items: center;
+  color: white;
+  margin-top: 20%;
+  padding: 0.75vw 1vw;
+}
+.btn p {
+  color: white;
+}
+
+.btnn {
+  width: 100%;
+  /* height: 4.5vh; */
+  background: #1c023b;
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.06);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+  color: white;
+  margin-top: 20%;
+  padding: 0.75vw 1vw;
+}
+
+.btnn p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.65vw;
+  margin-bottom: 0 !important;
+  line-height: 19px;
+  text-align: right;
+  color: #fff;
+}
+
+.createbtn {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 2vw !important;
+}
+
+::placeholder {
+  color: #a0a0a0;
+}
+.toc {
+  margin-top: 45px;
+  margin-bottom: 10px;
+}
+.tocspan {
+  font-weight: 700;
+}
+.didnot p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.6);
+}
+.toc p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  /* or 150% */
+
+  color: rgba(18, 18, 18, 0.6);
+}
+.resend {
+  color: #2c5dcd;
+}
+
+@media only screen and (max-width: 1270px) {
+  .modalContainerr {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .modalContainerr {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .modalContainerr {
+    padding: 0;
+  }
+
+  .form {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .login {
+    width: 100vw;
+  }
+  .container {
+    width: 80%;
+    /* padding-left: 0;
+    padding-right: 0; */
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+}
+
+/* .otpcontainer > div > div input {
+  width: 45px !important;
+  height: 45px !important;
+  border: 0.1px solid rgb(225, 215, 215) !important;
+} */
+
+input:focus,
+select:focus {
+  border-color: white !important;
+  box-shadow: none !important;
+  outline: 0.1px solid rgb(225, 215, 215) !important;
+}
+
+.pwdReq {
+  position: absolute;
+  z-index: 11;
+  width: 100%;
+  top: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ConfirmPass {
+  position: absolute;
+  z-index: 11;
+  width: 100%;
+  background-color: #ffffff;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  top: 40px;
+}
+
+.ConfirmPass p {
+  margin-top: 15px;
+  color: red;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.btnndisable {
+  background: #dfdbdb !important;
+  color: rgba(18, 18, 18, 0.8) !important;
+  cursor: not-allowed !important;
+}
+
+.btnndisable p {
+  color: rgba(18, 18, 18, 0.6) !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #646363 !important;
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 90vw;
+  }
+
+  .form p {
+    font-size: 1rem;
+  }
+
+  .userNamecontainer > input {
+    margin-left: 12%;
+  }
+
+  .container {
+    padding: 1.5rem 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .userNamecontainer > input {
+    margin-left: 15%;
+  }
+
+  .form p {
+    font-size: 0.9rem;
+  }
+
+  .form h3 {
+    font-size: 1.5rem;
+  }
+}

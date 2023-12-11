@@ -1,0 +1,48 @@
+.book_card {
+  font-family: "Inter";
+  font-style: normal;
+  width: 100%;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 12px;
+  padding: 1vw;
+  margin-bottom: 0.5vw;
+}
+.book_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.book_header_inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+.book_header_inner > img {
+  height: 2.7vw;
+  width: 2.7vw;
+  border-radius: 6px;
+}
+.book_header_inner_text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.3rem;
+}
+.book_header_inner_text > h6 {
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 17px;
+  color: #000000;
+  margin: 0;
+}
+.book_header_inner_text > div {
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 17px;
+  color: rgba(18, 18, 18, 0.7);
+  margin: 0;
+}

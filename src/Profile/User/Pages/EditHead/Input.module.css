@@ -1,0 +1,39 @@
+.label {
+  margin-top: 0.75rem;
+}
+.label label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.025vw;
+  line-height: 17px;
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.inputBox {
+  margin-top: 0.878vw;
+}
+.inputBox,
+.inputBox input,
+.inputBox select {
+  /* width: 47.438vw; */
+  width: 100%;
+  height: 3.441vw;
+  background-color: #ffffff;
+}
+
+.inputBox input,
+.inputBox select {
+  padding-left: 1.098vw;
+  border: 0.037vw solid rgba(0, 0, 0, 0.12);
+  box-shadow: 0.073vw 0.146vw 2.343vw rgba(0, 0, 0, 0.05);
+  border-radius: 0.439vw;
+}
+
+.inputBox input:focus {
+  outline: none;
+}
+
+.inputBox select:focus {
+  outline: none;
+}

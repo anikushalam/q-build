@@ -1,0 +1,131 @@
+.sidebar {
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+  border-radius: 6px;
+  height: 82vh;
+  position: sticky;
+  top: 12vh;
+}
+
+.heading {
+  background: #1c023b;
+  color: white;
+  height: 5vw;
+  display: grid;
+  place-items: center;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.list {
+  width: 100%;
+  margin-top: 1vw;
+}
+
+.list .options {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.9vw;
+  padding-left: 2vw;
+
+  cursor: pointer;
+  gap: 0.8vw;
+  user-select: none;
+}
+
+.list .subOptions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.9vw;
+  padding-left: 2vw;
+
+  cursor: pointer;
+  gap: 0.8vw;
+  user-select: none;
+}
+
+.options img,
+.subOptions img {
+  margin-top: -0.6vw;
+
+  height: 1.3vw;
+}
+.imgDark {
+  display: none;
+}
+.options p,
+.subOptions p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1vw;
+  line-height: 17px;
+  /* identical to box height */
+  margin-top: 0.4vw;
+  display: flex;
+  align-items: center;
+
+  color: rgba(18, 18, 18, 0.6);
+}
+/* .options:hover {
+  background: rgba(75, 26, 133, 0.1);
+  border-left: 3px solid #1c023b;
+}
+.options:hover .img {
+  display: none;
+}
+.options:hover .imgDark {
+  display: block;
+} */
+
+.borderLeft {
+  background: rgba(75, 26, 133, 0.1);
+  border-left: 3px solid #1c023b;
+}
+
+@media only screen and (max-width: 1240px) {
+  .options p,
+  .subOptions p {
+    font-size: 1vw;
+  }
+
+  .options img {
+    margin-top: -1vw;
+
+    height: 1.8vw;
+  }
+}
+@media only screen and (max-width: 1240px) {
+  .options p,
+  .subOptions p {
+    font-size: 1vw;
+    margin-top: 0.6vw;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .options p,
+  .subOptions p {
+    font-size: 1.1vw;
+    margin-top: 0.8vw;
+  }
+  .options img,
+  .subOptions p {
+    margin-top: -1vw;
+
+    height: 1.8vw;
+  }
+}
+
+.unread_count {
+  padding: 0.2rem;
+  min-width: 1.5rem;
+  min-height: 1.5rem;
+  text-align: center;
+  background-color: #1c023b;
+  border-radius: 50%;
+  margin-top: -1.3rem;
+  margin-left: -0.7rem;
+  color: #fff;
+}

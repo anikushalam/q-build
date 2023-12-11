@@ -1,0 +1,17 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 100;
+  background-color: white;
+}
+
+/* .Profile {
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.Profile::-webkit-scrollbar {
+  height: 0;
+} */

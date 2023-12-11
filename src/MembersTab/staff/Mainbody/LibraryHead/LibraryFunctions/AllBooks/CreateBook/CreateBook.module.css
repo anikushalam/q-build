@@ -1,0 +1,99 @@
+.addbookcontainer {
+  border-radius: 0.439vw;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 1);
+}
+.addbooktop {
+  padding: 0.75rem 1.5rem;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addbooktop > img {
+  height: 1rem;
+  cursor: pointer;
+}
+
+.addbooktop > h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 19px;
+  text-align: center;
+  margin-bottom: 0 !important;
+  color: #121212;
+}
+
+.addbookform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+}
+
+.upload {
+  display: none;
+}
+
+.profilephotocontainer {
+  position: relative;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userLogo {
+  height: 6rem;
+  border-radius: 0.5rem;
+}
+
+.userLogo2 {
+  height: 10rem;
+}
+
+.cloos2 {
+  position: absolute;
+  height: 2rem;
+  bottom: 1rem;
+  left: 55%;
+}
+
+.inputcontainerflex {
+  width: 100%;
+  display: flex;
+  gap: 2%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* --------------Button--------------------  */
+.button_main {
+  width: 96%;
+  min-height: 3vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1c023b;
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.06);
+  border-radius: 6px;
+  margin: auto;
+  margin-block: 1.5rem;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+.button_main:focus {
+  outline: none;
+}
+
+.tabs {
+  width: 100%;
+}

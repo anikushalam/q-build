@@ -1,0 +1,144 @@
+.payment_history_container {
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+  border-radius: 12px;
+  padding: 1vw;
+  margin-bottom: 1vw;
+  cursor: pointer;
+}
+.payment_history_container:hover {
+  background-color: rgba(75, 26, 133, 0.1);
+}
+.payment_history_top,
+.payment_history_middle,
+.payment_history_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5vw;
+}
+.payment_history_top > p,
+.payment_history_middle > p,
+.payment_history_bottom > p,
+.detail_summary {
+  margin-bottom: 0 !important;
+  font-family: var(--font-family);
+  font-style: var(--font-style-normal);
+}
+
+.payment_history_top > p,
+.detail_summary {
+  font-weight: var(--font-weight-400);
+  font-size: var(--font-size-12);
+  line-height: 15px;
+  color: rgba(18, 18, 18, 0.6);
+}
+
+.payment_history_middle > p {
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-16);
+  line-height: 19px;
+  color: #121212;
+}
+.payment_history_bottom > p {
+  font-weight: var(--font-weight-400);
+  font-size: var(--font-size-12);
+  line-height: 15px;
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.detail_container {
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+  border-radius: 12px;
+  padding: 1vw;
+}
+.transaction_id {
+  font-family: var(--font-family);
+  font-style: var(--font-style-normal);
+}
+/* ------------------------------------- */
+
+.details {
+  width: 100%;
+}
+
+.dtop {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 15vw;
+
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.dtopleft {
+  width: 35%;
+  border-top-left-radius: 6px;
+  background-color: #25ac4a;
+  height: 100%;
+}
+
+.dtopright {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dtopright h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6vw;
+  line-height: 33px;
+  /* identical to box height */
+
+  color: #25ac4a;
+}
+.dtopright p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  color: rgba(18, 18, 18, 0.8);
+}
+
+/* ---------------------------------- */
+
+.listItem {
+  padding: 0.5vw 1.5vw;
+  border-bottom: 0.3px solid rgb(224, 219, 219);
+}
+
+.listItem h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9vw;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+  margin-bottom: 0.2vw !important;
+  color: rgba(18, 18, 18, 0.9);
+}
+
+.listItem p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.85vw;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+  margin-bottom: 0 !important;
+  color: rgba(18, 18, 18, 0.6);
+}

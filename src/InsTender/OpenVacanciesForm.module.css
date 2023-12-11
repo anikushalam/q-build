@@ -1,0 +1,449 @@
+.openVacForm {
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 0.23rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.peventlefttopflexleft {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.peventlefttopflexleft > img {
+  cursor: pointer;
+}
+
+.peventlefttop {
+  padding: 0.75rem;
+  border-bottom: 0.5px solid #c4c4c4;
+}
+
+.peventlefttop,
+.peventlefttop > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin-bottom: 0;
+  line-height: 19px;
+
+  color: #121212;
+}
+.peventleftbody {
+  padding: 1rem;
+}
+
+.peventinputContainer {
+  margin-bottom: 0.75rem;
+}
+
+.pollTextareah,
+.switchContainerh {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 17px;
+  margin-bottom: 0.3rem;
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.switchContainerh {
+  margin-bottom: 0 !important;
+}
+
+.pollTextarea::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 17px;
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.pollTextarea {
+  width: 100%;
+  padding: 1vw;
+  resize: none;
+  outline: none;
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 0.9rem;
+  line-height: 19px !important;
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.pollTextarea::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.pollTextarea:focus {
+  border: 0.5px solid rgba(0, 0, 0, 0.42) !important;
+}
+
+.switchcontainerflex {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  margin-bottom: 1rem;
+
+  gap: 2%;
+  margin-bottom: 1rem;
+}
+
+.fileinputflexContainer {
+  width: 100%;
+}
+
+.fileinputflexContainer > h6,
+.input_label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 17px;
+  margin-bottom: 0.3rem;
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.fileinputflex {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.fileinputflexleft {
+  padding: 0.75rem;
+  width: 50%;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.85rem;
+  line-height: 17px;
+  /* identical to box height */
+  background: rgba(75, 26, 133, 0.1);
+  border-radius: 0.375rem;
+  color: #121212;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.fileinputflexright {
+  color: rgba(18, 18, 18, 0.5) !important;
+  background: #ffffff !important;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 0.375rem !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.switchcontainerflex > input {
+  display: none;
+}
+
+.item .select {
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.6rem;
+  cursor: pointer;
+}
+
+.select p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 17px;
+  /* identical to box height */
+  margin-top: 10px;
+
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.selectclass {
+  height: 1.2vw;
+}
+
+.peventlefttopflex {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.peventlefttopflexleft {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+
+.selectBtn {
+  padding: 0.3vw 1vw;
+  background-color: #436dfa;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9vw;
+  line-height: 19px;
+  margin-top: 0.2vw;
+  margin-bottom: 0 !important;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+/* --------------Button--------------------  */
+.button_main {
+  width: 100%;
+  min-height: 3vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5vw;
+  background: #1c023b;
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.06);
+  border-radius: 6px;
+  margin: 0;
+  outline: none;
+  border: none;
+}
+.button_main:focus {
+  outline: none;
+}
+.button_main > span {
+  font-family: var(--font-family);
+  font-style: var(--font-style-normal);
+  color: #ffffff;
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-16);
+}
+
+.fileinputflexContainer > h6,
+.input_label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 17px;
+  margin-bottom: 0.3rem;
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.formselectactive {
+  border: 0.5px solid rgba(0, 0, 0, 0.42) !important;
+}
+
+.formselect {
+  position: relative;
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 2px 32px rgb(0 0 0 / 5%);
+  border-radius: 0.3rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 17px;
+  color: rgba(18, 18, 18, 0.8);
+  padding: 0.6rem 0.5rem;
+  cursor: pointer;
+}
+
+.formselect > img {
+  position: absolute;
+  right: 0.75rem;
+  top: 40%;
+}
+.input_border_active {
+  border: 1px solid #1c023b !important;
+}
+
+.genderh {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 17px;
+  color: rgba(18, 18, 18, 0.8);
+  margin-bottom: 0 !important;
+}
+.genderplaceholder {
+  color: rgba(18, 18, 18, 0.5) !important;
+}
+
+.downIcon {
+  height: 1rem;
+  position: absolute;
+  right: 0.75rem;
+  top: 0.65rem;
+}
+
+.upIcon {
+  height: 0.45rem;
+  position: absolute;
+  right: 0.75rem;
+  top: 0.8rem;
+}
+
+.item .select {
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.6rem;
+  cursor: pointer;
+}
+
+.select p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 17px;
+  /* identical to box height */
+  margin-top: 10px;
+
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.selectclass {
+  height: 1.2vw;
+}
+
+.selectBtn {
+  padding: 0.3vw 1vw;
+  background-color: #436dfa;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9vw;
+  line-height: 19px;
+  margin-top: 0.2vw;
+  margin-bottom: 0 !important;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.pollTextarea::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 17px;
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.pollTextarea {
+  width: 100%;
+  padding: 1vw;
+  resize: none;
+  outline: none;
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 0.9rem;
+  line-height: 19px !important;
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.pollTextarea::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.pollTextarea:focus {
+  border: 0.5px solid rgba(0, 0, 0, 0.42) !important;
+}
+
+.fileinputflexContainer {
+  width: 100%;
+}
+
+.fileinputflexContainer > h6,
+.input_label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 17px;
+  margin-bottom: 0.3rem;
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.fileinputflex {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.fileinputflexleft {
+  padding: 0.75rem;
+  width: 50%;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.85rem;
+  line-height: 17px;
+  /* identical to box height */
+  background: rgba(75, 26, 133, 0.1);
+  border-radius: 0.375rem;
+  color: #121212;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.fileinputflexright {
+  color: rgba(18, 18, 18, 0.5) !important;
+  background: #ffffff !important;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 0.375rem !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.switchcontainerflex > input {
+  display: none;
+}

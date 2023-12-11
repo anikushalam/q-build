@@ -1,0 +1,131 @@
+.parentProfile {
+  margin-top: 25px;
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+  border-radius: 6px;
+  padding: 2vw;
+  height: 29vw;
+  overflow-y: scroll;
+  font-family: "Inter";
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  color: #000;
+}
+
+.parentProfile h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #121212;
+}
+
+.parentProfile h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.parentProfile img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.parentProfileChild h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.1vw;
+  line-height: 19px;
+
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.parentProfileChild p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2vw;
+  line-height: 19px;
+
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.parentProfile span {
+  color: black;
+  font-size: 0.9em;
+  display: contents;
+}
+
+.tabContentParent {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.address {
+  margin-top: 2vw;
+}
+.address h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.address p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1vw;
+  line-height: 17px;
+
+  color: rgba(18, 18, 18, 0.9);
+}
+.address input {
+  background: #f3f3f3;
+  border-radius: 6px;
+}
+
+.pinstatedis,
+.typemode,
+.aadhar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.none {
+  opacity: 0;
+}
+
+.btns {
+  width: 100%;
+  margin-top: 2vw;
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
+}
+.btn {
+  background: #1c023b;
+  border-radius: 6px;
+  padding: 0.7vw 3.5vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.1vw;
+  line-height: 19px;
+  cursor: pointer;
+  color: #ffffff;
+}

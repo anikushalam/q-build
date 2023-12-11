@@ -1,0 +1,103 @@
+.careerModal {
+  background: #fafafa;
+  border-radius: 12px;
+  width: 30rem;
+  padding: 2rem 1.5rem;
+}
+
+.careerModalheader {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+
+  color: #121212;
+}
+
+.careerModalheader2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 27px;
+  margin-bottom: 0 !important;
+
+  color: rgba(18, 18, 18, 0.5);
+}
+
+/* @media screen and (max-width: 640px) {
+  .careerModal {
+    width: 95vw;
+    overflow-x: hidden;
+  }
+} */
+
+.peventinputContainer {
+  margin-bottom: 0.75rem;
+}
+
+.pollTextareah,
+.switchContainerh {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 17px;
+  margin-bottom: 0.3rem;
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.switchContainerh {
+  margin-bottom: 0 !important;
+}
+
+.pollTextarea::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 17px;
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.pollTextarea {
+  width: 100%;
+  padding: 1vw;
+  resize: none;
+  outline: none;
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 0.9rem;
+  line-height: 19px !important;
+  color: rgba(18, 18, 18, 0.8);
+  margin-top: 1rem;
+}
+
+.pollTextarea::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.pollTextarea:focus {
+  border: 0.5px solid rgba(0, 0, 0, 0.42) !important;
+}
+
+.downloadbtn {
+  padding: 0.6vw;
+  display: grid;
+  place-items: center;
+  background: #001a72;
+  border-radius: 0.293vw;
+  width: 100%;
+  cursor: pointer;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 19px;
+  color: #ffffff;
+}

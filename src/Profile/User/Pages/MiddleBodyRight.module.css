@@ -1,0 +1,70 @@
+.middleBodyRight {
+  border: 0.037vw solid #cacaca;
+  background: #ffffff;
+  border-radius: 0.439vw;
+  width: 23.133vw;
+  height: fit-content;
+  /* padding: 0.878vw; */
+  position: sticky;
+  top: 90px;
+}
+
+.middleBodyRightTop {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 17px;
+  /* identical to box height */
+  padding: 1.2vw;
+  color: rgba(18, 18, 18, 0.5);
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.15);
+}
+
+.middleBodyRightbottom {
+  padding: 1.2vw;
+}
+
+.middleBodyRightbottom h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1vw;
+  line-height: 19px;
+  margin-bottom: 1vw;
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.flexItem {
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 10vw;
+  height: 10vw;
+}
+
+.flexItem h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2vw;
+  line-height: 34px;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.flexItem p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.8);
+}

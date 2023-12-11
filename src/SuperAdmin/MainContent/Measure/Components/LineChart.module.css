@@ -1,0 +1,15 @@
+.linechart {
+  width: 59%;
+  padding: 1vw;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.drop {
+  display: flex;
+}

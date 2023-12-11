@@ -1,0 +1,48 @@
+.avatar {
+  display: inline-flex;
+}
+
+.avatar > span {
+  margin: 5px 5px;
+  display: contents;
+}
+
+.avatar > img {
+  margin-right: 10px;
+}
+
+.staffText {
+  font-weight: 600;
+  font-family: "Inter";
+  font-size: 1em;
+}
+.font {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.1vw;
+  line-height: 19px;
+
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.font2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.8vw;
+  line-height: 15px;
+  /* identical to box height, or 136% */
+
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.viewBtn {
+  color: #ffffff;
+  letter-spacing: 0.4px;
+  background-color: #1c023b;
+  padding: 7px 15px;
+  margin-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,234 @@
+.examForm {
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+  border-radius: 6px;
+  min-height: 62vh;
+}
+.formhead {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw 0.6vw 0.6vw 0.6vw;
+  border-bottom: 0.5px solid #c4c4c4;
+}
+
+.formhead h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9vw;
+  line-height: 19px;
+  margin-top: 0.2vw;
+  margin-bottom: 0 !important;
+  color: #121212;
+}
+
+.savebtn {
+  padding: 0.3vw 0.6vw;
+  background: #436dfa;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.formcontent {
+  padding: 0.6vw;
+}
+
+.input {
+  margin-top: 1.5vw;
+  width: 100%;
+}
+.input h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.8);
+}
+.input input {
+  width: 100%;
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  padding: 0.45vw;
+  outline: none;
+}
+.title img {
+  cursor: pointer;
+}
+
+.input input::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 0.95vw !important;
+  line-height: 17px;
+  /* identical to box height */
+  margin-top: -0.3vw;
+  color: #a0a0a0;
+}
+
+.item {
+  width: 100%;
+  margin-top: 1vw;
+  position: relative;
+}
+.item h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.item .select {
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.select p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 17px;
+  /* identical to box height */
+  margin-top: 10px;
+
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.tooltip {
+  position: absolute;
+  top: 2.5vw;
+  /* left: 15%; */
+  right: 49%;
+}
+
+/* ------------OPtions---------------- */
+
+.profileToolTip {
+  position: absolute;
+  width: 223px;
+  height: auto;
+  background: white;
+  z-index: 5;
+  border-radius: 6px;
+
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.triangle {
+  position: absolute;
+  top: -10px;
+  right: 0.9%;
+  z-index: 0;
+  border-bottom: 15px solid #fff;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+}
+.triangleDisplay {
+  display: none;
+}
+
+.profilelist {
+  width: 100%;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.profilelist div {
+  list-style: none;
+  width: 100%;
+  padding: 8px;
+  padding-left: 20px;
+  cursor: pointer;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.profilelist div:hover {
+  background: rgba(75, 26, 133, 0.1);
+}
+
+.schedulebtn {
+  background: #1c023b;
+  border-radius: 8px;
+  margin-top: 3vw;
+  padding: 0.5vw;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9vw;
+  line-height: 19px;
+  text-align: center;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.subjectList {
+  margin-top: 2vw;
+}
+.show_input_exam {
+  width: 100%;
+  margin-top: 0.2rem;
+}
+.show_input_exam > input {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 0.88vw !important;
+  line-height: 17px;
+  color: #a0a0a0;
+  width: 100%;
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  padding: 0.45vw;
+  outline: none;
+}
+.show_label_exam {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8vw;
+  line-height: 17px;
+  color: #a0a0a0;
+}

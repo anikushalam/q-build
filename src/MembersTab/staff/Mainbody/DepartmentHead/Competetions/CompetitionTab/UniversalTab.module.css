@@ -1,0 +1,25 @@
+.universal_container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.universal_container_item {
+  display: grid;
+  place-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 17px;
+  width: auto;
+  color: rgba(18, 18, 18, 0.5);
+  cursor: pointer;
+}
+
+.universal_container_item_active {
+  border-bottom: 2px solid #121212;
+  color: #121212;
+  font-weight: 500;
+  transition: all 0.5s ease;
+}

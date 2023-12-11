@@ -1,0 +1,118 @@
+.inventory {
+  width: 100%;
+  margin-top: 1rem;
+}
+.invetory_header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.5rem;
+}
+
+.back_icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.invetory_header_title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(18, 18, 18, 0.9);
+  margin: 0;
+}
+
+.inventory_container {
+  width: 100%;
+  min-height: 20rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1%;
+}
+
+.inventory_list {
+  width: 49.5%;
+}
+.inventory_show_detail {
+  width: 49.5%;
+}
+.goods_container_top {
+  margin-top: 1rem;
+}
+
+.goods_container,
+.goods_container_expense {
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 12px;
+  padding: 16px 16px 10px 16px;
+  margin-bottom: 1rem;
+}
+
+.goods_container_active,
+.goods_container:hover {
+  background-color: #e9ecf7;
+}
+.goods_name_label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(18, 18, 18, 0.6);
+}
+
+.goods_name_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.goods_name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #121212;
+}
+
+.goods_depriciating {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(18, 18, 18, 0.8);
+}
+.goods_detail_top {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  margin-bottom: 1rem;
+  height: 37px;
+  background: #fff;
+  border-radius: 6px;
+  padding-left: 0.5rem;
+}
+
+.goods_detail_top_image {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+.goods_detail_toph6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(18, 18, 18, 0.9);
+  margin: 0;
+}

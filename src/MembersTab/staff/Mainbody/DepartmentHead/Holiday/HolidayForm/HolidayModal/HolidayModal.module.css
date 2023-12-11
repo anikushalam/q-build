@@ -1,0 +1,73 @@
+.addDisplay {
+  width: 450px;
+
+  background: #fafafa;
+  border-radius: 12px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.4px solid rgb(223, 216, 216);
+  padding: 1rem;
+}
+
+.title h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.8);
+}
+.title img {
+  cursor: pointer;
+}
+
+.content {
+  padding: 1vw;
+}
+
+.searchbar > textarea {
+  width: 100%;
+  background: #fff;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+
+  height: 6vw;
+  padding: 0.7vw;
+  outline: none;
+  border: none;
+  resize: none;
+  /* ------------------- */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.btn {
+  background: rgba(75, 26, 133, 0.1);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 6px;
+  width: 100%;
+  padding: 0.5vw;
+  display: grid;
+  place-items: center;
+  margin-top: 4vw;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #1c023b;
+  color: white;
+}

@@ -1,0 +1,274 @@
+.payroll {
+  background: #ffffff;
+  padding: 2vw 4vw;
+  border-radius: 6px;
+  width: 100%;
+  margin-bottom: 1vw;
+}
+
+.payslipContainer {
+  width: 500px;
+  overflow: hidden;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1vw;
+  width: 40%;
+  border: 0.5px solid rgba(156, 156, 156, 0.6);
+  border-radius: 6px;
+  margin-bottom: 1vw;
+  padding: 1vw;
+}
+
+.dialogTop {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1vw;
+}
+
+.dialogTop img {
+  width: 3vw;
+  height: 3vw;
+  border-radius: 50%;
+}
+
+.item h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 17px;
+  /* identical to box height */
+  margin-bottom: 0.3vw;
+  color: #121212;
+}
+
+.item p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #121212;
+}
+
+.title {
+  margin-bottom: 3vw;
+}
+
+.text span {
+  font-weight: 600;
+}
+
+.dialog {
+  width: 500px;
+}
+
+.dialogTop h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  margin-bottom: 0.3vw;
+  color: #121212;
+}
+
+.dialogTop p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #121212;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1vw;
+}
+
+.bluemonth {
+  padding: 0.7vw 1vw;
+  background: #1c023b;
+  display: grid;
+  place-items: center;
+  margin-bottom: 1vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+.eachrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 30px;
+}
+
+.eachrow h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  margin-bottom: 0 !important;
+  color: #000000;
+}
+
+.payslipContainer table {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+}
+
+.payslipContainer table tr {
+  width: 100%;
+  /* border: 0.5px solid #121212; */
+}
+
+.payslipContainer table tr td {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #121212;
+}
+
+.payslipContainer table tr .left {
+  width: 70%;
+  padding: 8px 15px;
+  border: 0.5px solid rgba(18, 18, 18, 0.5) !important;
+}
+
+.payslipContainer table tr .right {
+  width: 30%;
+  padding: 8px 15px;
+  border: 0.5px solid rgba(18, 18, 18, 0.5) !important;
+}
+
+.payslipContainer table tr th {
+  background: #1c023b;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #ffffff;
+  padding: 8px 15px;
+}
+
+.weight {
+  font-weight: 600 !important;
+  border: 0.7px solid rgba(18, 18, 18, 0.5) !important;
+}
+
+.btnContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  margin: 5%;
+  display: grid;
+  place-items: center;
+  width: 90%;
+  border-radius: 6px;
+  cursor: pointer;
+
+  background-color: #1c023b;
+  padding: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.greenbtn {
+  background: #20b038 !important;
+}
+
+.topp {
+  display: block !important;
+}
+
+.imgprofile {
+  margin-top: -0.7vw;
+}
+
+.contentContainer {
+  height: 70vh !important;
+  overflow-y: scroll;
+}
+/* 
+.contentContainer::-webkit-scrollbar {
+  width: 4px !important;
+}
+
+.contentContainer::-webkit-scrollbar-track {
+  background-color: transparent !important;
+  box-shadow: none !important;
+} */
+
+.bluemonthdisplay {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bluemonthdisplay p {
+  color: #fff;
+}
+
+/* .yearmonth {
+  margin-left: 4vw;
+} */
+
+.bluemonthdisplay img {
+  cursor: pointer;
+}
+
+.input {
+  height: 2vw;
+  padding: 0 !important;
+  text-align: left;
+  background-color: transparent;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #121212;
+  box-shadow: none;
+}
+
+/* .rightt {
+  padding: ;
+} */

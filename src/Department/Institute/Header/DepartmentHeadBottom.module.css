@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: flex-end;
+  width: 61.493vw;
+  height: 6.003vw;
+  background-color: #ffffff;
+  border: 0.037vw solid rgba(18, 18, 18, 0.15);
+}
+.section,
+.section1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 8.053vw;
+}
+.section1 {
+  margin-right: 7.174vw !important;
+}
+
+.section p,
+.section1 p {
+  margin-bottom: 0;
+}
+.sectionCount {
+  width: 4.392vw;
+  height: 1.977vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.611vw;
+  line-height: 1.977vw;
+  color: #121212;
+}
+.sectionText {
+  width: 4.392vw;
+  height: 1.171vw;
+  margin-top: 0.366vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.952vw;
+  line-height: 1.171vw;
+  color: #121212;
+}

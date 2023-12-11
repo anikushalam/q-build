@@ -1,0 +1,209 @@
+.teamDetailstop {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-top-right-radius: 0.3rem;
+  border-top-left-radius: 0.3rem;
+  padding: 0.5rem 0.75rem;
+}
+
+.teamDetails {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.goback {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.goback > img {
+  height: 1.4rem;
+}
+
+.goback > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: right;
+  margin-bottom: 0 !important;
+  color: #121212;
+}
+
+.teamDetailsBody,
+.teamDetailsBodytop {
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+  border-top-right-radius: 0.3rem;
+  border-top-left-radius: 0.3rem;
+}
+.teamDetailsBody {
+  margin-top: 0.75rem;
+  min-height: 77vh;
+}
+
+.teamDetailsBodytop {
+  padding: 0.5rem 0.75rem;
+}
+
+.teamDetailsBodyMid {
+  display: flex;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.15);
+}
+
+.teamDetailsBodyMidLeft {
+  width: 40%;
+}
+
+.teamDetailsBodyMidLeft > img {
+  height: 13rem;
+  width: 100%;
+  object-fit: cover;
+}
+.created {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.85rem;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  color: rgba(18, 18, 18, 0.8);
+}
+.createdspan {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.85rem;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.teamDetailsBodyMidright {
+  padding: 0.75rem 0.75rem 0.75rem 1rem;
+}
+
+.membercountspan {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  color: rgba(18, 18, 18, 0.9);
+}
+
+/* --------------Member Item------------------- */
+
+.memberItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  height: fit-content;
+
+  width: 100%;
+
+  cursor: pointer;
+}
+
+.issuedBookItemMidleft {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* .memberItem:hover {
+  background: rgba(50, 71, 141, 0.15);
+} */
+
+.imgcontainer {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  /* border: 0.2px solid rgba(0, 0, 0, 0.15); */
+}
+
+.imgcontainer > img {
+  height: 95%;
+  width: 95%;
+  border-radius: 50%;
+}
+
+.issuedBookItemMidright > h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.95rem;
+  line-height: 17px;
+  /* identical to box height */
+  margin-bottom: 0.3rem;
+  color: #121212;
+}
+
+.issuedBookItemMidright > p,
+.memberstext {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 17px;
+  /* identical to box height */
+  margin-bottom: 0 !important;
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.captainspan {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.85rem;
+  line-height: 15px;
+  /* identical to box height, or 107% */
+  margin-bottom: 0 !important;
+  color: #e95f28;
+  margin-left: 3.5vw;
+}
+
+.teamDetailsBodyBottom {
+  padding: 0.75rem;
+}
+
+.detailsvontainer {
+  display: grid;
+  place-items: center;
+}
+
+.loader {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  background-color: #fff;
+}
+
+.loader > img {
+  height: 4rem;
+}
+
+.noData > img {
+  width: 100%;
+}
+.noData {
+  display: grid;
+  place-items: center;
+  width: 100%;
+}

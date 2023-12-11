@@ -1,0 +1,114 @@
+.dailyUpdate {
+  width: 100%;
+}
+
+.tabs {
+  width: 100%;
+}
+
+.dailyUpdateCards {
+  width: 65%;
+
+  padding: 0.75rem;
+}
+
+.dailyUpdateCard {
+  width: 100%;
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.cardTop,
+.cardBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardTop > h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 19px;
+  text-transform: capitalize;
+
+  color: #121212;
+}
+
+.cardTop > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 15px;
+  /* identical to box height */
+
+  text-align: right;
+  text-transform: capitalize;
+
+  color: #002bbe;
+}
+
+.carddesc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 16px;
+  text-transform: capitalize;
+  margin-top: 0.5rem;
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.cardImages {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.cardImag {
+  height: 4.5rem;
+  width: 3.75rem;
+  object-fit: fill;
+  border-radius: 0.5rem;
+}
+
+.cardBottom > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.7rem;
+  line-height: 15px;
+  /* identical to box height */
+  margin-bottom: 0 !important;
+  text-transform: capitalize;
+
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.loader {
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
+
+.loader > img {
+  height: 4rem;
+}
+
+.noData > img {
+  width: 100%;
+}
+.noData {
+  display: grid;
+  place-items: center;
+  width: 100%;
+}

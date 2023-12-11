@@ -1,0 +1,52 @@
+.remainingFees {
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+  border-radius: 0.439vw;
+  width: 100%;
+  min-height: 60vh;
+  padding: 1rem;
+}
+
+.subItem {
+  display: flex;
+  gap: 0.5vw;
+  align-items: center;
+}
+
+.item {
+  padding: 0.8vw 3vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.3px solid rgb(222, 214, 214);
+  cursor: pointer;
+  border-bottom: 0.5px solid #eaeaea;
+}
+.item:hover {
+  background: rgba(75, 26, 133, 0.1);
+}
+.subItem > img {
+  height: 2.5vw;
+  width: 2.5vw;
+  border-radius: 50%;
+}
+
+.text > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 17px;
+  margin-bottom: 0 !important;
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.text > h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 17px;
+  margin-bottom: 0.3vw;
+  color: #121212;
+}

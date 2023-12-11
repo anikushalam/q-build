@@ -1,0 +1,117 @@
+.behaviourForm {
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+  border-radius: 6px;
+  min-height: 62vh;
+  padding: 2vw 1.5vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+
+.behaviourForm h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 15px;
+  /* identical to box height, or 107% */
+
+  color: rgba(18, 18, 18, 0.8);
+}
+.behaviourForm .bold {
+  font-weight: 600;
+  color: black;
+  margin-right: 1vw;
+}
+
+.behaviourFormInput {
+  padding: 0.5vw;
+  background: #ffffff;
+  border: 0.8px solid rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  outline: none;
+  margin-top: 1vw;
+}
+
+.behaviourForm input::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.starbottom {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  margin-top: 3vw;
+}
+
+.starbottom h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  color: black;
+  margin-right: 1vw;
+  font-size: 1vw;
+  line-height: 15px;
+  margin-bottom: 0 !important;
+  margin-top: 0.5vw;
+}
+
+/* ----------------- */
+
+.rating {
+  display: flex;
+  gap: 0.5vw;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  cursor: pointer;
+}
+.submit {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2vw;
+}
+
+.submitbtn {
+  padding: 1vw 2vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 14px;
+  /* identical to box height, or 88% */
+  background: #1c023b;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.improveInput {
+  padding: 0.5vw;
+  background: #ffffff;
+  border: 0.8px solid rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  outline: none;
+  margin-top: 1vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  height: 41px;
+  color: rgba(18, 18, 18, 0.5);
+  box-shadow: none;
+}

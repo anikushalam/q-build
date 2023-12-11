@@ -1,0 +1,53 @@
+.contentLeft {
+  width: 49%;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topLeft,
+.topRight {
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+}
+
+.topLeft h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2vw;
+  line-height: 51px;
+  /* identical to box height */
+
+  color: #420789;
+}
+
+.topLeft h6 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2vw;
+  line-height: 19px;
+  /* identical to box height, or 79% */
+  margin-bottom: 0 !important;
+  color: #121212;
+}
+
+.topRight img {
+  height: 2vw;
+}
+
+.topRight h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8vw;
+  line-height: 39px;
+  /* identical to box height */
+  margin-bottom: 0 !important;
+  color: #420789;
+}

@@ -1,0 +1,156 @@
+.requests {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3vw;
+  line-height: 19px;
+  /* identical to box height, or 79% */
+  margin-bottom: 0 !important;
+  color: #121212;
+}
+
+.nbr {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2vw;
+  line-height: 51px;
+  /* identical to box height */
+
+  color: #121212;
+}
+
+.left {
+  display: flex;
+  width: 30%;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.greenbtn {
+  display: flex;
+  gap: 0.5vw;
+  padding: 0.1vw 0.5vw;
+  background: #1c8e4a;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  /* padding-top: 0.5vw;
+  padding-bottom: 0; */
+  cursor: pointer;
+  padding: 0.5vw 0.7vw;
+  height: 2.2vw;
+  margin-right: 2.5vw;
+}
+
+.greenbtn img {
+  height: 1vw;
+}
+
+.greenbtn p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8vw;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #ffffff;
+  margin-bottom: 0 !important;
+}
+
+/* ---------Searchbar---------------- */
+.searchbar {
+  position: relative;
+}
+
+.searchbar > input {
+  height: 2.3vw;
+  background: #ffffff !important;
+  border: 0.5px solid rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  border-radius: 6px;
+  width: 22vw;
+  padding-left: 45px;
+  position: relative;
+  outline: none;
+}
+.searchbar > img {
+  position: absolute;
+  left: 3%;
+  height: 1.4vw;
+  bottom: 18%;
+}
+
+.icons {
+  display: flex;
+}
+
+.right {
+  width: 40%;
+  display: flex;
+
+  justify-content: space-between;
+}
+.searchcontainer {
+  width: 60%;
+}
+
+.searchbar > input::placeholder {
+  position: absolute;
+  margin-top: 0.2vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #818181;
+}
+
+.icons {
+  gap: 10%;
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+.icons img {
+  height: 2.3vw;
+}
+
+@media only screen and (max-width: 1245px) {
+  .searchbar > input {
+    height: 2.8vw;
+  }
+  .searchbar > img {
+    bottom: 24%;
+    left: 5%;
+  }
+  .searchbar > input::placeholder {
+    position: absolute;
+    margin-top: 0.2vw;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .searchbar > input {
+    height: 2.8vw;
+  }
+  .searchbar > img {
+    bottom: 24%;
+    left: 5%;
+  }
+  .searchbar > input::placeholder {
+    position: absolute;
+    margin-top: -0.4vw;
+  }
+}

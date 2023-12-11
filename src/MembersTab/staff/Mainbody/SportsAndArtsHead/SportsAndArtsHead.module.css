@@ -1,0 +1,6 @@
+.departmenthead {
+  margin-top: 1vw;
+  position: sticky;
+  top: 20vh;
+  /* overflow-y: scroll; */
+}

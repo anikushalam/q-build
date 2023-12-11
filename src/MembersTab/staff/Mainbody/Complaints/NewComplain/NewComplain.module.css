@@ -1,0 +1,126 @@
+.newComplain {
+  padding: 1vw 0;
+}
+
+.newComplainheader {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #121212;
+}
+
+.input {
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  padding: 0.8vw;
+  cursor: pointer;
+  margin-bottom: 2vw;
+  position: relative;
+}
+.input h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 17px;
+  /* identical to box height */
+  margin-bottom: 0 !important;
+  color: #121212;
+}
+
+.down {
+  position: absolute;
+  top: 1.3vw;
+  right: 1vw;
+}
+
+.options {
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  width: 20vw;
+}
+
+.option {
+  width: 100%;
+  padding: 0.5vw;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #121212;
+}
+
+.option:hover {
+  background: rgba(0, 26, 114, 0.15);
+}
+
+.postTextarea::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 20px;
+  /* or 143% */
+  margin-bottom: 0 !important;
+  color: #121212;
+}
+
+.postTextarea {
+  width: 100%;
+  border: none;
+  resize: none;
+  padding: 0.5vw;
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  height: 3.1vw;
+  outline: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 20px;
+  /* or 143% */
+
+  color: #121212;
+}
+
+.submitbtn {
+  background: #1c023b;
+  border-radius: 8px;
+  padding: 0.7vw;
+  display: grid;
+  place-items: center;
+  margin-top: 3vw;
+  cursor: pointer;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.05vw;
+  line-height: 19px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.disablebtn {
+  background: #ffffff !important;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  color: #1c023b !important;
+  cursor: not-allowed;
+}

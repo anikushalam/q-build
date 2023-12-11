@@ -1,0 +1,165 @@
+.refund_container {
+  margin-top: 1.5rem;
+}
+.refund_container_title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.5rem;
+}
+.refund_total {
+  width: 70%;
+  height: 34px;
+  background: rgba(0, 26, 114, 0.15);
+  border: 1px solid #001a72;
+  border-radius: 6px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #001a72;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 1.2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+.refund_card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  margin-bottom: 0.6rem;
+  margin-top: 0.6rem;
+  cursor: pointer;
+}
+.refund_card > img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+.refund_card_text_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.refund_container_title > h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+  color: #121212;
+  margin-bottom: 0;
+}
+.refund_card_text {
+  font-family: "Inter";
+  font-style: normal;
+}
+.refund_card_text > h6 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #121212;
+  margin-bottom: 0.3rem;
+}
+
+.refund_card_text > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(18, 18, 18, 0.5);
+  margin-bottom: 0.3rem !important;
+}
+
+.export_card {
+  width: 100%;
+  height: 74px;
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 12px;
+  padding: 0.7rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.2rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.3rem;
+  cursor: pointer;
+}
+.export_card > img {
+  width: 50px;
+  height: 50px;
+}
+
+.export_card_text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.export_card_text > h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(18, 18, 18, 0.8);
+  margin-bottom: 0.3rem;
+}
+.export_card_date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.export_card_date > h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(18, 18, 18, 0.5);
+  margin-bottom: 0.3rem;
+}
+
+.admission_filter_icon {
+  cursor: pointer;
+}
+
+.menu_icon {
+  width: 1.5rem !important;
+  cursor: pointer;
+}
+
+.both_filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.both_filter_with_name {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.both_filter_with_name > h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(18, 18, 18, 0.9);
+  margin: 0 0.2rem;
+}
+.both_filter_with_name > img {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}

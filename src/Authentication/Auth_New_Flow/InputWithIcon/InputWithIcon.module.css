@@ -1,0 +1,89 @@
+.date_input_container {
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 0.375rem;
+  margin-bottom: 0.5rem;
+}
+
+.date_input_flex {
+  display: flex;
+  gap: 0.75rem;
+  height: 100%;
+}
+
+.date_input_img_container {
+  padding: 0.5rem 0.75rem;
+  display: grid;
+  place-items: center;
+  border-right: 0.5px solid rgba(0, 0, 0, 0.2);
+}
+
+.date_input_container_icon {
+  height: 1rem;
+}
+
+.date_input_container_input {
+  height: 100%;
+  flex: 1;
+  border-radius: 0.375rem;
+  margin-top: 0;
+  border: none;
+  outline: none;
+  font-weight: 400;
+  font-size: 0.9rem !important;
+  color: #1c023b !important;
+}
+
+.number_input:focus {
+  outline: none !important;
+  border-color: white !important;
+  box-shadow: none !important;
+}
+.date_input_container_input:focus {
+  box-shadow: none !important;
+  outline: none !important;
+  border: none !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #646363 !important;
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset !important;
+}
+
+.date_input_container_input::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 18px;
+
+  color: #a0a0a0;
+}
+
+.input_border_active {
+  border: 1px solid #1c023b;
+}
+.input_position {
+  position: relative;
+}
+
+.eye,
+.eyeOpen {
+  height: 1.2rem;
+  position: absolute;
+  right: 0.75rem;
+  top: 0.5rem;
+  cursor: pointer;
+}

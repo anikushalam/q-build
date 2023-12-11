@@ -1,0 +1,45 @@
+.css-heg063-MuiTabs-flexContainer {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 100%;
+  justify-content: space-between;
+}
+.css-heg063-MuiTabs-flexContainer button,
+.css-1q2h7u5 {
+  width: 50% !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root,
+.css-1q2h7u5 {
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 0.9vw !important;
+  line-height: 17px !important;
+  /* identical to box height */
+  text-transform: capitalize !important;
+
+  color: rgba(18, 18, 18, 0.5) !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected,
+.css-1q2h7u5.Mui-selected {
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 0.9vw !important;
+  line-height: 17px !important;
+  /* identical to box height */
+  text-transform: capitalize !important;
+
+  color: #121212 !important;
+}
+
+.css-1aquho2-MuiTabs-indicator,
+.css-ttwr4n {
+  background: #121212 !important;
+}
+
+.css-19kzrtu {
+  padding: 0 !important;
+}

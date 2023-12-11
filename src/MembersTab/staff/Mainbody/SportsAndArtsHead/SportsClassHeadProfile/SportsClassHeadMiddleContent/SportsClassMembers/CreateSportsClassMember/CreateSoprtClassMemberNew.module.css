@@ -1,0 +1,181 @@
+.addDisplay {
+  width: 450px;
+
+  background: #fafafa;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw 1.5vw;
+}
+
+.title h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #121212;
+}
+.title img {
+  cursor: pointer;
+}
+
+.content {
+  background-color: #f5f5f5;
+  padding: 1vw 1.5vw;
+  height: 40vh;
+
+  overflow-y: scroll;
+  /* flex: 1; */
+}
+.content::-webkit-scrollbar {
+  width: 4px !important;
+}
+
+.content::-webkit-scrollbar-track {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.contentTop {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1vw;
+  align-items: center;
+  margin-bottom: 2vw;
+}
+
+.contentTop p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9vw;
+  line-height: 17px;
+  /* identical to box height */
+  margin-bottom: 0 !important;
+  color: #121212;
+}
+
+.studentItem {
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+  margin-bottom: 1vw;
+}
+
+.studentItemContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.studentItem img {
+  height: 3vw;
+  border-radius: 50%;
+}
+
+.stext h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9vw;
+  line-height: 17px;
+  /* identical to box height */
+  margin-bottom: 0.3vw !important;
+  color: #121212;
+}
+
+.stext p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9vw;
+  line-height: 17px;
+  /* identical to box height */
+  margin-bottom: 0 !important;
+
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.checkbox {
+  height: 1.75vw;
+}
+
+.footer {
+  padding: 1vw;
+}
+
+.btn {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+  background: rgba(75, 26, 133, 0.1);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 6px;
+  margin-top: 5rem;
+}
+
+.btnActive {
+  background-color: #1c023b !important;
+  color: #fff !important;
+}
+
+.btn p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  margin-bottom: 0 !important;
+  line-height: 19px;
+  text-align: right;
+}
+
+.btnActive p {
+  color: #fff !important;
+}
+
+.searchContainer {
+  width: 80%;
+  height: 2.282vw;
+  background-color: #ffffff;
+  border: 0.029vw solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0.073vw 0.146vw 2.343vw rgba(0, 0, 0, 0.04);
+  border-radius: 0.439vw;
+  display: flex;
+  align-items: center;
+  /* margin: -1.025vw 7.028vw 3.148vw 7.028vw; */
+}
+
+.searchContainer img {
+  height: 1.5vw;
+}
+.searchContainer input,
+.searchContainer input:focus {
+  outline: none;
+  width: 100%;
+  height: 2.28vw;
+  border: none;
+  margin-left: 0.073vw;
+  padding-left: 3.075vw;
+  font-size: 12px;
+}
+
+.searchContainer input::placeholder {
+  font-size: 12px;
+}
+.searchContainer > img {
+  position: absolute;
+  margin-left: 0.878vw;
+}

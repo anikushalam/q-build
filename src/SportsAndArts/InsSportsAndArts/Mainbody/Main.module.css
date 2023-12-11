@@ -1,0 +1,47 @@
+.main {
+  width: 100%;
+  /* height: 87vh; */
+  display: flex;
+  gap: 1.5vw;
+
+  justify-content: space-between;
+}
+
+.sidebar {
+  width: 26%;
+}
+
+.admission_tab_tabs {
+  display: flex;
+  flex-direction: row;
+}
+
+.rightbody {
+  width: 100%;
+}
+.stats {
+  /* overflow-y: scroll; */
+  /* height: 100vh; */
+  margin-bottom: 2vw;
+  position: sticky;
+  top: 95px;
+  margin-top: 5px;
+  /* flex: 1; */
+}
+
+.stats1 {
+  overflow-y: scroll;
+  height: 100vh;
+  margin-bottom: 2vw;
+  position: sticky;
+  top: 95px;
+  margin-top: 7px;
+  flex: 1;
+}
+.stats::-webkit-scrollbar {
+  width: 0;
+}
+
+.stats1::-webkit-scrollbar {
+  width: 0;
+}

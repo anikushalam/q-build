@@ -1,0 +1,17 @@
+.css-10riir9-MuiImageList-root {
+  width: 100% !important;
+  height: 40vh !important;
+  margin-bottom: 1vw !important;
+  overflow-y: scroll;
+}
+
+.css-7rtvwf-MuiImageListItem-root {
+  background-color: azure !important;
+  width: 100% !important;
+  min-height: 50% !important;
+}
+
+.css-7rtvwf-MuiImageListItem-root .MuiImageListItem-img {
+  height: 100% !important;
+  width: 100% !important;
+}

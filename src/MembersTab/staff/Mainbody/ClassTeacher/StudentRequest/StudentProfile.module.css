@@ -1,0 +1,135 @@
+.studentForm {
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+  border-radius: 6px;
+  width: 100%;
+  margin-bottom: 1vw;
+  min-height: 67vh;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1vw;
+}
+
+.viewRow {
+  display: flex;
+  margin-bottom: 1vw;
+  justify-content: space-between;
+  padding: 0 1vw;
+  width: 100%;
+}
+.detailImg {
+  height: 100px;
+  width: 100px;
+}
+
+.viewRow h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9vw !important;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.9);
+}
+
+.viewRow p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9vw;
+  line-height: 17px;
+  /* identical to box height */
+  margin-bottom: 0.3vw !important;
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.viewRow div {
+  text-align: left;
+
+  width: 50%;
+}
+.heading {
+  padding: 1.8vw 1.2vw;
+}
+.imgcontainer img {
+  margin-left: 1vw;
+  width: 7.467vw;
+  height: 7.467vw;
+  /* border-radius: 50%; */
+  /* margin-left: 0.3vw; */
+}
+
+.toprow {
+  padding: 1vw 5vw;
+  display: flex;
+  justify-content: flex-start;
+  gap: 3vw;
+  align-items: center;
+}
+
+.textcontainer h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.07vw;
+  line-height: 19px;
+
+  color: #121212;
+}
+
+.textcontainer p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9vw;
+  line-height: 17px;
+  /* identical to box height */
+  margin-bottom: 0 !important;
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.tabs {
+  border-top: 0.3px solid rgb(238, 233, 233);
+  border-bottom: 0.3px solid rgb(238, 233, 233);
+}
+
+.comingSoon {
+  display: grid;
+  place-items: center;
+  background-color: white;
+}
+.comingSoon img {
+  height: 20vw;
+  width: 20vw;
+}
+
+.tabContentParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 4.392vw;
+  margin-bottom: 2vw;
+}
+.requestBtn {
+  background-color: rgba(28, 2, 59, 1);
+  /* border: 1px solid rgba(28, 2, 59, 1); */
+  width: 18.327vw;
+  height: 3.441vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.171vw;
+  line-height: 1.391vw;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.439vw;
+  cursor: pointer;
+}

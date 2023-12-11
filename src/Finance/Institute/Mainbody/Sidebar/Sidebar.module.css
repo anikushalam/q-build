@@ -1,0 +1,246 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 19.327vw;
+  position: sticky;
+  top: 94px;
+}
+.sidebartop,
+.sidebartopp {
+  width: 100%;
+  padding-top: 2.5vw;
+  padding-bottom: 3.66vw;
+  background-color: #ffffff;
+  border: 0.037vw solid #cacaca;
+  border-radius: 0.439vw;
+}
+
+.sidebartopp {
+  padding: 0 !important;
+  width: 100%;
+  position: relative;
+  min-height: 20vw;
+}
+
+.sidebartoppHead {
+  width: 100%;
+  padding: 0 !important;
+}
+
+.sidebartopp img {
+  width: 19.327vw;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  height: 12.5vw;
+  margin-top: -0.75vw;
+}
+
+.three {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.611vw;
+  margin-right: 2.123vw;
+}
+
+.imgcontainer {
+  width: 7.321vw;
+  height: 7.321vw;
+  /* margin: 1.903vw auto 1.757vw auto; */
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  /* background-color: aqua; */
+}
+.imgcontainer img {
+  border-radius: 50%;
+  height: 7.321vw;
+  width: 7.321vw;
+  margin-top: 0 !important;
+}
+
+.textContainer {
+  width: 14.641vw;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+}
+.textContainer p {
+  margin-bottom: 0 !important;
+}
+.name {
+  width: 14.129vw;
+  height: 1.611vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.318vw;
+  line-height: 1.611vw;
+  text-align: center;
+  color: #121212;
+  margin-bottom: 1.025vw !important;
+}
+.batch {
+  width: 10.249vw;
+  height: 1.611vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.025vw;
+  line-height: 1.611vw;
+  text-align: center;
+  color: #121212;
+  margin-bottom: 3.221vw !important;
+}
+.btn {
+  padding: 0.439vw 0.586vw;
+  background: #1c023b;
+  border-radius: 0.293vw;
+  color: white;
+  font-size: 0.8vw;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.sidebarbottom {
+  width: 100%;
+
+  margin-top: 0.5vw;
+
+  background-color: #ffffff;
+  border: 0.037vw solid #cacaca;
+  border-radius: 0.439vw;
+}
+
+.sidebarbottomhead {
+  display: grid;
+  place-items: center;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+  border-bottom: 0.3px solid wheat;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #121212;
+}
+
+.sidebarbottomitem {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  padding: 1vw;
+}
+.sidebarbottomitem p {
+  margin-bottom: 0 !important;
+}
+.sidebarbottomitem img {
+  height: 2.3vw;
+  width: 2.3vw;
+  border-radius: 6px;
+}
+
+.namee {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #121212;
+}
+
+.mail {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #436dfa;
+}
+.desig {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.sidebarback {
+  background-color: #1c023b;
+  color: #fff;
+
+  padding: 2vw 1.5vw;
+  border-radius: 0.5vw;
+  margin-bottom: 0.5vw;
+  height: 6vw;
+}
+
+.sidebarbackflex {
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+}
+.sidebarback img {
+  height: 1.5vw;
+}
+
+.sidebarback h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.318vw;
+  line-height: 22px;
+  /* identical to box height */
+  margin-bottom: 0;
+  color: #ffffff;
+}
+
+.imgposition {
+  position: absolute;
+  top: 6.5vw;
+  left: 5%;
+  background-color: #dedfe2;
+  border-radius: 50%;
+}
+
+.textContainerr {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1vw;
+}
+
+.textContainerr h6 {
+  margin-top: 3vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.318vw;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #121212;
+}
+
+.menudots {
+  position: absolute;
+  height: 1.5vw !important;
+  right: 0.5vw;
+  width: 2vw !important;
+  top: 60%;
+}

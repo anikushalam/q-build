@@ -1,0 +1,80 @@
+.settingBody {
+  background: #ffffff;
+  border: 0.5px solid #cacaca;
+  border-radius: 6px;
+  padding: 2vw 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 72vh;
+}
+
+.settingBody h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.9vw;
+  line-height: 18px;
+  /* identical to box height, or 100% */
+
+  color: #121212;
+}
+.settingBody p {
+  margin-top: 1vw;
+}
+
+.settingBody p,
+.settingBody label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9vw;
+  line-height: 18px;
+  /* or 129% */
+
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.settingBody .inputContainer {
+  width: 100%;
+  margin-top: 3vw;
+}
+.settingBody input {
+  width: 100%;
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  padding: 2px 4px;
+  outline: none;
+}
+
+.settingBody .btn {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  margin-top: 4vw;
+  background: #e02121;
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.06);
+  border-radius: 6px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.8vw;
+  line-height: 19px;
+  height: 2.2vw;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1024px) {
+  .settingBody {
+    height: 68vh;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .settingBody {
+    height: 65vh;
+  }
+}

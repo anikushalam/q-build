@@ -1,0 +1,3 @@
+select.form-select::after {
+  content: none;
+}

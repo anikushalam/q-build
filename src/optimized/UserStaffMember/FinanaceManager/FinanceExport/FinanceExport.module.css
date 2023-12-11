@@ -1,0 +1,52 @@
+.export_card {
+  height: fit-content;
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 12px;
+  padding: 0.7rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.2rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.3rem;
+  cursor: pointer;
+}
+.export_card_image {
+  width: 50px;
+  height: 50px;
+}
+
+.export_card_text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.export_card_text > h6 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(18, 18, 18, 0.8);
+  margin-bottom: 0.3rem;
+}
+.export_card_date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.export_card_date > h6 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(18, 18, 18, 0.5);
+  margin-bottom: 0.3rem;
+}
+.export_card_menu {
+  height: 1.5rem;
+  width: 1.5rem;
+}

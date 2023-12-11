@@ -1,0 +1,195 @@
+.internal {
+  width: 100%;
+
+  margin-top: 2vw;
+}
+.table1container,
+.table2container {
+  width: 100%;
+  padding: 0.7vw;
+  background: #ffffff;
+  border: 0.5px solid rgba(18, 18, 18, 0.15);
+  border-radius: 6px;
+}
+.table1 {
+  width: 100%;
+}
+.table2container {
+  margin-top: 1vw;
+}
+.table2 {
+  width: 100%;
+}
+
+th,
+td {
+  padding-left: 1%;
+}
+.sr {
+  width: 10%;
+}
+.contact {
+  width: 30%;
+}
+
+.name,
+.date,
+.message {
+  width: 20%;
+}
+
+.linked {
+  display: flex;
+  align-items: center;
+  gap: 0.5vw;
+}
+.linked img {
+  height: 1.1vw;
+}
+
+.dattimee,
+.id {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dattimee p,
+.id p {
+  margin-bottom: 0.3vw !important;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8vw;
+  line-height: 15px;
+
+  color: #121212;
+}
+
+.dattimee span,
+.id span {
+  font-weight: 600;
+  font-size: 0.8vw;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.details img {
+  height: 3vw;
+  width: 3vw;
+  border-radius: 50%;
+}
+.details .text {
+  display: flex;
+  flex-direction: column;
+}
+.details .email {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.85vw;
+  line-height: 19px;
+  margin-bottom: 0.3vw !important;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.ga {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.7vw;
+  line-height: 19px;
+  margin-bottom: 0 !important;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.table2 tr {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  height: 5vw;
+  cursor: pointer;
+}
+
+tr td {
+  display: flex;
+  height: 100%;
+  /* overflow-y: scroll; */
+}
+
+.purposediv {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9vw;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: -0.01em;
+  padding: 0.3vw;
+  color: #121212;
+  height: 100%;
+
+  width: 100%;
+  overflow: hidden !important;
+
+  text-overflow: ellipsis !important;
+}
+
+.dots img {
+  height: 1.4vw;
+  cursor: pointer;
+}
+
+.dotsdiv {
+  display: grid;
+  place-items: center;
+}
+
+.divider {
+  height: 0.4px;
+  background-color: #d3c5c5;
+  width: 102%;
+  margin-top: 0.5vw;
+  margin-left: -0.8vw;
+}
+
+.pay {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 0.9vw !important;
+  line-height: 17px !important;
+  /* identical to box height */
+  cursor: pointer !important;
+  letter-spacing: -0.01em !important;
+
+  color: #2d99ff !important;
+  border: 1px solid #2d99ff;
+  border-radius: 3px;
+  padding: 0.35vw 1.5vw;
+}
+
+.mailphone {
+  display: flex;
+  gap: 0.2vw;
+  align-items: center;
+}
+
+.mailphone img {
+  height: 1vw;
+}
+.mailphone p {
+  margin-bottom: 8px !important;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8vw;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: rgba(0, 0, 0, 0.9);
+}

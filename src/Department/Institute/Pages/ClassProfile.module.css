@@ -1,0 +1,116 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 100;
+  background-color: white;
+}
+
+.editContainer {
+  width: 82.577vw;
+  display: flex;
+  margin: 0.84vw auto 0 auto;
+  gap: 1.25vw;
+}
+.bgContainer {
+  background-color: #f5f5f5;
+}
+
+.class_header_container {
+  width: 840px;
+  height: 210px;
+  background: #ffffff;
+  border-right: 0.5px solid #cacaca;
+  display: inline-flex;
+  gap: 16px;
+}
+.class_header_image {
+  width: 375px;
+  height: 210px;
+}
+.class_header_info p h4 h6 {
+  margin: 0;
+}
+.class_header_info {
+  padding: 20px 0 55px 0;
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.class_header_info_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  padding-right: 50px;
+  margin-top: 13px;
+}
+.class_header_info_add_student {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.class_header_info_add_student > img {
+  width: 36px;
+  height: 36px;
+}
+.class_header_info_detail > h4,
+.class_header_info_detail > h6,
+.class_header_info_detail > p,
+.class_header_info_conut > p,
+.class_header_info_conut > p > span,
+.class_header_info_add_student > p {
+  font-family: var(--font-family);
+  font-style: var(--font-style-normal);
+}
+.class_header_info_detail > h4 {
+  font-weight: var(--font-weight-700);
+  font-size: var(--font-size-16);
+  line-height: 20px;
+  color: var(--color-black-text);
+}
+
+.class_header_info_detail > h6 {
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-14);
+  line-height: 20px;
+  color: var(--color-black-text);
+  margin-bottom: 0.2vw;
+}
+.class_header_info_detail > p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: rgba(18, 18, 18, 0.9);
+  margin-bottom: 0;
+}
+.class_header_info_conut {
+  display: flex;
+  gap: 17px;
+}
+.class_header_info_conut > p {
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-14);
+  line-height: 16px;
+  color: rgba(18, 18, 18, 0.6);
+  margin-bottom: 0;
+}
+.class_header_info_conut > p > span {
+  font-weight: var(--font-weight-600);
+  font-size: var(--font-size-14);
+  line-height: var(--line-height-17);
+  color: var(--color-black-text);
+  margin-right: 4px;
+}
+.class_header_info_add_student > p {
+  font-weight: var(--font-weight-400);
+  font-size: var(--font-size-14);
+  line-height: var(--line-height-17);
+  color: #436dfa;
+  margin-bottom: 0;
+}

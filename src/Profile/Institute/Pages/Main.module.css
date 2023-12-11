@@ -1,0 +1,37 @@
+.mainbody {
+  padding: 0 9vw 0 8.5vw;
+  background-color: #f5f5f5;
+}
+
+.mainbody_form {
+  display: flex;
+  gap: 1.5vw;
+  padding: 0 9vw 0 8.5vw;
+  background-color: #f5f5f5;
+}
+.mainbodysplit {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.displayperson {
+  width: 25%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mainbodyy {
+    padding: 3vh 8vw 0 8vw;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .mainbodyy {
+    padding: 3vh 5vw 0 5vw;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .mainbodyy {
+    padding: 3vh 0 0 0;
+  }
+}

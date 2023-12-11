@@ -1,0 +1,45 @@
+.css-quj9j6-MuiTable-root {
+  /* display: table;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0; */
+  min-width: 100% !important;
+}
+
+.css-1ygcj2i-MuiTableCell-root,
+.css-1azl6jz-MuiTableCell-root {
+  /* font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.01071em;
+    color: rgba(0, 0, 0, 0.87); */
+
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 0.8vw !important;
+  line-height: 15px !important;
+
+  color: #121212 !important;
+
+  display: table-cell;
+  vertical-align: inherit;
+  border-bottom: 1px solid rgba(224, 224, 224, 1);
+  text-align: left !important;
+  padding: 1vw !important;
+}
+
+.css-177gid-MuiTableCell-root {
+  padding: 0.2vw !important;
+  text-align: left !important;
+}
+
+.css-34nofg-MuiTableRow-root {
+  padding-right: 0.5vw !important;
+  width: 100% !important;
+}
+
+/* .css-apqrd9-MuiTableBody-root {
+  height: 50vw !important;
+} */

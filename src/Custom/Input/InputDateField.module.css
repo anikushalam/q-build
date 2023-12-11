@@ -1,0 +1,111 @@
+.date_input_container {
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  border-radius: 0.2rem;
+  position: relative;
+}
+
+.date_input_flex {
+  display: flex;
+  gap: 0.75rem;
+  height: 100%;
+}
+.date_input_container_icon {
+  height: 1rem;
+}
+
+.date_input_container_input {
+  height: 100%;
+  flex: 1;
+  border-radius: 0.2rem;
+  margin-top: 0;
+  border: none;
+  outline: none;
+
+  font-weight: 400;
+  font-size: 0.9rem !important;
+  color: #1c023b !important;
+}
+
+.date_input_container_input::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.input_border_active {
+  border: 0.5px solid rgba(0, 0, 0, 0.42);
+}
+
+.date_input_img_container {
+  padding: 0.5rem;
+  display: grid;
+  place-items: center;
+  padding-right: 0;
+}
+
+.input_container {
+  background-color: aqua;
+  height: 100%;
+}
+
+.input_without_icon_container {
+  position: relative;
+}
+.input_without_icon {
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 2px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 0.3rem;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.input_without_icon::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: rgba(18, 18, 18, 0.5);
+}
+.input_without_icon:focus {
+  border: 0.5px solid rgba(0, 0, 0, 0.42) !important;
+}
+.input_without_icon_label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 17px;
+  /* identical to box height */
+  margin-bottom: 0.3rem;
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.arrowIcon {
+  position: absolute;
+  right: 0.9rem;
+  top: 1.9rem;
+  height: 1rem;
+}
+
+.arrow {
+  position: absolute;
+  right: 1.1rem;
+  top: 2.2rem;
+  height: 0.5rem;
+}

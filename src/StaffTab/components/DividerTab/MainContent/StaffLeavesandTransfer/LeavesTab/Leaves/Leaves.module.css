@@ -1,0 +1,109 @@
+.item {
+  padding: 1.5vw;
+}
+.leaves {
+  margin-top: 1vw;
+  min-height: 55vh;
+}
+
+.itemHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  gap: 0.5vw;
+  align-items: center;
+}
+
+.left img {
+  height: 2.7vw;
+  width: 2.7vw;
+  border-radius: 6px;
+}
+
+.text h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 17px;
+  /* identical to box height */
+  margin-bottom: 0.4vw !important;
+  color: #000000;
+}
+
+.text p {
+  margin-bottom: 0 !important;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9vw;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #797676;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+.btn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9vw;
+  line-height: 15px;
+  cursor: pointer;
+  /* identical to box height, or 128% */
+
+  color: #14ab50;
+}
+
+.activeBtn {
+  background: #436dfa;
+  border-radius: 3.22222px;
+  padding: 0.3vw 0.6vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8vw;
+  line-height: 15px;
+  cursor: pointer;
+  /* identical to box height, or 128% */
+
+  color: #ffffff;
+}
+
+.reason {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8vw;
+  line-height: 15px;
+  margin-top: 1vw;
+
+  color: rgba(18, 18, 18, 0.6);
+}
+
+.divider {
+  height: 0.5px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.viewAll {
+  margin-left: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.8vw;
+  line-height: 17px;
+  color: #0a66c2;
+  cursor: pointer;
+}

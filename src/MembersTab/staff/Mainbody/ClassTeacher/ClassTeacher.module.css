@@ -1,0 +1,37 @@
+.departmenthead {
+  margin-top: 1vw;
+  /* position: sticky;
+  top: 20vh;
+  overflow-y: scroll; */
+  /* height: 100vh; */
+}
+
+.departmenthead::-webkit-scrollbar {
+  height: 0;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5vw;
+}
+
+.tabsContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.backh {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.05vw;
+  line-height: 17px;
+  /* identical to box height */
+  margin: 0.5vw 0 !important;
+
+  cursor: pointer;
+  color: rgba(238, 56, 51, 0.5);
+}

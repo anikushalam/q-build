@@ -1,0 +1,806 @@
+.headerinscontainer {
+  height: calc(100vh - 55px) !important;
+  /* height: 100vh; */
+  width: 100%;
+  margin-top: 75px;
+  background-image: url("https://d3dqpu54js2vfl.cloudfront.net/web-client/landing-page/ins_header_bg.svg");
+
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+
+.headerins {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding: 2rem;
+  display: flex;
+  background-color: #fff;
+  /* background-image: linear-gradient(
+    to right,
+    rgba(101, 70, 43, 1),
+    rgba(101, 70, 43, 0)
+  ); */
+
+  /* background-image: url("/public/images/landing-page/ins_header_bg.svg");
+  background-image: url("/public/images/landing-page/ins_header_bg.svg"),
+    linear-gradient(90deg, #5f432a 12.94%, rgba(33, 18, 8, 0) 69.44%); */
+
+  background: linear-gradient(90deg, #5f432a 12.94%, rgba(33, 18, 8, 0) 69.44%);
+}
+
+/* ---------------left---------------------- */
+
+.headerinsleft {
+  width: 50%;
+  padding: 1rem;
+}
+
+.hlarge {
+  font-family: "Cormorant", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.5rem;
+  line-height: 87px;
+
+  color: #ffffff;
+}
+
+.hmedium {
+  margin-top: 1vw;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.5;
+
+  color: #ffffff;
+}
+
+.h_responsive_medium {
+  display: none;
+}
+
+.hmiddle {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 24px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+}
+
+.hsmall {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+.h_responsive_small {
+  display: none;
+}
+
+.signupbtn {
+  padding: 0.5rem 1rem;
+  display: grid;
+  place-items: center;
+  margin-top: 2rem;
+  cursor: pointer;
+
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 0.375rem;
+  width: fit-content;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.8rem;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #4f453a;
+}
+
+/* ---------------Right---------------------- */
+
+.headerinsright {
+  width: 50%;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.cardContainer {
+  background-color: transparent;
+  width: 70%;
+}
+
+.cardposition {
+  position: relative;
+}
+
+.cardInner {
+  position: relative;
+  width: 100%;
+  transform-style: preserve-3d;
+  transform-origin: center right;
+  transition: transform 2s;
+}
+
+.card {
+  /* border-radius: 1.125rem; */
+  width: 100%;
+  background: #ffffff;
+  /* padding: 1.5rem 1rem; */
+  /* -webkit-box-shadow: 7px 13px 24px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 13px 24px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: 7px 13px 24px -6px rgba(0, 0, 0, 0.75);
+  border: 0.5px solid rgba(0, 0, 0, 0.15); */
+}
+
+.cardhdark {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 23px;
+
+  color: rgba(18, 18, 18, 0.9);
+}
+
+.cardhlight {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 19px;
+
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.tabsss {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  background: #e9ecf7;
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.02),
+    1px 2px 32px rgba(0, 0, 0, 0.02);
+  border-radius: 0.3rem;
+  padding: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.singletab {
+  width: 49%;
+  padding: 0.75rem 1rem;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  font-size: 0.75rem;
+  text-align: center;
+
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.singletabActive {
+  background: #ffffff;
+
+  box-shadow: -1px 7px 5px -4px rgb(0 0 0 / 35%);
+  border-radius: 0.3rem;
+}
+
+.index_contrainer {
+  padding-top: 0.5rem;
+  width: 100%;
+}
+
+/* ----------card---------------- */
+
+.cardContainer:hover .cardInner {
+  /* transform: rotateY(180deg); */
+  transform: translateX(-100%) rotateY(-180deg);
+}
+.card__content.is-flipped {
+  transform: translateX(-100%) rotateY(-180deg);
+}
+
+/* Position the front and back side */
+.flipFront,
+.flipBack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+.flipFront {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flipBack {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/* --------------Input----------------- */
+
+.input_label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 17px;
+  margin-bottom: 0.3rem;
+  color: rgba(18, 18, 18, 0.8);
+  margin-top: 0.75rem;
+}
+
+.forgot_pass_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.forgot_pass_container_margin_top {
+  margin-top: 1.5rem !important;
+}
+
+.forgot_pass {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 19px;
+  cursor: pointer;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #0942a6;
+}
+
+.btn_container {
+  margin-top: 0.5rem;
+}
+.btn_containerstaff {
+  margin-top: 2rem;
+}
+
+.btn_containerotp {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.register_link_container {
+  margin-top: 2.5rem;
+}
+
+.ptoc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 18px;
+  /* or 150% */
+  margin-top: 1rem;
+
+  color: rgba(18, 18, 18, 0.6);
+}
+
+.pusername {
+  font-size: 0.85rem !important;
+}
+
+.forgotpusername {
+  text-align: center;
+  font-size: 0.85rem !important;
+  margin-top: 0.5rem !important;
+}
+
+.number_input::-webkit-outer-spin-button,
+.number_input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.spantoc {
+  font-weight: 500;
+  color: rgba(18, 18, 18, 0.9);
+}
+
+.resend {
+  font-weight: 500;
+  color: #002bbe;
+  cursor: pointer;
+}
+
+.ed_tech_text {
+  height: 2rem;
+  position: absolute;
+  bottom: 2rem;
+}
+
+.input_margin_top {
+  margin-top: 3rem;
+}
+
+.presend {
+  margin-top: 4rem !important;
+}
+
+.change_pass_input {
+  margin-top: 3rem;
+}
+
+.re_pass_input {
+  margin-top: 1.5rem;
+}
+
+.re_enter_btn_container {
+  margin-top: 5rem;
+}
+
+.formselect {
+  position: relative;
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 2px 32px rgb(0 0 0 / 5%);
+  border-radius: 0.3rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 17px;
+  color: rgba(18, 18, 18, 0.8);
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.input_border_active {
+  border: 1px solid #1c023b !important;
+}
+
+.formselectactive {
+  border: 0.5px solid rgba(0, 0, 0, 0.42) !important;
+}
+
+.genderh {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 17px;
+  color: rgba(18, 18, 18, 0.8);
+  margin-bottom: 0 !important;
+}
+.genderplaceholder {
+  color: rgba(18, 18, 18, 0.5) !important;
+}
+
+.upIcon {
+  height: 0.45rem;
+  position: absolute;
+  right: 0.75rem;
+  top: 0.8rem;
+}
+
+.downIcon {
+  height: 0.95rem;
+  position: absolute;
+  right: 0.75rem;
+  top: 0.65rem;
+}
+
+/* -----------------Existing Accounts------------------------------ */
+
+.accounts_container {
+  margin-top: 1.5rem;
+  max-height: 16rem;
+  min-height: 5rem;
+  overflow-y: scroll;
+}
+
+.accounts_container::-webkit-scrollbar {
+  width: 5px !important;
+}
+
+.accounts_container::-webkit-scrollbar-thumb {
+  background: #836d98;
+  border-radius: 3rem;
+  /* border-radius: 10px; */
+}
+
+.accounts_container::-webkit-scrollbar-track {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.item {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.profile_img {
+  height: 2.8rem;
+  width: 2.8rem;
+  border-radius: 50%;
+}
+
+.profile_imgpadding {
+  padding: 0.3rem;
+  display: grid;
+  place-items: center;
+  border: 0.3px solid rgba(0, 0, 0, 0.2);
+}
+
+.text_container {
+}
+
+.hname {
+  margin-bottom: 0.2rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 19px;
+
+  color: #121212;
+}
+
+.pusername {
+  margin-bottom: 0 !important;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.7rem;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* -------------Designation Option------------------------ */
+
+.staffsp {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 20px;
+  /* or 143% */
+
+  color: #000000;
+}
+.joiningh {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 19px;
+  /* identical to box height */
+  margin-top: 1rem;
+  letter-spacing: 0.03em;
+
+  color: #1c023b;
+}
+
+/* .joiningsteps {
+  margin-left: 0;
+} */
+
+.step {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 20px;
+  margin-bottom: 0.2rem;
+
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* ---------------Form---------------- */
+.inputs_container {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.specialChar {
+  margin-top: 0.5rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.2;
+  /* or 143% */
+
+  color: rgba(18, 18, 18, 0.7);
+}
+
+.input_label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 17px;
+  /* identical to box height */
+  margin-bottom: 0.3rem;
+  color: rgba(18, 18, 18, 0.8);
+}
+
+/* -------------------ProfileImg Input------------------------- */
+.upload {
+  display: none;
+}
+
+.userLogo {
+  height: 4.5rem;
+  width: 4.5rem;
+  border-radius: 50%;
+  border: 0.3px solid rgb(214, 206, 206);
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.userLogoContainer {
+  position: relative;
+  height: 4.5rem;
+  width: 4.5rem;
+  /* height: 80px;
+  width: 80px; */
+}
+.logo_Container {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+}
+.cloose {
+  position: absolute;
+  height: 15px;
+  top: 9px;
+  cursor: pointer;
+  right: -5px;
+}
+
+@media only screen and (max-width: 1241px) {
+  .card {
+    padding: 1rem;
+  }
+  .singletab {
+    padding: 0.75rem 0.3rem;
+  }
+  .tabsss {
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 1180px) {
+  .singletab {
+    font-weight: 500;
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+  .hlarge {
+    font-size: 4rem;
+  }
+
+  .hmedium {
+    font-size: 1.3rem;
+  }
+
+  .hmiddle {
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .hsmall {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+
+  .cardContainer {
+    width: 75%;
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .signupbtn {
+    padding: 0.4rem 0.8rem;
+  }
+
+  .cardContainer {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .hlarge {
+    font-size: 3.5rem;
+  }
+
+  .hmedium {
+    font-size: 1.15rem;
+    line-height: 1.4;
+  }
+
+  .hmiddle {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .hsmall {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+  }
+
+  .cardContainer {
+    width: 90%;
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 866px) {
+  .hlarge {
+    font-size: 3.2rem;
+  }
+
+  .cardContainer {
+    margin-top: 1rem;
+  }
+
+  .hmedium {
+    font-size: 1rem;
+    letter-spacing: 0.75px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .hmiddle {
+    font-size: 1.1rem;
+    margin-top: 0.9rem;
+    margin-bottom: 0.9rem;
+  }
+
+  .hsmall {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .signupbtn {
+    font-size: 0.7rem;
+    margin-top: 1rem;
+    padding: 0.4rem 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .cardContainer {
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 802px) {
+  .hlarge {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 795px) {
+  .cardContainer {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .headerins {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .headerinsright {
+    display: none;
+  }
+
+  .headerinsleft {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hlarge {
+    font-size: 4.5rem;
+    text-align: center;
+  }
+  .hmedium {
+    display: none;
+  }
+
+  .h_responsive_medium {
+    display: block;
+    margin-top: 1rem;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 0.1px;
+  }
+
+  .hmiddle {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
+  .hsmall {
+    display: none;
+  }
+
+  .h_responsive_small {
+    display: block;
+    text-align: center;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    color: #ffffff;
+    letter-spacing: 1px;
+  }
+
+  .headerinscontainer {
+    display: none;
+  }
+}
+
+.errorspan {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 17px;
+  word-spacing: 2px;
+  color: red;
+}
+.small_icon {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.back_icon {
+  cursor: pointer;
+}

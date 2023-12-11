@@ -1,0 +1,122 @@
+.alumnicard {
+  width: 23.9%;
+  height: 17rem;
+}
+
+.alumnicardinner {
+  position: relative;
+  border-radius: 0.25rem;
+  height: 100%;
+  width: 100%;
+  /* ------------- */
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+}
+
+.alumnicard:hover .alumnicardinner,
+.alumnicard:focus .alumnicardinner {
+  transform: rotateY(180deg);
+}
+
+.alumnicardfront,
+.alumnicardback {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.alumnicardfront {
+  z-index: 2;
+}
+
+.alumnicardback {
+  z-index: 1;
+  transform: rotateY(180deg);
+  background: rgba(0, 26, 114, 0.5);
+  border-radius: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  flex-direction: column;
+}
+
+.alumnicard img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.25rem;
+}
+
+.alumnicardtext {
+  position: absolute;
+  background: rgba(0, 26, 114, 0.5);
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  bottom: 0;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  padding: 0.5rem 0.2rem;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 19px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1240px) {
+  .alumnicard {
+    width: 23.9%;
+    height: 13.5rem;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  /* .alumnicard {
+    width: 23%;
+    height: 13rem;
+  } */
+}
+
+@media only screen and (max-width: 890px) {
+  .alumnicard {
+    width: 32.5%;
+    height: 13rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .alumnicard {
+    width: 85%;
+  }
+}
+
+.alumnicardtext {
+  position: absolute;
+  background: rgba(0, 26, 114, 0.5);
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  bottom: 0;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  padding: 0.5rem 0.2rem;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 19px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
