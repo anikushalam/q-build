@@ -3986,8 +3986,8 @@
   "total_installment_value_is_greater_than_or_equal_to_applicable_fees": "Total installment value must be greater than or equal to applicable fees",
   "back_to_user_account": "Back To User Account",
   "update_time_slot": "Update Time Slot",
-  "": "",
-  "": "",
+  "programme": "Programme",
+  "programme_placeholder": "Please enter programme name",
   "": "",
   "": "",
   "": "",
@@ -4573,7 +4573,7 @@
   "new_admission_joining": "New Admission Joining",
   "ongoing_statistics_admissions": "Ongoing Statistics",
   "total_refund_amount": "Total Refund Amount",
-  "": "",
-  "": "",
+  "fees_collection": "Fees Collection",
+  "document_collection": "Document Collection",
   "": ""
 }
