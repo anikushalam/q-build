@@ -3984,7 +3984,7 @@
   "form_join_date_designation_label": "Join Date",
   "form_join_date_designation_placeholder": "Please select join date",
   "total_installment_value_is_greater_than_or_equal_to_applicable_fees": "Total installment value must be equal to applicable fees",
-  "back_to_user_account": "Back To User Account",
+  "back_to_user_dashboard": "Back To User Dashboard",
   "update_time_slot": "Update Time Slot",
   "programme": "Programme",
   "programme_placeholder": "Please enter programme name",
