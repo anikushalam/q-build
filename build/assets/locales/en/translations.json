@@ -3982,6 +3982,8 @@
   "form_pan_number_designation_placeholder": "Please enter pan number",
   "form_pf_number_designation_label": "UAN No. (PF Number)",
   "form_pf_number_designation_placeholder": "Please enter pf number",
+  "form__emp_code_designation_label": "Employee Code",
+  "form__emp_code_designation_placeholder": "Please enter employee code",
   "form_join_date_designation_label": "Join Date",
   "form_join_date_designation_placeholder": "Please select join date",
   "total_installment_value_is_greater_than_or_equal_to_applicable_fees": "Total installment value must be equal to applicable fees",
