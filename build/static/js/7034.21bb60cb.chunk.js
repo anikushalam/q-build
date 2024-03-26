@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkmithkal_qviple=self.webpackChunkmithkal_qviple||[]).push([[7034],{87034:function(e,n,l){l.r(n),l.d(n,{default:function(){return t}});l(72791);var r="Header_newFollowerheader__Zou+1",o=l(39230),a=l(80184);var t=function(e){var n=e.changeToNewFollowers,l=(e.newFollowers,(0,o.$G)().t);return(0,a.jsx)("div",{className:r,onClick:function(){return n(!1)},children:l("new_followerss")})}}}]);
-//# sourceMappingURL=7034.21bb60cb.chunk.js.map
