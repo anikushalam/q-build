@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7f395f1a.css",
-    "main.js": "/static/js/main.d60294b4.js",
+    "main.js": "/static/js/main.c77a4493.js",
     "static/js/52418.8e75d8ec.chunk.js": "/static/js/52418.8e75d8ec.chunk.js",
     "static/css/65914.c36971e6.chunk.css": "/static/css/65914.c36971e6.chunk.css",
     "static/js/65914.0d53295f.chunk.js": "/static/js/65914.0d53295f.chunk.js",
@@ -190,8 +190,8 @@
     "static/js/26304.60b82cbe.chunk.js": "/static/js/26304.60b82cbe.chunk.js",
     "static/css/55741.fb56ba39.chunk.css": "/static/css/55741.fb56ba39.chunk.css",
     "static/js/55741.7929f9dc.chunk.js": "/static/js/55741.7929f9dc.chunk.js",
-    "static/css/64526.87f86a1f.chunk.css": "/static/css/64526.87f86a1f.chunk.css",
-    "static/js/64526.50bbda84.chunk.js": "/static/js/64526.50bbda84.chunk.js",
+    "static/css/82767.abed7374.chunk.css": "/static/css/82767.abed7374.chunk.css",
+    "static/js/82767.d5f33cb0.chunk.js": "/static/js/82767.d5f33cb0.chunk.js",
     "static/css/15572.89d56c66.chunk.css": "/static/css/15572.89d56c66.chunk.css",
     "static/js/15572.c4be2c6b.chunk.js": "/static/js/15572.c4be2c6b.chunk.js",
     "static/css/91078.fea82c96.chunk.css": "/static/css/91078.fea82c96.chunk.css",
@@ -726,7 +726,7 @@
     "static/js/21777.2b101f60.chunk.js": "/static/js/21777.2b101f60.chunk.js",
     "static/js/9447.bdbd3d56.chunk.js": "/static/js/9447.bdbd3d56.chunk.js",
     "static/js/65053.f05d7b1b.chunk.js": "/static/js/65053.f05d7b1b.chunk.js",
-    "static/js/29899.b1f06821.chunk.js": "/static/js/29899.b1f06821.chunk.js",
+    "static/js/29899.66f47cf1.chunk.js": "/static/js/29899.66f47cf1.chunk.js",
     "static/js/53023.bfbdf1b3.chunk.js": "/static/js/53023.bfbdf1b3.chunk.js",
     "static/css/47318.aa38feb6.chunk.css": "/static/css/47318.aa38feb6.chunk.css",
     "static/js/40444.4cc2003e.chunk.js": "/static/js/40444.4cc2003e.chunk.js",
@@ -847,7 +847,7 @@
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.7f395f1a.css.map": "/static/css/main.7f395f1a.css.map",
-    "main.d60294b4.js.map": "/static/js/main.d60294b4.js.map",
+    "main.c77a4493.js.map": "/static/js/main.c77a4493.js.map",
     "52418.8e75d8ec.chunk.js.map": "/static/js/52418.8e75d8ec.chunk.js.map",
     "65914.c36971e6.chunk.css.map": "/static/css/65914.c36971e6.chunk.css.map",
     "65914.0d53295f.chunk.js.map": "/static/js/65914.0d53295f.chunk.js.map",
@@ -1036,8 +1036,8 @@
     "26304.60b82cbe.chunk.js.map": "/static/js/26304.60b82cbe.chunk.js.map",
     "55741.fb56ba39.chunk.css.map": "/static/css/55741.fb56ba39.chunk.css.map",
     "55741.7929f9dc.chunk.js.map": "/static/js/55741.7929f9dc.chunk.js.map",
-    "64526.87f86a1f.chunk.css.map": "/static/css/64526.87f86a1f.chunk.css.map",
-    "64526.50bbda84.chunk.js.map": "/static/js/64526.50bbda84.chunk.js.map",
+    "82767.abed7374.chunk.css.map": "/static/css/82767.abed7374.chunk.css.map",
+    "82767.d5f33cb0.chunk.js.map": "/static/js/82767.d5f33cb0.chunk.js.map",
     "15572.89d56c66.chunk.css.map": "/static/css/15572.89d56c66.chunk.css.map",
     "15572.c4be2c6b.chunk.js.map": "/static/js/15572.c4be2c6b.chunk.js.map",
     "91078.fea82c96.chunk.css.map": "/static/css/91078.fea82c96.chunk.css.map",
@@ -1572,7 +1572,7 @@
     "21777.2b101f60.chunk.js.map": "/static/js/21777.2b101f60.chunk.js.map",
     "9447.bdbd3d56.chunk.js.map": "/static/js/9447.bdbd3d56.chunk.js.map",
     "65053.f05d7b1b.chunk.js.map": "/static/js/65053.f05d7b1b.chunk.js.map",
-    "29899.b1f06821.chunk.js.map": "/static/js/29899.b1f06821.chunk.js.map",
+    "29899.66f47cf1.chunk.js.map": "/static/js/29899.66f47cf1.chunk.js.map",
     "53023.bfbdf1b3.chunk.js.map": "/static/js/53023.bfbdf1b3.chunk.js.map",
     "47318.aa38feb6.chunk.css.map": "/static/css/47318.aa38feb6.chunk.css.map",
     "40444.4cc2003e.chunk.js.map": "/static/js/40444.4cc2003e.chunk.js.map",
@@ -1692,6 +1692,6 @@
   },
   "entrypoints": [
     "static/css/main.7f395f1a.css",
-    "static/js/main.d60294b4.js"
+    "static/js/main.c77a4493.js"
   ]
 }
