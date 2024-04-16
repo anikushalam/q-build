@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmithkal_qviple=self.webpackChunkmithkal_qviple||[]).push([[87034],{87034:(e,l,o)=>{o.r(l),o.d(l,{default:()=>t});o(72791);const s="Header_newFollowerheader__Zou+1";var n=o(39230),r=o(80184);const t=function(e){let{changeToNewFollowers:l,newFollowers:o}=e;const{t:t}=(0,n.$G)();return(0,r.jsx)("div",{className:s,onClick:()=>l(!1),children:t("new_followerss")})}}}]);
+//# sourceMappingURL=87034.fe3050c7.chunk.js.map
