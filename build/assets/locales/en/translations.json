@@ -5325,8 +5325,8 @@
   "hostel_structure": "Hostel Structure",
   "hostel_application": "Hostel Ongoing Applications",
   "hostel_ongoing_applications": "Hostel Ongoing Applications",
-  "": "",
-  "": "",
+  "admission_form_print_type": "Admission Form Print Type",
+  "admission_form_print_type_placeholder": "Please select admission form print case",
   "": "",
   "": "",
   "": ""
