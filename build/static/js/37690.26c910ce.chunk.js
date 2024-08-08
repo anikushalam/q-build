@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkmithkal_qviple=self.webpackChunkmithkal_qviple||[]).push([[37690,54035,98723,20420,31743,35067],{63687:(e,l,r)=>{r.r(l),r.d(l,{default:()=>a});var s=r(59393),t=r(80184);const a=e=>{let{customStyle:l,children:r}=e;return(0,t.jsx)("div",{className:s.Z.user_member_container_wrapper,style:l,children:r})}}}]);
-//# sourceMappingURL=37690.26c910ce.chunk.js.map

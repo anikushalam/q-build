@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/77678.36393baf.chunk.css","mappings":"AAAA,iBAEE,eAAgB,CADhB,mBAGF","sources":["Loader/LoaderButton.css"],"sourcesContent":["div[data-testid] {\n  padding: 0 !important;\n  margin-left: 2vw;\n  /* margin-top: -0.7vw; */\n}\n"],"names":[],"sourceRoot":""}
