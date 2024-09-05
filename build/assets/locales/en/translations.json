@@ -5398,10 +5398,10 @@
   "document_reminder": "Reminder",
   "not_filled": "Not Filled",
   "filled": "Filled",
-  "": "",
-  "": "",
-  "": "",
-  "": "",
+  "are_your_sure_to_delete_bank_account": "Are you sure you want to delete the Bank Account?",
+  "selected_fee_head": "Selected Fee Heads",
+  "assign_roll": "Assign Roll No",
+  "as_per_roll_number": "As Per Roll No.",
   "": "",
   "": ""
 }
