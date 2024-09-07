@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmithkal_qviple=self.webpackChunkmithkal_qviple||[]).push([[3971],{65543:(l,e,o)=>{o.d(e,{u:()=>s});var a=o(72791);const s=()=>({hideScrollbar:a.useCallback((()=>{}),[]),showScrollbar:a.useCallback((()=>{document.body.style.overflow=""}),[]),scrollToTop:a.useCallback((()=>{window.scrollTo(0,0)}),[])})}}]);
+//# sourceMappingURL=3971.14dc044e.chunk.js.map

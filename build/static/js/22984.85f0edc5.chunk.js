@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmithkal_qviple=self.webpackChunkmithkal_qviple||[]).push([[22984],{22984:(_,s,t)=>{t.d(s,{Z:()=>e});const e={studentMCQ:"Tabs_studentMCQ__JqqjO",mcqToptabs:"Tabs_mcqToptabs__YfEJB",mcqTop:"Tabs_mcqTop__eI5Gu",mcqTopItem:"Tabs_mcqTopItem__KkV+Q",active:"Tabs_active__j6mN9"}}}]);
+//# sourceMappingURL=22984.85f0edc5.chunk.js.map
