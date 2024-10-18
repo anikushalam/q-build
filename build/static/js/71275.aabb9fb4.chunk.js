@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmithkal_qviple=self.webpackChunkmithkal_qviple||[]).push([[71275],{98278:(e,t,l)=>{l.d(t,{Z:()=>a});const a=l(88637).Z},88637:(e,t,l)=>{l.d(t,{Z:()=>u});var a=l(72791);function u(e){let{controlled:t,default:l,name:u,state:s="value"}=e;const{current:n}=a.useRef(void 0!==t),[c,i]=a.useState(l);return[n?t:c,a.useCallback((e=>{n||i(e)}),[])]}}}]);
+//# sourceMappingURL=71275.aabb9fb4.chunk.js.map
